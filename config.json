@@ -1,0 +1,10 @@
+{
+  "_comment": "敏感信息（API Key、Webhook）请用环境变量存储，见 set_secrets.ps1",
+  "ai_provider": "gemini",
+  "ai_model": "gemini-2.5-flash",
+  "ai_base_url": "",
+
+  "output_dir": "F:/cc test/github_daily/reports",
+  "language_filter": "",
+  "trending_count": 3
+}
