@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月25日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月25日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🔎</span>
+    <div class="repo-title">
+      <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+      <span class="one-line">AI智能助理，实时洞察全网热点趋势</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 6725</span>
+      <span class="stat">🍴 667</span>
+      <span class="stat today">📈 1,342 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-prompts</span><span class="topic">ai-skill</span><span class="topic">bluesky</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">clawhub</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个全天候在线的私人研究助理，它能快速浏览各大社交媒体和新闻网站，帮你找出最近30天内某个话题的精华和大众看法，并整理成一份清晰的报告，就像一本帮你定制的“浓缩版精华情报”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI时代信息爆炸，它能高效抓取Reddit、X、YouTube等平台近期热点，并智能总结，帮你迅速掌握最新趋势，是追踪前沿必备神器。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['市场分析师：快速了解某个新兴技术或产品在社交媒体上的最新反响和社区讨论，比如“Seedance 2.0”大家都在关注什么。', '投资人：追踪特定行业或公司在Reddit、Hacker News上的用户情绪和潜在风险，避免信息滞后。', '创作者/内容运营：发现当下流行的话题、梗或技术趋势，为内容创作提供灵感，比如“最新Nano Banana Pro技术”怎么用。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多平台实时洞察与深度总结：能从Reddit、X、YouTube等九大热门社交及新闻平台抓取近30天数据，并智能提炼社区最关注的观点，提供带引用的“实锤”报告。', '创新的对比模式：支持“X vs Y”对比研究，能并行分析两个主题的优劣、异同，并给出数据驱动的结论，非常实用，例如比较“cursor vs windsurf”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体和信息聚合的需求持续爆发，它能有效解决信息过载和滞后问题，市场潜力巨大，会是很多人工作和生活中的得力助手。</div>
+  <div class="target">👥 最适合：需要快速掌握特定领域最新动态的创业者、市场分析师、投资人、内容创作者以及对科技趋势敏感的普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🦌</span>
+    <div class="repo-title">
+      <a href="https://github.com/bytedance/deer-flow" target="_blank">bytedance/deer-flow</a>
+      <span class="one-line">字节跳动的智能AI工作助手框架。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 45692</span>
+      <span class="stat">🍴 5401</span>
+      <span class="stat today">📈 3,787 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">agentic</span><span class="topic">agentic-framework</span><span class="topic">agentic-workflow</span><span class="topic">ai</span><span class="topic">ai-agents</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级智能的私人助理团队，由一个“总指挥”管理。DeerFlow就是这个“总指挥”，它能分配任务给不同“专业助理”（子代理），给他们提供“记忆”（历史信息）和“工具箱”（各种能力），还能提供“独立工作间”（沙盒），确保他们高效协作，帮你完成从写报告到编程的各种复杂工作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是科技巨头字节跳动的大作，短短一天就吸引了近4000颗星，说明备受关注。它所处的“AI智能体”赛道是当前最火热的领域，被视为未来AI发展的方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['深入市场调研与报告生成：AI自主上网收集信息、分析数据，并写出详细的行业分析报告。', '自动化内容创作：比如帮你生成一个播客节目的完整脚本，甚至可以包含背景音乐建议。', '辅助软件开发：AI可以理解一个复杂的编程需求，将其分解成小任务，甚至在沙盒中尝试编写和测试代码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“超级智能体编排”：它能像指挥家一样，调度多个AI“子智能体”协同工作，配合记忆和工具，处理复杂任务。', '“沙盒隔离与扩展能力”：为AI提供安全、独立的“工作空间”，同时允许无限扩展新的技能和工具，让AI变得越来越聪明和多能。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它站在了AI智能体和多智能体协作的前沿，这是AI领域最具颠覆潜力的方向之一，且有字节跳动的强大背书和持续投入。</div>
+  <div class="target">👥 最适合：AI技术爱好者和开发者、寻求自动化复杂工作流程的企业或研究机构、以及对未来AI如何赋能工作生活感到好奇的普通人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🚅</span>
+    <div class="repo-title">
+      <a href="https://github.com/BerriAI/litellm" target="_blank">BerriAI/litellm</a>
+      <span class="one-line">统一接口，连接百余种大语言模型</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 40510</span>
+      <span class="stat">🍴 6705</span>
+      <span class="stat today">📈 289 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-gateway</span><span class="topic">anthropic</span><span class="topic">azure-openai</span><span class="topic">bedrock</span><span class="topic">gateway</span><span class="topic">langchain</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个“万能充电器接口”，它能让你用同一套插头（OpenAI格式）连接市面上100多种大模型（如ChatGPT、文心一言等），帮你省去适配麻烦，还能管钱、保安全、做记录，高效又省心。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">大模型种类繁多，开发者接入复杂。它统一接口，让调用百余种大模型如丝般顺滑，且提供成本追踪、安全防护等企业级功能，解决了核心痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发一款AI应用，想轻松切换使用不同厂商（如OpenAI、谷歌、亚马逊）的大模型，比较效果和成本，而不用改动大量代码。', '企业需要集中管理所有AI模型调用，追踪费用，设置安全规则（防止不当内容），并确保模型请求在高并发下稳定运行。', '个人开发者想快速测试并集成多种大模型到自己的项目，无需深入学习每个模型的API差异。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['万能接口：兼容OpenAI接口格式，轻松调用超100种大模型，告别繁琐的API适配。', '智能网关：提供成本追踪、安全防护（guardrails）、负载均衡、日志记录等功能，让大模型应用更稳定、经济、安全。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道 - 大模型应用爆发式增长，模型多样性与管理复杂性是普遍难题。LiteLLM作为“AI网关”，解决了核心痛点，未来市场巨大，是必不可少的基础设施。</div>
+  <div class="target">👥 最适合：AI应用开发者、需要规模化使用大模型的企业或团队、希望方便实验和集成不同大模型的数据科学家/研究员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/jwasham/coding-interview-university" target="_blank">jwasham/coding-interview-university</a>
+      <span class="one-line">成为软件工程师的面试准备“大学”学习计划</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 338,241</span>
+      <span class="stat">🍴 81,627</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">algorithm</span><span class="topic">algorithms</span><span class="topic">coding-interview</span><span class="topic">coding-interviews</span><span class="topic">computer-science</span><span class="topic">data-structures</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想成为一名顶尖软件工程师，但不知道从何学起。这个项目就像为你量身定制的“大学课程表”和“藏宝图”，一步步告诉你该学什么、怎么学，帮你拿到梦想公司的通行证。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它就像一份“高薪职业秘籍”，由成功进入亚马逊的工程师亲自打造。这份学习路线图实用、全面，能有效帮助人们闯过科技巨头的面试关，吸引了全球无数求职者。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['大学毕业生或在校生，希望进入亚马逊、谷歌这类顶级科技公司工作，用它来系统性准备面试。', '想从其他行业转行做软件工程师的人，通过这份详细的自学计划，打好计算机科学基础。', '已有工作经验的程序员，想提升技能、跳槽到更具挑战性的公司时，用来查漏补缺或巩固知识。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['从零到一的系统化学习路径：它不仅列出了算法、数据结构等核心知识点，还提供了详尽的学习资源，为想成为软件工程师的人提供了一条清晰的“大学”学习路线。', '成功案例背书与全球影响力：项目作者通过这份计划成功进入亚马逊，同时它拥有超过33万颗星，被翻译成十多种语言，足见其在全球范围内的实用性和认可度。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。软件工程师是全球热门职业，技术面试又是入行关键门槛。这个项目提供了久经考验的成功路径，只要有程序员求职，它就会持续有价值。</div>
+  <div class="target">👥 最适合：渴望成为软件工程师，或正准备冲击科技公司技术面试的学生、职场新人及希望跳槽的程序员。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月25日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
