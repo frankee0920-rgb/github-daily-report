@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月27日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月27日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🕵️</span>
+    <div class="repo-title">
+      <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+      <span class="one-line">AI情报员，帮你快速掌握热点趋势。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 10256</span>
+      <span class="stat">🍴 885</span>
+      <span class="stat today">📈 2,685 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-prompts</span><span class="topic">ai-skill</span><span class="topic">bluesky</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">clawhub</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是个超级勤快的AI情报员，能帮你跑遍Reddit、X（推特）、YouTube等各大热门社区和网站，专门搜集最近30天内关于任何话题的最新、最火爆信息，比如大家都在点赞什么、分享什么、赌什么。然后，它会像记者一样，把这些碎片化的信息整理成一篇有理有据、带引用来源的深度报告，让你不用自己费劲刷屏，也能迅速洞悉行业前沿和社区脉动。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI技术飞速发展的当下，信息更新太快，我们都渴望能快速抓住最新风向。这个项目就像一个“信息过滤器”，它能高效地从海量数据中提炼出关键信息和社区共识，帮你省去大量搜索时间，还能提供权威的引用，确保信息的真实性，所以非常受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['追踪新兴技术热点：比如你想知道“AIGC（AI生成内容）”最近30天在国内外社区里有哪些爆款应用、哪个技术框架最受追捧、大家讨论最激烈的话题是什么。', '产品对比与决策：想买新手机或学习新软件，不知道“产品X”和“产品Y”哪个更好？用它一查，就能看到社交媒体上用户对两者的优缺点、实际体验和最新评价，帮你做出明智选择。', '行业趋势分析：作为市场分析师，需要快速了解“元宇宙”领域最近一个月的舆论走向、关键事件和潜在投资机会，它能提供一份全面而有洞察力的报告。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多平台深度整合与智能内容筛选：它不只是简单搜索，而是能深入Reddit、X、YouTube等多个社交平台，甚至包括Polymarket（一个预测市场），并结合智能算法（如为热门评论增加权重）自动发现社区真正“upvote”（点赞）、“sharing”（分享）和“betting on”（押注）的热点内容，保证信息的真实性和代表性。', '强大的“比较模式”：不仅仅是信息汇总，你还可以问它“X和Y哪个更好？”，它会进行两组平行研究，然后给出详细的优缺点分析、并列对比表格，甚至提供一个数据驱动的“最终判决”，这让它从一个信息聚合器升级为决策支持工具。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。信息爆炸时代，人们对高效、准确获取知识和洞察的需求只会越来越强。这个工具能整合多源信息、进行深度分析并提供对比功能，解决了信息过载和“信息茧房”的痛点。随着AI应用日益普及，这类智能研究工具的市场潜力巨大，前景非常光明。</div>
+  <div class="target">👥 最适合：渴望快速获取特定领域最新动态、趋势和社区真实看法的媒体人、市场分析师、产品经理、研究员、投资者，以及所有对新技术和热点话题充满好奇、希望走在信息前沿的普通人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">Yeachan-Heo/oh-my-claudecode</a>
+      <span class="one-line">让AI智能体自动编程，轻松搞定复杂项目。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 12624</span>
+      <span class="stat">🍴 837</span>
+      <span class="stat today">📈 598 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-coding</span><span class="topic">ai-agents</span><span class="topic">automation</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">multi-agent-systems</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的AI项目经理，它不仅懂你的需求，还能指挥一支AI程序员团队自动帮你把项目代码写好。你只要说出想法，它就能帮你实现，省去了复杂的编程细节。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让复杂的AI编程变得极其简单，即使是非专业人士也能轻松启动项目。省去了学习AI代码的门槛，直接让AI帮你动手，极大地提高了开发效率。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速搭建一个管理日常任务的网页应用（REST API）。', '根据模糊想法，通过AI访谈清晰化需求，最终生成完整项目代码。', '自动化生成一些需要编程逻辑的辅助工具或小功能。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**多智能体协作**：它不是一个AI单打独斗，而是让多个AI像团队一样分工合作，共同完成复杂的编程任务。', '**需求智能访谈（Deep Interview）**：能像人类专家一样，通过“苏格拉底式提问”帮你梳理和澄清项目需求，确保AI写出的代码正是你想要的。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体和自动化编程是当前技术前沿的热点，它降低了AI应用的开发门槛，有巨大的市场潜力。</div>
+  <div class="target">👥 最适合：想用AI技术实现创意但缺乏编程经验的个人；需要快速原型开发或自动化项目生成的开发者和团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/virattt/dexter" target="_blank">virattt/dexter</a>
+      <span class="one-line">AI金融研究助手，自主分析</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 18986</span>
+      <span class="stat">🍴 2329</span>
+      <span class="stat today">📈 210 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个为你做金融研究的智能秘书：你问它金融问题，它自己规划任务、查找实时数据、分析并验证，最后给你数据支持的答案。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它结合了当下最热门的AI技术和金融领域，能自动完成复杂的金融研究，大大节省了时间和精力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['分析某上市公司的财务报告，评估其投资价值。', '研究某个行业的发展趋势和市场潜力。', '快速获取并解读最新的经济数据，辅助投资决策。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最值得关注的是它的“思考”能力：能自主拆解问题、规划、自我检查并学习；同时，能实时获取并分析最新金融数据，确保结果时效性。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是未来的大趋势，尤其在金融这种高价值领域，市场需求巨大，有望改变传统研究模式。</div>
+  <div class="target">👥 最适合：对金融投资感兴趣的个人、需要高效研究工具的金融从业者和分析师。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🔨</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">手把手教你从零打造熟悉的技术产品指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 483,728</span>
+      <span class="stat">🍴 45,526</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你平时用的各种App或工具，比如微信、百度搜索、游戏等，背后都有复杂的原理。这个项目就像一本“技术食谱大全”，教你如何从最基本的“食材”开始，一步步亲手做出这些看似高大上的产品，让你彻底弄懂它们的内部运作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对技术“黑箱”的好奇心，以实践为导向，让你亲手构建，而非仅仅学习理论。这种“学会了才能创造”的理念，让学习变得有趣且深刻，是程序员和技术爱好者的进阶宝典。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想深入理解Git版本控制原理？跟着教程亲手做一个简化版Git。', '对人工智能着迷，想知道神经网络如何工作？自己搭建一个AI模型。', '面试时想秀一把底层知识？通过项目实战巩固核心技术。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**覆盖面极广**：从操作系统到人工智能，从数据库到网页浏览器，几乎涵盖了你日常使用的所有核心技术。', '**“创造即理解”的学习法**：它不只是教你如何使用工具，而是引导你亲手“发明”工具，让你真正吃透技术原理。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，技术学习的本质就是从底层理解，这种“动手创造”的学习方式永远是提高技能、深入理解原理的最佳途径，且永不过时。</div>
+  <div class="target">👥 最适合：渴望深入理解技术原理的程序员、计算机系学生，以及对软件内部运作充满好奇心的技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月27日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
