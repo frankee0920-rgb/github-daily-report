@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月28日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月28日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🔍</span>
+    <div class="repo-title">
+      <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+      <span class="one-line">AI热点追踪与信息整合专家</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 12967</span>
+      <span class="stat">🍴 1039</span>
+      <span class="stat today">📈 2,821 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-prompts</span><span class="topic">ai-skill</span><span class="topic">bluesky</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">clawhub</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个智能私人助理，你告诉它想了解什么，它就会像个勤奋的侦探，在Reddit、X、YouTube等热门平台上搜寻过去30天内最火热、被大家讨论和关注的信息，然后消化并整理成一份有证据的总结报告给你。就像你的“信息情报员”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">信息爆炸时代，它能帮你快速掌握AI及各类热门话题的最新动态和社群洞察，省时省力，抓住风口。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速了解某个AI新概念（如“大语言模型”），它会整合社交媒体上最热门的讨论和趋势。', '比较两个技术产品（如“ChatGPT vs Claude”），获取社区对它们优劣势的真实看法。', '掌握某个垂直领域（如“Web3游戏”）在过去一个月里的最新热点、社群动态和发展方向。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**多源智能整合与时效性**: 能在Reddit、X、YouTube等多个社交平台和整个网络，精准搜集过去30天内的话题热点，确保信息最新鲜。', '**深度社群洞察与可信摘要**: 不仅抓取信息，还能理解社群的偏好（点赞、分享、押注），并生成有引用的、基于事实的总结报告，帮你了解“大家真正在讨论什么”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。在信息爆炸、技术迭代加速的当下，对最新、最真实、有据可查的信息需求巨大，此类智能聚合工具前景广阔。</div>
+  <div class="target">👥 最适合：科技爱好者、行业分析师、内容创作者、投资者，以及任何希望快速掌握某个领域最新动态和社群洞察的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🎭</span>
+    <div class="repo-title">
+      <a href="https://github.com/hacksider/Deep-Live-Cam" target="_blank">hacksider/Deep-Live-Cam</a>
+      <span class="one-line">实时AI换脸与视频魔法工具</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 83322</span>
+      <span class="stat">🍴 12181</span>
+      <span class="stat today">📈 1,616 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-deep-fake</span><span class="topic">ai-face</span><span class="topic">ai-webcam</span><span class="topic">artificial-intelligence</span><span class="topic">deep-fake</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一款“魔法相机”，只要给它一张照片，就能瞬间把你或别人的脸实时“贴”到视频里，就像电影里换装一样简单。它能让你在直播或录像时，瞬间变成另一个人。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让复杂的AI换脸技术变得人人可用，只需一张照片就能实现实时换脸和视频制作，操作简单、效果惊艳，满足了人们对AI创作的好奇和需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['虚拟形象创作：视频博主或艺术家，快速生成或动画化虚拟角色，增加内容趣味性。', '娱乐互动：在直播或视频通话中变脸搞怪，与朋友互动，带来独特的娱乐体验。', '服装模特展示：品牌商家用它让虚拟模特穿上新衣，快速展示产品，省去真人拍摄成本。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“一张图”魔法：只需一张人脸照片，就能驱动实时换脸和视频生成，极大降低了使用门槛，让专业技术大众化。', '“活生生”的AI：可以在直播或视频通话中实时进行换脸，而不是只能处理录制好的视频，带来即时互动感和创作效率。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI生成内容（AIGC）是当下最火领域之一，尤其是在娱乐、创意和虚拟形象产业，该工具简单易用，市场潜力巨大，但伦理争议需持续关注。</div>
+  <div class="target">👥 最适合：视频博主、短视频创作者、数字艺术家、直播主播，以及任何对AI换脸技术感到好奇并想轻松体验的普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🔬</span>
+    <div class="repo-title">
+      <a href="https://github.com/SakanaAI/AI-Scientist-v2" target="_blank">SakanaAI/AI-Scientist-v2</a>
+      <span class="one-line">AI自动完成科学研究与论文撰写</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 2967</span>
+      <span class="stat">🍴 485</span>
+      <span class="stat today">📈 143 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个AI助手，它不只帮你查资料，还能自己提出科学想法、设计并运行实验、分析数据，最后甚至帮你写出并发表科学论文。它就像一个有初级独立思考能力的AI科学家。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">全球首个完全由AI撰写并获同行评审通过的科学论文，开创了AI在科研领域自主探索的新纪元，有望极大加速科学发现进程。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['在新兴交叉学科领域，AI自主探索并生成初步研究方向和假设。', '加速药物研发或材料科学的实验设计与数据分析，发现新组合。', '为缺乏人力的研究团队，提供自动化“研究助理”来撰写文献综述或实验报告。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**AI自主撰写并发表论文**：这是个里程碑！AI能独立完成从构思、实验到最终论文发表的全流程，证明了其强大的创造力和分析能力，不再仅仅是工具。', '**智能体树状搜索（Agentic Tree Search）**：多个AI“智能体”像一个高效的研究团队一样协作，通过试错和规划，自主探索复杂科学问题，大大减少了人类干预。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI自主科研与论文创作，颠覆传统科学模式，有望极大加速人类的科学探索，潜力巨大。</div>
+  <div class="target">👥 最适合：科学家、研究机构、AI伦理学者、关注科技前沿的投资者和媒体，以及任何对AI在科研中的角色感兴趣的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费学编程，助你转行科技界。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 438,888</span>
+      <span class="stat">🍴 43,801</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像一所完全免费、随时可学的在线科技大学。你可以在这里找到各种编程和计算机科学的课程，通过完成趣味挑战来学习，就像玩闯关游戏一样，一步步掌握从网页制作到数据分析的各种技能。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它完全免费，拥有庞大的全球互助学习社区，并已成功帮助超10万人找到科技工作，解决了大量就业和技能升级难题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['零基础想转行IT，但没有预算报昂贵培训班的人。', '对编程感兴趣，想利用业余时间免费学习一门新技能的上班族或学生。', '希望通过动手实践，获得真实项目经验和权威认证的自学者。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最值得关注的是，freeCodeCamp本身就是一个巨大的“开源”项目。这意味着它的所有课程内容和学习平台都是公开透明的，全球的志愿者和专家都在不断地贡献和优化，保证了内容的质量和前沿性。同时，它以大量的“互动式编码挑战”为核心，让学习者通过亲手操作来理解和掌握知识，而不是单纯地听课。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。免费高质量的在线教育，特别是针对热门科技领域，永远有巨大市场需求。在AI时代，终身学习和技能升级变得更加重要，freeCodeCamp的价值会持续凸显。</div>
+  <div class="target">👥 最适合：渴望免费学习编程、计算机科学，希望转行进入科技行业或提升专业技能的成年人，以及对技术感兴趣的初学者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月28日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
