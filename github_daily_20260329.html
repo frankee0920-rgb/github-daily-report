@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月29日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月29日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🎭</span>
+    <div class="repo-title">
+      <a href="https://github.com/hacksider/Deep-Live-Cam" target="_blank">hacksider/Deep-Live-Cam</a>
+      <span class="one-line">实时换脸，一键生成深度伪造视频</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 84516</span>
+      <span class="stat">🍴 12344</span>
+      <span class="stat today">📈 1,814 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-deep-fake</span><span class="topic">ai-face</span><span class="topic">ai-webcam</span><span class="topic">artificial-intelligence</span><span class="topic">deep-fake</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个“魔法换脸相机”，你给它一张照片，它就能把照片上的脸实时换到你的摄像头画面或视频里，就像给数字世界变了个魔术，过程简单又快速。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">深度伪造技术（Deepfake）本身就受关注，它还支持实时换脸和视频生成，操作简单，吸引了大量对AI创意内容感兴趣的用户。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['娱乐创作：制作有趣的换脸视频，或在直播中实时扮演虚拟角色。', '数字营销：为品牌活动定制独特的AI生成内容，增加互动性。', '艺术设计：帮助动画师将静态角色图片动起来，或用于服装虚拟试穿。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['极简操作，强大效果：只需一张图片，就能一键完成实时换脸或深度伪造视频，对普通用户非常友好。', '内置伦理防火墙：程序自带审查机制，能自动阻止处理不法或敏感内容，试图负责任地使用AI技术。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。生成式AI和深度伪造是当前最热门的技术方向，市场对创新内容创作工具需求巨大，尽管有伦理争议，但项目主动采取措施应对。</div>
+  <div class="target">👥 最适合：内容创作者、视频主播、数字艺术家，以及任何对AI换脸技术好奇、想快速体验的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/obra/superpowers" target="_blank">obra/superpowers</a>
+      <span class="one-line">AI编程助手，让开发更智能高效</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 121202</span>
+      <span class="stat">🍴 9833</span>
+      <span class="stat today">📈 2,292 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级智能的“编程管家”。它不像普通工具那样直接敲代码，而是先和你耐心沟通，搞清楚你想做什么，然后规划步骤，并指挥“小管家们”一步步把软件造出来。就像一个经验丰富，且有条不紊的工程师团队。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI编程助手不再是简单的代码生成器，而是能像资深工程师一样，从需求分析到执行，全程智能规划并完成开发，极大提升效率，备受瞩目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**快速原型开发**：你想验证一个新想法，它可以帮你快速构建一个可运行的最小可行产品。', '**自动化小型项目**：对于重复性高、逻辑清晰的小型工具或内部系统，Superpowers能接管整个开发过程。', '**辅助学习新领域**：通过观察AI代理如何规划和执行任务，非专业人士也能理解软件开发的基本流程。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**“深度思考”的开发方法论**：它不急于写代码，而是先与用户深度沟通需求，制定详细规格和实施计划，强调测试驱动开发等专业流程，模拟资深工程师思维。', '**多代理协作（Subagent-driven development）**：将大任务拆解成小块，由多个AI“子代理”分工协作，互相审查，能自主完成数小时的复杂开发工作。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI代理（Agent）是当前AI领域最前沿趋势，尤其在软件开发自动化方向，潜力巨大，将颠覆传统开发模式。</div>
+  <div class="target">👥 最适合：技术产品经理、创业者：快速验证产品想法，构建原型。寻求高效率的开发者：让AI处理繁琐任务。对AI自动化软件开发感兴趣的非技术人员：理解AI如何智能地进行复杂项目管理和执行。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🔬</span>
+    <div class="repo-title">
+      <a href="https://github.com/SakanaAI/AI-Scientist-v2" target="_blank">SakanaAI/AI-Scientist-v2</a>
+      <span class="one-line">AI驱动，全自动科学研究和论文撰写系统。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3591</span>
+      <span class="stat">🍴 542</span>
+      <span class="stat today">📈 506 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级聪明的“AI科学家”助手。它不只是帮你查资料，而是能像人类研究员一样，自己想研究点子、设计实验、分析数据，甚至把整个研究过程和结果写成一篇完整的科学论文。就像一个能独立完成科研项目的AI。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它首次让AI独立完成并发表了科研论文，实现了从提出假设到撰写论文的全流程自动化。这不仅是AI界的一大突破，也预示着科学发现模式的变革，自然引发高度关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['加速新材料或新药研发：AI可以自主探索大量分子组合，提出新材料或药物配方假设，并设计实验验证，大大缩短研发周期。', '快速验证科学假设：在某个研究领域，AI能快速生成并验证不同的科学假设，帮助研究人员更快地找到突破口。', '拓展现有理论边界：AI可以基于现有知识，自主提出新的理论模型或实验方案，推动学科交叉和创新。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['全流程自主科研能力：AI首次能独立完成从生成假设、设计实验、数据分析到撰写并发表论文的整个科研闭环，无需人工干预。', '“智能体树搜索”：通过多智能体协作和更具探索性的方法，摆脱了人工模板限制，能更通用地应对开放式科学探索和复杂问题。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI自主生成科研论文是颠覆性创新，开启了AI辅助科学发现的全新范式。未来将极大加速科研进程，潜力无限。</div>
+  <div class="target">👥 最适合：科学家、研究员、各大学和研究机构，以及对利用AI大幅加速科学发现和突破感兴趣的研发团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">动手造万物，深度理解技术核心</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 484,151</span>
+      <span class="stat">🍴 45,554</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本超级详尽的“技术DIY说明书合集”。你可以跟着它，从零开始一步步搭建出你日常使用的各种软件或系统，比如一个简易的搜索引擎、一个小游戏，甚至是一个迷你的操作系统。不是直接用现成的，而是像搭乐高一样，亲手堆砌每一个零件，直到它运转起来，让你明白其内在原理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对技术“知其所以然”的渴望。通过亲手实践，能真正理解复杂技术的底层逻辑，这种成就感和学习效果无可替代。而且涵盖领域广，像一本技术百科全书。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['对某个技术（如区块链、操作系统）的运行原理充满好奇，想系统性地从零学起。', '计算机专业的学生或初级程序员，希望通过项目实战巩固基础，提升解决复杂问题的能力。', '想动手搭建自己的简化版AI模型、游戏或编程语言，体验创造的乐趣。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">它不仅提供海量教程，更是一种独特的学习方法论：通过亲手“重造”经典技术，深度理解其核心原理和设计思想。内容覆盖范围极广，从操作系统到AI模型，应有尽有。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，技术迭代再快，底层原理不变。这种从根源理解技术的方式永不过时，是培养深度技术人才和极客精神的宝藏，将持续受到追捧。</div>
+  <div class="target">👥 最适合：对技术内部运作方式充满好奇心，渴望通过亲手实践来深入理解复杂系统的技术爱好者、学生，以及希望巩固基础、提升核心技能的初级或中级程序员。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月29日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
