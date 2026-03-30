@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月30日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月30日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/luongnv89/claude-howto" target="_blank">luongnv89/claude-howto</a>
+      <span class="one-line">Claude AI编程的速成指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 7790</span>
+      <span class="stat">🍴 830</span>
+      <span class="stat today">📈 1,165 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">claude-code</span><span class="topic">guide</span><span class="topic">tutorial</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象Claude Code是一套强大的AI工具箱。这个项目就像一本手把手的图文说明书，不仅拆解工具的使用方法，更教你如何将它们巧妙组合，甚至提供即拿即用的模板，让你快速打造出自己专属的智能助手和自动化系统。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI技术炙手可热，但上手门槛高。这个项目通过清晰的视觉教程和实用模板，大大降低了学习难度，让普通用户也能高效利用Claude AI的强大能力，解决实际问题，因此备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速构建一个能自动回复邮件、处理日程的智能助理。', '设计一个帮你自动审查代码、提出改进建议的AI助手。', '开发一个能自动分析数据、生成报告的智能工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**“所见即所得”的教学方式：** 摒弃枯燥理论，通过大量图示和可直接复制的代码模板，让学习过程直观易懂，立即产生价值。', '**实战为王：** 专注于解决“如何将AI功能组合成实用系统”的痛点，提供从基础到高级的完整学习路径，直达生产级应用。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型正深刻改变各行各业，如何高效地驾驭这些工具是未来竞争力的关键。该项目直接解决用户痛点，需求量大，潜力无限。</div>
+  <div class="target">👥 最适合：对AI技术感兴趣、希望快速上手Claude Code的非专业开发者、学生，以及需要利用AI工具提高工作效率的职场人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">Yeachan-Heo/oh-my-claudecode</a>
+      <span class="one-line">AI编程助手，让Claude更强大易用。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16468</span>
+      <span class="stat">🍴 1162</span>
+      <span class="stat today">📈 835 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-coding</span><span class="topic">ai-agents</span><span class="topic">automation</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">multi-agent-systems</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象Claude是超聪明的学生（AI），能写代码。`oh-my-claudecode`就像高级班主任，不仅管理学生，还配备“团队”分工协作，让学生更快完成复杂编程。你只需说目标，它搞定一切，无需学复杂指令。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">简化了复杂的AI编程，让非专业人士也能轻松用AI开发，大幅提升效率，是AI智能体领域的热门项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想开发手机应用或网站，但不会编程。你告诉它需求，它自动生成代码。', '快速测试一个新功能或概念，让AI生成原型代码，验证可行性。', '编写复杂的自动化脚本，让AI智能体团队协同完成。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多智能体协作：不再是一个AI单打独斗，而是像一个AI团队分工合作，高效解决复杂问题。', '零学习门槛与智能引导：你无需成为AI专家，通过自然语言就能指挥AI编程，甚至帮你理清需求。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体和自动化编程是未来趋势，它简化了AI的使用门槛，能吸引大量非技术用户，潜力巨大。</div>
+  <div class="target">👥 最适合：想用AI编程但没有编程经验的人；需要快速开发、测试想法的创业者；希望团队高效利用AI的管理者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🎙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/VibeVoice" target="_blank">microsoft/VibeVoice</a>
+      <span class="one-line">微软开源的前沿语音AI，让机器听懂会说。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 27912</span>
+      <span class="stat">🍴 3070</span>
+      <span class="stat today">📈 1,056 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下你的智能手机里住着一位特别聪明的“语音管家”。VibeVoice就是微软开源的这个“管家大脑”，它不仅能精准地把你说的话（甚至长达一小时）整理成带时间、人物的文字，还能自然地读出来。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它由科技巨头微软打造，代表了当前语音AI的顶尖水平。开源让大家都能用，加上精准识别长音频、区分说话人等创新功能，以及被大厂和社区快速采纳，火爆是必然的。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['会议纪要自动化：自动将冗长会议的录音转换为详细文本，并标记出谁在何时说了什么。', '智能客服/虚拟主播：生成更自然、更具表现力的语音回复，让AI听起来更像真人。', '播客/视频字幕生成：快速、准确地为长篇音视频内容生成字幕或文稿，提高内容可访问性。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['长音频的深度理解能力：能一次性处理长达一小时的音频，并智能地识别出“谁在何时说了什么”，大幅提升了语音转文字的实用性。', '开源与生态整合：微软将其核心语音AI技术开源，并迅速与Hugging Face等主流AI平台集成，极大地推动了语音AI技术普惠和应用创新。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。语音交互是未来人机交互的核心趋势。VibeVoice在长音频理解、多角色识别等前沿领域表现突出，并已被广泛集成，预示着巨大的商业应用和技术迭代空间。</div>
+  <div class="target">👥 最适合：希望在自己的产品或服务中加入先进语音识别和合成能力的开发者、AI研究人员，以及正在打造下一代智能语音产品的公司。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费学编程和计算机知识的开源平台</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 439,257</span>
+      <span class="stat">🍴 43,853</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个免费的“在线编程大学”，提供从零开始的编程、数学和计算机科学课程。你不需要花钱，就能在这里跟着互动练习，一步步学习，甚至拿到像样的证书，帮你转行进入IT行业。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费且高质量的编程教育，帮助超过10万人成功转行进入科技领域。课程体系完整，互动性强，加上庞大的开源社区支持，使其成为全球学习编程的首选之一。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想转行IT的职场新人或希望提升技能的在职人员：提供免费且系统的编程课程和证书，助你零基础入门或进阶。', '寻找免费高质量学习资源的编程爱好者：不论是学习JavaScript、Python、数据库，还是响应式网页设计，这里都有丰富互动挑战。', '渴望为开源社区贡献力量的学习者：作为一个大型开源项目，你也可以参与其平台开发，边学边贡献。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['先进的开源技术栈：整个学习平台由TypeScript、React和Node.js等现代主流技术构建，本身就是一套非常好的全栈Web开发实战案例。', '活跃的开源社区贡献：标榜“first-timers-only Friendly”，鼓励编程新手参与项目贡献，为学习者提供了真实的开源协作经验。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。全球对编程和科技人才的需求持续旺盛，免费且能帮助用户获得实际工作机会的教育平台将始终炙手可热，其慈善模式也确保了持续发展。</div>
+  <div class="target">👥 最适合：零基础编程学习者、希望免费自学编程并获取职业证书的职场人士、想转行进入IT行业但预算有限的爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月30日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
