@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年03月31日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年03月31日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🎙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/VibeVoice" target="_blank">microsoft/VibeVoice</a>
+      <span class="one-line">微软开源、领先的语音AI工具箱。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 31371</span>
+      <span class="stat">🍴 3487</span>
+      <span class="stat today">📈 2,492 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">VibeVoice是微软开源的一个超级智能的“语音管家”。它既能像“顺风耳”一样，精准听懂你说话的内容，甚至区分不同人、标注时间点，还能像“金嗓子”一样，把文字自然流畅地读出来。就像给电脑装上了能听会说的强大能力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">微软开源，技术前沿。其语音识别（ASR）能精准处理长录音并区分说话人，像高效AI速记员。因实用性强和被主流AI平台快速采纳，人气飙升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['会议或讲座速记：自动将长时间的会议或线上课程录音，精确转录成文字，并区分发言人，标注时间点，形成详细会议纪要。', '智能语音输入法：像示例中的“Vibing”一样，让电脑或手机能更智能地听懂人话，实现语音打字、控制系统等。', '多媒体内容制作：比如为播客、视频自动生成字幕，或者将文字内容转化为自然流畅的语音旁白。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['超长语音精准识别：VibeVoice-ASR能一口气处理长达60分钟的音频，并生成包含说话人、时间戳和内容的结构化文本，是目前市场上少数能做到如此复杂且精准转录的开源模型。', '社区集成与易用性：作为微软开源项目，且已无缝集成到Hugging Face Transformers库中，极大地降低了开发者使用和二次开发的门槛。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI对语音的理解和生成是人机交互的未来。VibeVoice作为微软开源的前沿技术，在长文本语音识别和多媒体内容生成方面有巨大潜力，发展迅猛。</div>
+  <div class="target">👥 最适合：AI开发者、研究人员、内容创作者以及任何需要高效处理语音信息，或开发语音相关应用的技术团队和个人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/luongnv89/claude-howto" target="_blank">luongnv89/claude-howto</a>
+      <span class="one-line">Claude Code 高效进阶实践指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 10560</span>
+      <span class="stat">🍴 1066</span>
+      <span class="stat today">📈 4,232 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">claude-code</span><span class="topic">guide</span><span class="topic">tutorial</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个超级聪明的AI助手叫“Claude Code”，但官方说明书有点难懂。这个项目就像它的“高级玩家攻略”，用生动图文和即用模板，手把手教你把AI从简单对话变成能自动完成复杂工作的“全能管家”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了很多人想深入使用AI但苦于没方向、官方文档难懂、例子不实用的痛点。提供了清晰的学习路径和即插即用的实用模板，让AI小白也能快速上手高阶应用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动化代码审查：让AI像个专业质检员，帮你检查代码并发现潜在安全漏洞。', '智能工作流编排：将AI分解为多个“小助手”，自动完成复杂任务，如项目管理、资料整理。', '定制化学习与研究：利用AI的记忆和代理功能，帮你分析海量信息，产出初步报告。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['结构化、视觉化的学习路径：不再是枯燥的文档，而是图文并茂、清晰引导，让学习过程更直观高效。', '即插即用的实战模板：提供可以直接复制粘贴的代码范例，让用户能立即看到效果，快速掌握高级应用技巧。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI工具普及度越来越高，但真正能深度应用的教程稀缺，这个项目精准填补了市场空白，未来将持续受到追捧。</div>
+  <div class="target">👥 最适合：对AI助手（如Claude Code）有基本了解，想把AI从简单指令升级到自动化、智能化的工作流，但缺乏系统性学习路径的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">shanraisshan/claude-code-best-practice</a>
+      <span class="one-line">让AI助手Claude更聪明高效的秘诀</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 26756</span>
+      <span class="stat">🍴 2230</span>
+      <span class="stat today">📈 1,108 stars today 今日</span>
+      <span class="stat lang">HTML</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-engineering</span><span class="topic">best-practices</span><span class="topic">claude-ai</span><span class="topic">claude-code</span><span class="topic">vibe-coding</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它是一本教你如何与Anthropic的AI助手Claude高效协作的“攻略秘籍”。你可以把它想象成给Claude量身定制的“武功秘籍”，里面包含了各种绝招和套路，让Claude能更好地理解指令、执行任务，甚至扮演不同角色，变得更聪明、更实用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Claude AI作为领先的智能助手备受关注，该项目提供实用“最佳实践”，手把手教你如何“驾驭”Claude，使其工作更智能高效。它直击用户痛点，迅速成为AI开发者和爱好者的热门指南。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让Claude成为你的“超级项目经理”，它能分配子任务给不同的“专家助手”（Subagents），自动完成从数据分析到报告撰写等复杂流程。', '为你的工作流定制专属AI能力，比如让Claude自动审核文档格式、撰写营销文案，或者处理客服咨询，提高工作效率。', '帮助非技术人员理解并应用高级AI技巧，即使不懂编程也能更好地“指挥”Claude完成个性化创意或自动化任务。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI“代理工程”实践：它清晰地展示了如何通过“子代理”（Subagents）、“指令”（Commands）和“技能”（Skills）等模块化方式，让Claude AI像一个拥有分身和特长的人一样，处理更复杂、更自主的任务。', '高效率协作模式：提供了一套如何编排和优化AI工作流程的“秘籍”，让用户能够以最佳实践来构建和部署Claude AI应用，极大地提升AI应用的效率和可靠性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型应用是当前科技前沿，如何有效“驯服”AI是关键。该项目直击痛点，提供了Claude AI的实用操作指南，随着AI技术普及，其价值会持续增长。</div>
+  <div class="target">👥 最适合：对Claude AI感兴趣、想让AI更聪明高效的普通用户；希望提升AI协作能力的项目经理、内容创作者；以及想学习AI“代理工程”理念的AI爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/jwasham/coding-interview-university" target="_blank">jwasham/coding-interview-university</a>
+      <span class="one-line">程序员求职“硅谷大厂”的通关秘籍</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 339,061</span>
+      <span class="stat">🍴 81,710</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">algorithm</span><span class="topic">algorithms</span><span class="topic">coding-interview</span><span class="topic">coding-interviews</span><span class="topic">computer-science</span><span class="topic">data-structures</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一份超详细的“武功秘籍”或“高考冲刺指南”，专门教你如何系统性地学习计算机知识，最终考入像谷歌、亚马逊那样的顶级科技公司，成为一名高薪软件工程师。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它提供了一条被验证的、通往顶级科技公司软件工程师岗位的“成功之路”，内容全面且免费，让无数求职者看到了希望并付诸实践。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**毕业生找工作：** 计算机专业学生，希望能进入国内外一线互联网大厂。', '**转行学编程：** 非计算机背景人士，想系统学习编程知识并成功转型。', '**在职求发展：** 已有工作经验的程序员，希望跳槽到更好的平台或公司。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**系统性强、实战导向：** 它像大学课程表，涵盖所有计算机科学基础，直指大型公司面试的核心考点，避免盲目学习。', '**成功案例背书：** 作者本人通过此学习计划成功进入亚马逊，为内容的有效性和可行性提供了强有力的证明。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。全球对优秀软件工程师的需求持续旺盛，顶级科技公司竞争激烈。该项目精准解决了求职痛点，提供免费高质量的学习路径，将长期保持热度。</div>
+  <div class="target">👥 最适合：任何对成为软件工程师感兴趣，尤其是渴望进入亚马逊、谷歌、微软等顶尖科技公司的人，无论你是大学新生、转行小白还是经验丰富的“老兵”。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年03月31日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
