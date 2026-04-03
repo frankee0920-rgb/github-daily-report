@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月03日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月03日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">✨</span>
+    <div class="repo-title">
+      <a href="https://github.com/siddharthvaddem/openscreen" target="_blank">siddharthvaddem/openscreen</a>
+      <span class="one-line">免费开源，轻松制作专业演示视频。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16502</span>
+      <span class="stat">🍴 1123</span>
+      <span class="stat today">📈 2,573 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">electron</span><span class="topic">open-source</span><span class="topic">pixijs</span><span class="topic">screen-capture</span><span class="topic">screen-recorder</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想录屏给别人展示软件操作，但只用普通的录屏工具录出来很平淡。OpenScreen就像一个免费的视频剪辑魔法师，能把你的屏幕录像变得像电影预告片一样酷炫，自动放大缩小、加特效，让你轻松做出专业的演示视频，而且不用花钱，还没有烦人的水印。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它提供了一个昂贵专业工具（Screen Studio）的免费开源替代品，解决了很多人制作高质量演示视频的付费痛点，而且功能实用、效果出色，无水印且支持商业用途，迅速获得大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['软件开发者或产品经理，需要制作新功能演示视频，向客户或用户展示操作流程。', '在线教育内容创作者，录制教程视频，清晰地讲解软件或网站的使用步骤。', '市场营销人员，制作产品推广视频，用引人入胜的视觉效果展示产品亮点。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**Electron框架：** 用网页技术开发桌面应用，让项目能快速迭代并跨平台运行（Windows/macOS/Linux），降低了开发门槛。', '**PixiJS图形库：** 实现了各种酷炫的动画效果，比如平滑的自动缩放、运动模糊，让录屏视频看起来更专业、更吸引人。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道：随着在线内容和远程协作的普及，高质量产品演示和教学视频需求激增。作为免费、开源且功能强大的工具，OpenScreen正好填补了市场空白，增长潜力巨大。</div>
+  <div class="target">👥 最适合：需要制作专业、美观的屏幕演示视频，但不想花钱购买昂贵软件的个人或团队。比如产品经理、市场营销人员、在线教育者、技术教程博主等。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank">Yeachan-Heo/oh-my-codex</a>
+      <span class="one-line">AI编程助手Codex的得力助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 12346</span>
+      <span class="stat">🍴 1130</span>
+      <span class="stat today">📈 2,867 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，如果AI编程助手Codex是个聪明但有点散漫的程序员，那OMX就是他的超级助手。它能帮Codex规划任务、组织流程，甚至还能召唤“AI团队”一起工作，让编程任务又快又好地完成。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让强大的AI编程助手Codex变得更容易用、更高效。通过提供结构化的工作流和团队协作能力，大大提升了AI辅助开发的实用性。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['需求澄清与规划: AI会像采访者一样提问，帮你把模糊的需求变得清晰，并自动生成详细的开发计划。', '团队协作编程: 将复杂的编程任务分解，让不同的“AI代理”组成团队，并行处理代码编写、测试等工作，提升效率。', '自动化项目管理: 自动保存项目进度、日志和状态，让你可以随时回顾和调整，保持项目流程井然有序。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多AI代理协作: 能够让多个AI代理像一个团队一样工作，分解并并行完成复杂任务，这是AI发展的重要方向。', '结构化工作流: 将AI的自由输入和输出转化为可管理、可重复的编程流程，大大提高了AI辅助开发的效率和可靠性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI代理和工作流自动化是当前技术前沿，它有效解决了AI应用落地中的效率和管理痛点，前景广阔。</div>
+  <div class="target">👥 最适合：希望借助AI提升编程效率的开发者、AI工程师，以及对自动化开发流程感兴趣的技术团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🔍</span>
+    <div class="repo-title">
+      <a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank">asgeirtj/system_prompts_leaks</a>
+      <span class="one-line">揭秘主流AI聊天机器人的幕后“秘密指令”。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 36687</span>
+      <span class="stat">🍴 6064</span>
+      <span class="stat today">📈 306 stars today 今日</span>
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-transparency</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span><span class="topic">claude-code</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，每个AI助手都有一个不为人知的“操作手册”或“行为准则”，这个项目就像一个“侦探”，把这些隐藏的“手册”都找了出来，让我们看到AI在回答问题前，心里其实藏着怎样的“小秘密”和“大原则”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它揭示了AI的“内心独白”，让人们更了解AI如何思考和被引导，对于想更好驾驭AI或研究AI行为的人来说，是极具价值的“宝藏”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**好奇者探索AI：** 想知道ChatGPT、Claude等AI为什么会那样回答问题，它们背后的“默认设定”是什么。', '**优化AI对话：** 学习顶级AI的内部指令，帮助自己更好地设计提问（提示词），让AI更精准地理解意图。', '**AI安全与透明度研究：** 专家用来分析AI的潜在偏见、安全漏洞，或者理解AI的道德边界是如何被设定的。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**覆盖面广且持续更新：** 囊括了当前最热门、最新的多个AI模型（ChatGPT, Claude, Gemini, Grok等），并保持定期更新，确保内容的及时性和准确性。', '**揭示AI“个性”的源头：** 通过系统提示词，我们可以直观地看到开发者如何塑造AI的“性格”和“能力边界”，这对于理解AI行为模式至关重要。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着AI技术飞速发展和普及，了解、控制并优化AI行为的需求将持续增长，系统提示词是与AI“沟通”最核心的秘密武器之一。</div>
+  <div class="target">👥 最适合：对AI工作原理好奇的普通用户、AI研究人员、提示词工程师、AI产品开发者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">手把手教你从零打造常见技术项目的指南集</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 485,746</span>
+      <span class="stat">🍴 45,689</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像是科技界的“乐高说明书”或“美食菜谱大全”。它不是直接给你一个现成的程序，而是提供详细的步骤和指引，教你如何从最基础的砖块或食材开始，亲手搭建出我们日常使用的各种科技产品，比如一个简单的搜索引擎、数据库，甚至是自己的编程语言。让你不仅会用，更懂其原理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它之所以火爆，是因为它抓住了一个核心痛点：很多人想深入理解复杂技术，却苦于无从下手。这个项目通过“亲手搭建”的方式，让人从零开始、循序渐进地掌握技术深层原理，这种学习方式既高效又充满成就感，自然受到广泛追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['如果你对日常使用的软件（如Git版本控制）的底层运作原理充满好奇，可以找到对应的指南，一步步亲手实现其核心功能。', '对于计算机专业学生或编程初学者，可以通过亲手构建一个简单的数据库或Web服务器，将书本知识转化为实际动手能力。', '有经验的开发者如果想快速入门一个全新领域（如区块链或AI模型），可将其作为实践参考，通过构建来掌握核心概念和技术栈。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['覆盖面极广：从3D渲染器到操作系统、AI模型、区块链，几乎涵盖了所有核心且有趣的科技领域，是技术探索的宝库。', '实践出真知：以“亲手搭建”为核心理念，提供详细的步骤指导，让人在动手过程中真正理解技术，而非简单记忆。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长，技术迭代再快，底层原理始终是核心。这种通过亲手实践深入理解技术的学习方式永远有市场，且随着新技术不断涌现，其提供的“构建指南”内容将持续丰富，潜力巨大。</div>
+  <div class="target">👥 最适合：对技术充满好奇心，不满足于只会用、更想深挖其工作原理的科技爱好者；也适合想通过动手实践来巩固知识、提升技能的程序员或计算机专业学生。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月03日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
