@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月05日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月05日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">👁️🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/Blaizzy/mlx-vlm" target="_blank">Blaizzy/mlx-vlm</a>
+      <span class="one-line">Mac上运行和微调“看图说话”AI模型。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3685</span>
+      <span class="stat">🍴 404</span>
+      <span class="stat today">📈 343 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">apple-silicon</span><span class="topic">florence2</span><span class="topic">idefics</span><span class="topic">llava</span><span class="topic">llm</span><span class="topic">local-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，给你的Mac电脑装上一双“眼睛”和一个能“看图说话”的“大脑”！这个项目就是一套工具，让你的Mac能运行和定制各种先进的AI模型，它们不仅能理解图片内容，还能处理声音和视频，就像给AI注入了感知能力，而且全靠你Mac里强大的芯片来完成，不用联网。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它充分发挥Mac电脑M系列芯片的AI潜力，让前沿“看图说话”AI在本地高速运行，省钱又安全！超高增长的星数也证明了它的火爆。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让你的Mac成为私人AI助理，能看懂照片内容并和你对话。', '开发智能应用，自动识别图片中的文字信息（比如识别发票、文件等）。', '实验最新的多模态AI模型，给AI加入视觉、听觉甚至视频理解能力。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **Mac专属AI加速器**：专门优化，让“看图说话”AI模型在苹果M系列芯片上飞速运行，效率超高。
+2. **全能AI模型支持**：不仅支持多种视觉语言模型（VLM），还能处理音频和视频的“全能模型”，是AI领域的前沿技术。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI尤其是能理解多媒体内容的“多模态AI”是当今科技最前沿。结合苹果芯片带来的本地AI浪潮，它占据了天时地利人和。</div>
+  <div class="target">👥 最适合：拥有Mac电脑的科技爱好者、极客，对前沿AI技术（尤其是“看图说话”AI）充满好奇，想在自己设备上尝鲜体验的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/onyx-dot-app/onyx" target="_blank">onyx-dot-app/onyx</a>
+      <span class="one-line">强大开源AI平台，自建智能聊天助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 24437</span>
+      <span class="stat">🍴 3276</span>
+      <span class="stat today">📈 1,197 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-chat</span><span class="topic">chatgpt</span><span class="topic">chatui</span><span class="topic">enterprise-search</span><span class="topic">gen-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个万能的“AI大脑中枢”，能把市面上各种AI大模型（如ChatGPT）都连接起来。它不仅让AI能和你聊天，还能给AI装上“眼睛”（上网搜索）、“图书馆”（查阅资料）、“研究员”（深度分析）等超能力，让你搭建自己的专属智能助手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">解决了AI用户对高级功能和模型通用性的需求，特别是“自托管”特性和RAG、深度研究等前沿技术，让用户能搭建强大的专属AI，热度飙升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人专属研究助理：上传你的文档、笔记，让AI作为专属研究员，快速分析资料，生成深度报告，辅助学习或工作。', '企业内部智能知识库：部署Onyx连接公司内部资料，训练专属AI客服或员工助手，实现高效信息检索和问题解答。', '搭建创新AI应用：利用其丰富的AI代理功能和多模型支持，快速构建各种定制化的AI应用，如智能编程助手、自动化数据分析工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['Agentic RAG与深度研究：它不仅仅是简单的问答，更像给AI装上“智慧大脑”和“研究团队”，能进行多步骤的复杂信息检索和深度分析，生成高质量报告。', '通用型与自托管：能连接任何AI大模型，并允许用户完全掌控部署和数据，打破了传统AI应用的局限，为个性化定制提供了无限可能。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与LLM应用是当前最热门赛道，Onyx提供通用、自托管的高级AI平台，满足了用户对个性化、强大AI工具的深切需求，未来发展潜力无限。</div>
+  <div class="target">👥 最适合：对AI技术有探索精神，想深度定制、自建专属AI聊天助手或AI应用，不满足于现有产品功能限制的个人用户及技术团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank">Yeachan-Heo/oh-my-codex</a>
+      <span class="one-line">AI编程助手的超级大脑和工作流管理器</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 15906</span>
+      <span class="stat">🍴 1499</span>
+      <span class="stat today">📈 1,789 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像给你的“AI编程助手”（OpenAI Codex CLI）配备了一个超级助理团队。原本的AI助手可能只会按指令办事，但有了它，AI助手就像有了大脑和流程，能主动理解需求、规划任务，甚至召集“AI团队”协作，让你的编程更顺畅高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">依托OpenAI强大AI能力，极大提升开发者使用体验，解决AI协作痛点，且社区活跃，人气飙升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你有一个模糊的编程想法，它可以帮你深度访谈，明确具体需求。', '需要AI帮你规划并执行一个复杂的项目任务，像一个智能项目经理。', '当任务需要多个AI“专家”协作完成时，它能组建AI团队高效分工。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['智能AI工作流: 不再是简单的代码生成，而是为AI设计一套完整的、自动化的工作流程，从理解需求到执行一步到位。', 'AI团队协作: 引入“AI代理团队”概念，让不同的AI模块像人类团队一样分工协作，处理更宏大复杂的编程任务。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是未来趋势，它极大提升了AI助手的实用性与效率，解决复杂场景痛点，市场需求巨大，前景广阔。</div>
+  <div class="target">👥 最适合：主要面向那些希望利用AI提升编程效率的软件开发者，特别是当他们面对复杂项目时，需要AI能够像一个真正的“伙伴”一样，不仅写代码，还能参与思考、规划和协作。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank">kamranahmedse/developer-roadmap</a>
+      <span class="one-line">程序员的学习与成长“导航图”</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 352,221</span>
+      <span class="stat">🍴 43,863</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你要去一个陌生的城市发展事业。这个项目就像一张详细的“城市地图”或“职业GPS”，它把复杂的程序员学习路径拆解成一步步的指引，告诉你先学什么、再学什么，让你不迷路，高效成长。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了无数程序员“学习路线不清晰，不知从何学起”的痛点。内容权威、全面且免费，能帮助大家系统规划职业发展，自然受到热烈追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**新手入门：** 一个对编程感兴趣的大学生，想知道成为前端工程师需要学哪些技术，就可以直接找到“前端路线图”按图索骥。', '**职业转型：** 一位传统行业的员工想转行做后端开发，他可以用这个工具了解后端技术栈，规划学习路径。', '**技能提升：** 已经工作的程序员，想学习新的技术方向（比如DevOps），也能在这里找到最新的学习建议和资源。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**交互式学习体验：** 不仅仅是静态图表，你可以点击路线图上的每个知识点，深入了解其详情和相关学习资源，让学习更生动。', '**社区驱动与实时更新：** 它是一个开放项目，众多开发者共同维护，这意味着里面的学习路径和资源能及时更新，紧跟技术潮流。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。技术更新迭代快，程序员的学习需求永不止息。这个项目提供了普适性的价值，会持续吸引新的学习者和贡献者，生命力旺盛。</div>
+  <div class="target">👥 最适合：刚接触编程的萌新、渴望职业转型的求职者、想系统提升技能或拓展方向的在职程序员。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月05日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
