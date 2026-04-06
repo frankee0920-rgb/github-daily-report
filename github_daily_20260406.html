@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月06日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月06日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📱</span>
+    <div class="repo-title">
+      <a href="https://github.com/google-ai-edge/gallery" target="_blank">google-ai-edge/gallery</a>
+      <span class="one-line">手机上的AI体验馆，模型本地运行</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 17221</span>
+      <span class="stat">🍴 1586</span>
+      <span class="stat today">📈 389 stars today 今日</span>
+      <span class="stat lang">Kotlin</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的手机里有个专属“AI体验馆”。这个应用能让你直接在手机上运行各种酷炫的AI功能，就像拥有一个迷你AI实验室，各种智能助手就在你手上，无需连接云端超算。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让普通人也能在手机上体验到前沿AI大模型，且完全离线、保护隐私、响应极快，无需联网。这是未来AI应用的重要方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['离线对话助手：在没有网络的地方，也能和AI流畅聊天、问问题，比如长途飞行中撰写邮件草稿。', '个人数据分析：不用上传你的私密文档到云端，AI就能帮你本地总结、分析文件内容。', '创意内容生成：手机上快速生成诗歌、故事或设计草图，所有创作都在你的设备上完成。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['端侧运行AI大模型：在手机硬件上直接运行高性能的AI模型，无需联网，确保数据隐私和极速响应。', '前沿模型支持：率先支持Google最新AI模型（如Gemma 4），让用户体验最先进的AI能力。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。将强大的AI能力带到个人设备，解决隐私、离线和速度问题，是未来AI普及的关键一步，潜力巨大。</div>
+  <div class="target">👥 最适合：对AI技术好奇想尝鲜的普通用户、重视数据隐私的个人、开发者和研究人员（想了解端侧AI性能）。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Blaizzy/mlx-vlm" target="_blank">Blaizzy/mlx-vlm</a>
+      <span class="one-line">Mac本地运行多模态AI模型助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3998</span>
+      <span class="stat">🍴 427</span>
+      <span class="stat today">📈 416 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">apple-silicon</span><span class="topic">florence2</span><span class="topic">idefics</span><span class="topic">llava</span><span class="topic">llm</span><span class="topic">local-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的Mac电脑很聪明，但通常只会处理文字。这个项目就像给你的Mac装上一双“眼睛”和“耳朵”，还教会它“思考”和“对话”。它能让Mac直接理解图片、声音甚至视频里的内容，并用文字和你交流，就像给Mac装了个万能AI助理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">你的Mac也能跑像ChatGPT那样“看图说话”的AI了！它专为苹果芯片优化，速度快、数据私密，让你在家就能体验前沿多模态AI。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能图片问答：传一张照片，问AI“这张图里有什么？”，或让它分析旅行照片、识别医学图像中的细节。', '多模态内容摘要：给AI一段会议视频或多张图表，它能自动总结关键信息或生成详细描述。', '个性化AI助理训练：自己收集特定图片和文字，通过“微调”，让AI更懂你的领域知识或偏好，成为你的私人艺术鉴赏或专业分析助手。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['苹果芯片专属加速：深度利用苹果自研MLX框架，让Mac用户无需昂贵服务器，就能在本地快速、高效地运行各种复杂的AI模型，功耗更低，性能出色。', '“全能”AI模型支持与微调：不仅能让AI“看图说话”，还能处理音频、视频，甚至可以根据你的需求，对这些强大的AI模型进行个性化训练，让它们更懂你。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，多模态AI是当前AI发展最前沿，结合苹果芯片的本地优化，让普通用户也能低门槛、高效率地玩转这些技术，潜力巨大。</div>
+  <div class="target">👥 最适合：对AI技术充满好奇，希望在Mac上本地运行、体验或个性化定制多模态AI的科技爱好者，以及注重数据隐私的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">✨</span>
+    <div class="repo-title">
+      <a href="https://github.com/siddharthvaddem/openscreen" target="_blank">siddharthvaddem/openscreen</a>
+      <span class="one-line">免费、开源、高颜值的屏幕录制和演示工具。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 22899</span>
+      <span class="stat">🍴 1535</span>
+      <span class="stat today">📈 2,749 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">electron</span><span class="topic">open-source</span><span class="topic">pixijs</span><span class="topic">screen-capture</span><span class="topic">screen-recorder</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个免费的“屏幕电影制作器”，帮你把电脑操作录下来，然后加上自动缩放、文字提示、背景美化等酷炫效果，让你的演示视频看起来专业又吸睛，就像给你的软件操作拍了一支小短片。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它提供了一个强大且免费的“Screen Studio”替代方案，让普通用户也能轻松制作专业级屏幕演示视频，而且没有订阅费、水印，商业用途也免费，解决了许多人的痛点，迅速积累了人气。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['软件开发者或产品经理，制作产品演示和功能介绍视频。', '教育工作者或内容创作者，录制教学教程、操作指南。', '任何想分享电脑操作过程，并希望画面更专业吸引人的用户。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['基于Electron框架，用前端技术（TypeScript）开发出跨平台的桌面应用，这意味着它能像网页一样灵活开发，同时提供原生软件的流畅体验。', '运用PixiJS等技术实现平滑的动效和高质量的画面渲染，让自动缩放、运动模糊等高级视觉效果无需复杂后期处理就能轻松实现。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。理由：屏幕录制和演示视频制作是长期需求，尤其是在线上协作和远程教育背景下。OpenScreen凭借其免费、开源和高质量的特点，能持续吸引大量个人和中小企业用户。</div>
+  <div class="target">👥 最适合：预算有限，但又想制作高质量、无水印、专业级屏幕演示视频的个人用户、内容创作者、教育工作者、产品经理或小型团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">😎</span>
+    <div class="repo-title">
+      <a href="https://github.com/sindresorhus/awesome" target="_blank">sindresorhus/awesome</a>
+      <span class="one-line">各类精选资源清单大集合，你想要的都有！</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 452,350</span>
+      <span class="stat">🍴 33,986</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">awesome-list</span><span class="topic">lists</span><span class="topic">resources</span><span class="topic">unicorns</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个超级图书馆的“导览图”，上面不是直接放书，而是精心整理了各种主题的“好书推荐清单”。你想学编程、找设计灵感、了解人工智能？这里有专家为你挑好的清单，直接告诉你哪些资源最棒。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像一个“知识宝库的导航员”，汇聚了全球技术爱好者分享的优质资源清单，帮你快速找到任何领域最棒的工具、教程和灵感，节省你大量搜索时间。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['学习新技能时，快速找到该领域最权威、最受欢迎的学习资料和工具。', '遇到特定问题，在海量信息中筛选出高质量的解决方案或开源项目。', '寻找灵感或探索新趋势，浏览不同主题的精选清单以拓展视野。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">它本身并非技术产品，但其“Awesome List”模式已成社区共享知识的标准范式。项目汇集了全球顶尖智慧，展现了去中心化、协作式知识整理的巨大力量。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长：只要人们需要发现和组织信息，这类精选资源清单就会有价值。它是一个持续积累、不断更新的知识宝库，社区活跃，生命力持久。</div>
+  <div class="target">👥 最适合：所有对技术、学习、特定爱好领域感兴趣，并希望高效筛选优质信息的人。无论是学生、开发者、设计师还是普通爱好者，都能找到宝藏。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月06日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
