@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月07日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月07日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank">abhigyanpatwari/GitNexus</a>
+      <span class="one-line">浏览器里的代码智能分析工具，能看懂代码关系。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 23748</span>
+      <span class="stat">🍴 2672</span>
+      <span class="stat today">📈 857 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个超级聪明的代码“解说员”住在你的浏览器里。它能快速读懂复杂代码，画出清晰的“关系图谱”，让你理解代码里每个部分如何相互关联。就像有了私人向导，帮你探索代码，还能直接提问获取答案，全程不泄露隐私。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI更“懂”代码，深入分析项目结构，帮助AI代理避免常见错误。完全在浏览器运行，保护隐私又方便。今日新增星数惊人，是热门技术趋势的代表。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['程序员接手新项目，快速理解庞大代码库的整体结构和模块关系。', '提升AI编程助手（如Cursor, Claude Code）的准确性，让它们更靠谱地修改和生成代码。', '技术产品经理或爱好者，无需编程也能直观探索开源项目核心逻辑。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**零服务器、纯客户端运行**：所有代码分析都在你的电脑（浏览器）里完成，无需上传，最大限度保护隐私和数据安全。', '**代码“知识图谱”与AI智能问答**：它能把代码的复杂关系变成一张“大脑地图”，结合AI问答，让AI编程助手能“理解”代码上下文和结构，大幅提升效率。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是当前最热领域之一，尤其在提升AI代码理解能力和准确性方面有巨大需求。GitNexus提供核心解决方案，且商业模式潜力巨大。</div>
+  <div class="target">👥 最适合：各种程序员、AI开发者，以及任何想快速理解复杂代码库，或希望AI编程助手更聪明的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">✨</span>
+    <div class="repo-title">
+      <a href="https://github.com/google-ai-edge/gallery" target="_blank">google-ai-edge/gallery</a>
+      <span class="one-line">你的手机AI体验馆，离线尽享智能</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 18121</span>
+      <span class="stat">🍴 1686</span>
+      <span class="stat today">📈 1,107 stars today 今日</span>
+      <span class="stat lang">Kotlin</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你手机里有个智能实验室，这里收集了各种厉害的AI模型（比如能写诗、绘画的）。你不用上网，也不用担心隐私泄露，就能直接在手机上把它们拿来试用、体验，就像参观一个AI作品展。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">谷歌官方出品，让尖端AI（Gemma 4）在手机上离线极速运行，保护隐私。1.8万星和每日千星增长，人气爆棚。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['离线智能助手：在没有网络时，也能让AI帮你总结文档、撰写创意文案，或生成图片草稿。', '个性化学习工具：利用AI模型，在设备上进行语言练习、智能问答，而无需上传个人数据。', '隐私保护的AI体验：在手机上测试最新的AI功能，例如生成式AI的对话、创作能力，确保所有数据都留在本地。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI模型本地运行：无需联网，在你的手机上直接运行复杂的AI模型，速度飞快，数据绝不外传。', '前沿Gemma 4支持：集成谷歌最新的Gemma 4大模型，让你第一时间体验最顶尖的生成式AI能力，如高级推理和创作。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI本地化是未来趋势，带来更快、更私密、更安全的智能体验。谷歌持续投入，Gemma 4加持，前景巨大。</div>
+  <div class="target">👥 最适合：任何对AI技术好奇，想在自己手机上体验最新、最快AI功能，同时注重数据隐私的普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🪿</span>
+    <div class="repo-title">
+      <a href="https://github.com/aaif-goose/goose" target="_blank">aaif-goose/goose</a>
+      <span class="one-line">本地AI智能体，自动化软件工程任务。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 38308</span>
+      <span class="stat">🍴 3719</span>
+      <span class="stat today">📈 1,523 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">acp</span><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">mcp</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个超级聪明的“AI机器人助理”，它不仅能给你编程建议，还能自己动手写代码、测试、修复bug，甚至从零开始建项目，就像一个全能的软件工程师，全盘接手复杂工作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将AI从简单的代码辅助提升到自动完成复杂的软件开发任务，大幅解放程序员生产力。本地部署和开放性也吸引了大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速启动新项目：想验证一个新点子？让Goose从零开始帮你搭好项目骨架，省去繁琐的初始化工作。', '自动化修复Bug：代码出现问题，Goose能帮你找出bug并尝试修复，甚至还能自己测试修复效果。', '智能代码优化：让Goose审阅你的代码，提出改进建议并直接动手优化，提升代码质量和性能。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['本地化、全栈式自动化：它直接在你的电脑上运行，能自主完成从项目搭建、代码编写、执行、调试到测试的整个开发流程，远超传统代码提示工具。', 'LLM通用与高扩展性：不绑定特定AI模型，可与任何LLM配合，并支持多模型配置，用户还能定制自己的Goose版本，灵活适应各种开发需求。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体正深刻改变软件开发方式，Goose作为本地、全能的AI助手，有望成为开发者提高效率的利器，市场潜力巨大。</div>
+  <div class="target">👥 最适合：所有希望借助AI力量，提高软件开发效率、减少重复劳动、专注于创新的软件开发者和工程师。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">动手构建流行技术，深入理解编程原理</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 486,869</span>
+      <span class="stat">🍴 45,818</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一本超级详细的“技术食谱书”，里面全是“从零开始”制作各种你日常使用的软件（比如浏览器、游戏、甚至简单的AI）的指南。它不是教你如何使用这些工具，而是教你如何亲手把它们造出来，让你彻彻底底明白背后的运行机制。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">大家都想深入理解技术的“骨架和灵魂”。这个项目提供了最直接、最有效的方式：亲手从零搭建，就像拆解再组装一台发动机，能彻底弄懂它的运行机制，学习效果超棒，所以广受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['初学编程，想通过实际项目快速提升技能，不再停留在理论层面。', '有经验的开发者，希望深入理解某个常用工具（如Git、Docker）的底层工作原理。', '技术爱好者，纯粹出于好奇心，想知道像“浏览器”或“AI模型”这样复杂的东西是如何被一步步构建出来的。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **内容广而深**: 涵盖从3D渲染器到操作系统、AI模型等数十种核心技术，每项都有精选的优质教程。
+2. **学习哲学**: 秉持“不能创造，就不能理解”的费曼学习理念，鼓励通过动手实践来真正掌握技术，这是最深刻的学习方式。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。技术日新月异，但“知其所以然”的学习方法永远是金。这个项目提供了深入学习底层原理的路径，能帮助人们打下扎实基础，适应未来更多技术变化。它的价值会持续存在。</div>
+  <div class="target">👥 最适合：对编程和技术充满好奇心，渴望深入理解软件和系统底层原理的人；希望通过实践巩固提升技能，从“使用者”转变为“创造者”的程序员或学生。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月07日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
