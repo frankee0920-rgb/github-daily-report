@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月09日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月09日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">给AI编程大师Claude的武功秘籍</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 9358</span>
+      <span class="stat">🍴 643</span>
+      <span class="stat today">📈 702 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI助手Claude是个聪明但有时“想太多”的实习程序员。这个项目是为它量身定制的“武功秘籍”，教它如何像经验丰富的工程师那样思考，写出更简洁、精准、不犯错的代码。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">由AI大师Karpathy启发，直击AI编程“爱犯错、爱复杂”痛点，提供实用指南，让AI真正成为高效帮手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想让AI（如Claude）帮你写新代码、改代码时，把它作为“最高指令”输入给AI，让它更懂你。', '公司团队希望AI输出的代码更稳定、更符合规范，可将这些原则整合到AI编程流程中。', 'AI研究者或爱好者，用它探索如何提高大型语言模型在编码任务上的表现。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将AI大师Karpathy对大型语言模型（LLM）编程弊病的深刻洞察，凝练成“思考优先”、“简洁至上”等四大实用原则。', '以一个简单的Markdown文件作为“高级提示词”，直接提升AI生成代码的质量和可靠性，解决AI“瞎猜、添乱”的痛点。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。提高AI代码生成质量是当前AI应用落地的核心挑战，能让AI从“玩具”变成真正可靠的“工具”。</div>
+  <div class="target">👥 最适合：使用AI（如Claude）编程的程序员、项目经理；以及希望提升AI代码质量和“思考”能力的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/TheCraigHewitt/seomachine" target="_blank">TheCraigHewitt/seomachine</a>
+      <span class="one-line">AI智能助手，帮你写出排名靠前的博客文章。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 4756</span>
+      <span class="stat">🍴 717</span>
+      <span class="stat today">📈 649 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个拥有顶级写手、市场分析师和SEO（搜索引擎优化）专家的智能“工作室”。你告诉它你的业务和目标，它就能帮你从零开始，写出既吸引读者又能被搜索引擎喜欢的长篇博客文章。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">现代商业离不开优质内容和搜索引擎排名。它结合了先进的AI能力，大大简化了内容创作的各个环节，让好内容更容易被发现，自然受到追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['一家小型企业想在网上推广产品，但没有专业的写作和SEO团队，可以用它自动生成吸引人的博客文章。', '营销人员需要批量生产高质量、符合搜索引擎优化标准的文章，快速占领市场关键词。', '内容创作者希望提升现有文章的搜索引擎排名，通过它的分析和优化功能进行改进。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['它不仅仅是写文章，更像是一个“智能团队”，通过定制的命令和专业的“AI代理人”，能完成从市场调研、内容创作、SEO优化到效果分析的全套流程。', '结合了Google Analytics 4、Google Search Console等真实数据，能实时分析文章表现并进行优化，确保内容不仅写得好，还能真正被用户找到并喜欢。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道 / AI生成内容和SEO结合是当前互联网营销的“风口”，大量企业和个人有此需求，市场潜力巨大。</div>
+  <div class="target">👥 最适合：中小企业主、内容营销人员、个人博主、数字营销机构，以及任何希望通过高质量内容提升在线可见度的非技术背景人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">✨</span>
+    <div class="repo-title">
+      <a href="https://github.com/google-ai-edge/gallery" target="_blank">google-ai-edge/gallery</a>
+      <span class="one-line">手机上的AI模型体验馆，离线也能玩转最新AI</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 19651</span>
+      <span class="stat">🍴 1835</span>
+      <span class="stat today">📈 853 stars today 今日</span>
+      <span class="stat lang">Kotlin</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的手机里有了一个专属的“AI博物馆”。这个项目就是让你在自己的手机上，不联网也能玩转各种酷炫的AI功能，比如聊天、创作，就像在自己家里试用最新科技产品一样。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI应用对网络、隐私和速度的痛点，让AI模型能在手机本地运行。谷歌官方出品，并率先支持最新AI模型Gemma 4，因此迅速走红。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['没有网络时，用手机AI助手写邮件、构思创意，不用担心数据外泄。', '直接在手机上体验最新的AI大模型，比如Gemma 4，进行私密聊天或文案生成。', '运行AI修图、视频风格转换等功能，所有处理都在手机本地完成，速度快，隐私有保障。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最大的亮点是它将强大的生成式AI模型（如谷歌Gemma 4）直接搬到你的手机上，完全离线运行，保护隐私，速度飞快。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。隐私保护、即时响应和设备算力提升，让AI本地化成为大势所趋。谷歌等巨头大力投入，前景广阔。</div>
+  <div class="target">👥 最适合：对AI技术感兴趣的普通用户、注重数据隐私的人、以及在没有网络时也想体验AI功能的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a>
+      <span class="one-line">大型系统设计学习宝典，程序员面试利器。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 341,947</span>
+      <span class="stat">🍴 55,253</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">design</span><span class="topic">design-patterns</span><span class="topic">design-system</span><span class="topic">development</span><span class="topic">interview</span><span class="topic">interview-practice</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它不是一个软件，而是一本超级详细、由全球顶尖工程师共同编写的《互联网建筑学指南》。想象你要建造一座摩天大楼（比如像微信、淘宝这样的大型网站），这个项目就是教你如何从零开始规划设计，让它既稳定又高效，还能承载海量用户。它把所有复杂的设计原理都整理得一目了然。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了工程师们进入大厂的刚需——系统设计是技术面试的必考题。项目将原本分散的知识点系统化，提供了实战案例与面试准备，并且不断更新，帮助无数人提升技能并成功求职。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['准备技术面试：尤其是那些想进入Google、Amazon、Meta等大型科技公司的工程师，系统设计是面试中的重头戏，此项目提供了大量练习题和解决方案。', '提升架构设计能力：任何想成为更优秀的工程师，学习如何设计高并发、高可用、可扩展的系统，构建像微信、淘宝这类复杂服务。', '系统性学习知识：对于初学者或非专业人士，想理解互联网背后复杂架构的原理，项目提供了一条清晰的学习路径。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['系统化知识体系：它将原本散落在网络上的碎片化系统设计知识，高度浓缩并有条理地组织起来，形成一个完整的学习路径。', '面试实战导向：不仅讲解理论，更提供了大量模拟面试题、参考答案和设计图，直接对标顶级科技公司的面试要求，实用性极强。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，互联网服务越来越复杂，对高可用、可扩展的系统设计人才需求只会增不会减。此项目提供核心竞争力，是工程师职业发展的刚需，市场持续火爆。</div>
+  <div class="target">👥 最适合：技术面试者、寻求职业晋升的软件工程师、对构建大型互联网服务感兴趣的开发者，以及任何希望系统提升自己架构设计能力的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月09日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
