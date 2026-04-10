@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月10日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月10日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🌱</span>
+    <div class="repo-title">
+      <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch/hermes-agent</a>
+      <span class="one-line">能不断学习进化的AI助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 46856</span>
+      <span class="stat">🍴 6027</span>
+      <span class="stat today">📈 6,485 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agent</span><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个超级聪明的私人助理，你教它做一次事，它就会记住并越做越好。它还能跨应用、跨设备陪你，就像一个不断成长、越来越懂你的数字伙伴。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI助手能自我学习、不断进化，并且能在手机、电脑、聊天软件上随时随地用，还能选不同大模型。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人知识管理：让AI帮你整理、学习和记忆你平时接触的信息，成为你的“第二大脑”。', '跨平台任务自动化：例如，你在Telegram上给它发个语音指令，让它去Slack上回复同事，并学习如何更好地处理这类请求。', '成为你的智能“学徒”：教它处理复杂的任务流程，它会不断学习并提升效率，下次你再提同样需求时，它能做得更快更好。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['核心学习循环与自我进化能力：它能从每次交互中学习，自动创建新技能并不断优化，还能记住你的习惯和偏好，真正做到“与你一同成长”。', '模型与平台的高度自由：不限制你使用哪家大模型（OpenAI、Claude等任选），也不限制你使用什么设备或聊天工具（手机、电脑、Telegram、Slack等），极大降低了使用门槛和限制。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，自我进化AI智能体是当前AI领域最前沿和热门的方向，用户对个性化、智能化的需求极大，潜力无限。</div>
+  <div class="target">👥 最适合：寻求高级个性化AI助手的技术尝鲜者、开发者和效率追求者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📜</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">AI写代码“避坑指南”，让AI更懂你。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 10870</span>
+      <span class="stat">🍴 724</span>
+      <span class="stat today">📈 1,364 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一本给AI助手（如Claude）的“驾驶宝典”。当AI要帮你写程序时，它会先翻阅这本宝典，学习如何避免犯错、写出清晰简洁的代码，就像人类学徒跟着大师傅学手艺，让代码更符合你的心意。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它直击AI写代码易犯的“想当然”、“过度复杂”等痛点，提供简洁高效的解决方案。有顶尖专家背书，方法实用，因此在AI开发者中迅速走红。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用AI生成新功能代码时，确保代码简洁无冗余，符合最佳实践。', '让AI修改现有项目代码时，只做精确修改，避免不必要的“改进”或破坏。', '作为AI编程助理的“行为准则”，让AI在编程前多思考，少犯低级错误。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['顶级专家智慧结晶：将AI领域权威Andrej Karpathy对LLM编程弊端的深刻洞察，转化为可操作的四大原则。', '简单高效的落地方式：只需一个Markdown文件，就能直接作为AI的“行为准则”，显著提升AI代码输出质量，避免冗余和错误。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，它是提升AI编程能力的关键一环，能让AI更可靠、更高效，直接影响AI生产力，未来前景广阔。</div>
+  <div class="target">👥 最适合：任何希望通过AI高效编写、修改代码，或提升AI编程输出质量的开发者、技术尝鲜者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">💡</span>
+    <div class="repo-title">
+      <a href="https://github.com/HKUDS/DeepTutor" target="_blank">HKUDS/DeepTutor</a>
+      <span class="one-line">AI个性化学习助手，你的专属导师</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 15243</span>
+      <span class="stat">🍴 2026</span>
+      <span class="stat today">📈 1,310 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">ai-tutor</span><span class="topic">clawdbot</span><span class="topic">cli-tool</span><span class="topic">deepresearch</span><span class="topic">interactive-learning</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你不再是面对一个普通的搜索引擎，而是拥有一个由多个“智能AI老师”组成的学习团队。它们能像真人导师一样，根据你的学习进度和兴趣，量身定制学习计划和内容，随时解答疑问，甚至能预判你的困惑。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它结合了当下最火爆的AI大模型和AI智能体技术，为教育带来了革命性变化。个性化、互动式的学习体验让枯燥的学习变得高效有趣，因此迅速获得了大量关注和支持。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['学生：无论是准备考试、预习新课，还是在家自学编程、历史等任何科目，都能获得专属AI导师的实时辅导和个性化练习。', '职场人士：学习新技能、深入了解行业知识，AI导师能提供定制化的学习路径和资源，助你快速成长。', '好奇的学习者：探索新的兴趣领域，AI能以生动有趣的方式引导你入门，并深入讲解复杂概念。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['Agent-Native架构：它不是简单的聊天机器人，而是由多个能独立思考、协作的AI“智能体”组成，像一个专业教师团队，能更深入地理解并响应你的学习需求，提供多角度辅导。', '高度个性化互动：结合大语言模型和RAG（检索增强生成）技术，它能像真人一样与你互动，不仅能回答你的问题，还能主动推荐内容、定制学习计划，让学习体验千人千面。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道：AI个性化教育是未来教育的趋势，DeepTutor结合了尖端AI智能体和多模态技术，具有巨大的增长潜力，并已迅速积累了大量用户，显示出强大的市场吸引力。</div>
+  <div class="target">👥 最适合：渴望高效、个性化学习体验的学生、在职人士，以及任何对新知识和技能充满好奇的终身学习者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python生态全景图，精选工具合集。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 291,587</span>
+      <span class="stat">🍴 27,626</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本精心编撰的《Python世界百科全书》。无论你想用Python做网站、分析数据、开发AI，还是玩游戏，都能在这里找到最优质、最推荐的工具、库和教程，省去大海捞针的烦恼。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Python语言普及度极高，此项目汇集了海量优质工具，极大方便了开发者。其内容权威、全面且持续更新，是Python社区公认的“寻宝图”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['初学者：想学习Python，不知道从何入手，可以看看各个领域有哪些主流工具。', '开发者：遇到具体问题，如构建网站或分析数据，能快速找到最合适的Python库。', '技术管理者：了解Python生态最新动态和技术趋势，评估项目技术选型。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['极其全面且权威的资源整合：覆盖AI、Web、数据科学等Python应用的所有核心领域，且经过社区精心筛选。', '社区公认的“指南针”：GitHub星标数全球前十，是无数Python开发者查找和学习工具的首选。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。Python在全球编程语言中地位稳固，尤其在AI、数据科学领域持续爆发。此项目作为Python生态的“导航灯”，价值只会越来越高。</div>
+  <div class="target">👥 最适合：所有Python开发者（从新手到专家），以及对Python技术生态感兴趣、希望快速了解并选择工具的技术爱好者和项目负责人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月10日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
