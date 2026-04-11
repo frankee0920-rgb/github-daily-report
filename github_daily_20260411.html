@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月11日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月11日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a>
+      <span class="one-line">文档转Markdown，AI理解更轻松</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 100218</span>
+      <span class="stat">🍴 6142</span>
+      <span class="stat today">📈 2,352 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">autogen</span><span class="topic">autogen-extension</span><span class="topic">langchain</span><span class="topic">markdown</span><span class="topic">microsoft-office</span><span class="topic">openai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的电脑里有各种文件，比如PDF、Word文档、PPT甚至图片。MarkItDown就像一个神奇的翻译官，能把这些不同格式的文件，都统一“翻译”成一种叫Markdown的语言。这种语言简洁有条理，是现在很多智能AI（比如ChatGPT）最容易理解和处理的“食物”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">出身名门微软，巧妙解决了AI时代核心痛点：把散乱文档高效转为AI能读懂的结构化文本。搭上AutoGen等热门AI框架，需求量大，增长迅猛。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['把PDF格式的研究报告、法律文件，转换成Markdown，然后用AI快速总结重点、提取关键信息。', '将Word文档、Excel表格中的数据和结构转换成Markdown，方便AI进行数据分析或生成报告。', '把YouTube视频链接的文字内容、图片上的文字（OCR）抽取出来，整理成Markdown格式，让AI更容易理解和处理。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['强大的文件兼容性：支持PDF、Word、Excel、图片OCR、音频转录、YouTube链接等多种格式，将它们统一转化为结构化Markdown。', '专为AI优化：特别注重保留文档的关键结构（如标题、列表、表格），确保AI能更准确、高效地理解和分析内容。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道：AI时代，如何高效喂给AI高质量数据是核心挑战。它精准抓住这个痛点，且背靠微软与主流AI框架，潜力无限。</div>
+  <div class="target">👥 最适合：从事AI应用开发、数据分析、内容管理等工作，需要让AI更好地理解和处理海量文档的专业人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">⚙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/coleam00/Archon" target="_blank">coleam00/Archon</a>
+      <span class="one-line">AI编码工作流引擎，让AI开发更稳定、可控。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 15862</span>
+      <span class="stat">🍴 2573</span>
+      <span class="stat today">📈 756 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">automation</span><span class="topic">bun</span><span class="topic">claude</span><span class="topic">cli</span><span class="topic">coding-assistant</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你雇了一个聪明的AI助理来写代码。Archon就像给这个AI助理定制了一套详细的工作SOP，告诉它：先计划、再实现、后测试、最后提交。这样，AI助理每次都能按部就班地完成任务，而不是凭心情行事，让AI写代码变得有章可循。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI写代码是热门趋势，但常常不稳定。Archon首次提供了标准化的AI编码流程管理，让AI开发变得可控、可靠、可重复，解决了AI不确定性的痛点，受到开发者热烈追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI自动修复一个代码bug，并按照预设的流程完成测试、代码审查和Pull Request创建。', '利用AI快速迭代新功能，Archon指导AI从需求规划、代码生成到自动测试、文档更新的全过程。', '将复杂项目或多个微服务架构的持续集成/交付流程，与AI代码优化、安全审计等环节无缝结合。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['开创性的“AI编码工作流引擎”理念，通过YAML配置文件，将AI开发流程化，彻底解决了AI编程过程中的不确定性和重复性问题。', '高度模块化与可组合性，能够灵活混合确定性的传统脚本（如测试、Git操作）与智能AI节点（如规划、代码生成、代码审查），确保AI只在最有价值的环节发挥作用。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI编程是未来趋势，Archon解决了AI代码生成不确定性的核心痛点，提供了关键的流程化工具。市场对AI开发可控性的需求巨大。</div>
+  <div class="target">👥 最适合：追求效率和规范化的软件开发者、工程师团队，以及希望更稳定地利用AI进行代码生成、重构和自动化的技术人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">☤</span>
+    <div class="repo-title">
+      <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch/hermes-agent</a>
+      <span class="one-line">自我进化的AI智能助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 53421</span>
+      <span class="stat">🍴 6978</span>
+      <span class="stat today">📈 7,671 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agent</span><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的私人助理，不仅能帮你完成任务，还能从每次对话中学习、变得更聪明，甚至自己创造新技能。它就像一个永不毕业的学生，越用越懂你。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">核心在于“自我进化”与“学习回路”，能从经验中自动创造并改进技能，越用越懂你。多平台、多模型支持也增强了其吸引力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['私人定制学习伙伴: 它可以记住你所有的学习内容、问题和习惯，并不断优化回答，甚至自动帮你总结过往知识，成为你的专属智能导师。', '全能跨平台助理: 无论你在手机的社交应用（如Telegram）还是电脑端，它都能无缝接收你的指令，帮你处理邮件、安排日程或查找信息，并保持上下文连续。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['独一无二的“闭环学习”能力: 能够从每一次交互中学习、自动创造和改进技能，并主动管理记忆，使其真正实现自我成长和进化。', '模型与平台高度开放性: 不仅支持接入市面上几乎所有主流AI模型，还能在Telegram、Discord等多个社交平台无缝使用，实现真正的通用性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是当前AI最前沿方向，“自我进化”和“通用性”是其最大亮点，解决了现有AI的痛点，市场潜力巨大。</div>
+  <div class="target">👥 最适合：渴望拥有一个真正能理解自己、不断成长的个性化AI助手，并乐于探索AI前沿技术的个人用户。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a>
+      <span class="one-line">大型系统设计面试指南与学习宝典</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 342,174</span>
+      <span class="stat">🍴 55,282</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">design</span><span class="topic">design-patterns</span><span class="topic">design-system</span><span class="topic">development</span><span class="topic">interview</span><span class="topic">interview-practice</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你要盖一座摩天大楼。这个项目就是一本超详细的“摩天大楼设计手册”，不仅教你结构、水电路、消防怎么布局，还帮你准备面试，确保你设计得又快又好。它把分散的知识整理在一起，让你系统学习。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它解决了程序员晋升和求职的痛点：系统设计面试是高薪岗位的必考题，而它提供了系统化、多语言、社区共建的优质内容和实战练习。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['准备科技公司的系统设计面试，提高通过率。', '学习如何构建像微信、抖音这样能同时服务海量用户的复杂系统。', '提升工程师综合能力，理解大型项目背后的架构原理。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['系统化知识整合：将分散的系统设计知识点系统地组织起来，形成了一条清晰的学习路径，并辅以Anki闪卡助记。', '实战面试导向：不仅有理论，更有大量的面试真题、案例分析和参考答案，直击求职痛点，提升实战能力。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。全球对高并发、高可用系统设计人才需求持续旺盛，该项目持续更新，且内容是工程师职业生涯的必备知识，热度不减。</div>
+  <div class="target">👥 最适合：寻求职业晋升或跳槽的资深程序员、希望深入了解大型系统架构的开发工程师、对技术原理感兴趣想拓展知识面的技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月11日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
