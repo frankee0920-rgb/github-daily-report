@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月13日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月13日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch/hermes-agent</a>
+      <span class="one-line">你的AI私教，越用越懂你</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 71530</span>
+      <span class="stat">🍴 9534</span>
+      <span class="stat today">📈 7,454 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agent</span><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个无比聪明的私人助理，它不仅能帮你做事，还能从每次对话和任务中学习，记住你的习惯和喜好，甚至自己摸索出新技能。它就像一个越用越懂你、能力不断升级的“数字大脑”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是能自我学习、不断进化的“数字伴侣”，记住你、理解你，并灵活支持多种AI模型，让AI成为专属助手，而非冷冰冰的工具。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人专属知识管家：帮你整理工作资料，记住会议要点，甚至根据你的习惯自动生成报告草稿，省去重复劳动。', '跨平台智能秘书：无论你在手机Telegram、Discord还是电脑，都能随时与它交流，让它帮你订机票、查信息，或处理各种琐事，它还记得上次对话内容。', '复杂问题解决与技能学习：当你要学习新技能或解决复杂问题时，它能帮你搜索、分析信息，并根据你的反馈不断优化解决方案，甚至自己生成新的“技能”来辅助你。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['革命性的“闭环学习”机制：AI能像人一样从经验中学习、创造技能、自我提升，并记住你的习惯和历史，真正做到越用越聪明、越懂你。', '极高的灵活性与兼容性：不绑定任何特定AI模型，你可以自由选择和切换市面上几乎所有主流或自部署的AI模型，实现AI能力的“即插即用”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是最火技术方向，它实现核心“自我学习进化”，让AI成为理解人类的智能体，而非冷工具，潜力无限。</div>
+  <div class="target">👥 最适合：希望拥有一个专属的、能不断学习和进化的AI私人助理的个人用户、技术爱好者，以及需要高度定制化和跨平台AI解决方案的团队和开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/shiyu-coder/Kronos" target="_blank">shiyu-coder/Kronos</a>
+      <span class="one-line">理解金融K线的AI大脑</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16295</span>
+      <span class="stat">🍴 3084</span>
+      <span class="stat today">📈 1,985 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，有个AI像读懂人类语言一样，能看懂金融市场里的K线图（就是股票涨跌的柱状图）。Kronos就是这样一个专门为金融市场K线“语言”训练出来的AI，能帮助人们理解市场动态。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是首个开源的金融K线基础模型，填补了市场空白。结合了AI热潮与金融领域的巨大潜力，加上权威认可，自然引爆关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['帮助投资者分析股票、加密货币等金融产品的K线走势，辅助决策。', '开发智能交易系统，根据模型预测自动买卖，实现量化交易。', '金融机构可利用它进行市场风险评估和预警，提升风控能力。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**首个开源金融K线基础模型**：为金融市场K线数据量身定制的AI，就像金融领域的“GPT”，打破了以往通用AI模型在金融领域的局限。', '**海量多源数据训练**：汇集了全球超45家交易所的数据进行训练，让模型对全球市场走势有更全面、深入的理解。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI技术正在深度重塑金融行业，Kronos作为该领域的“基础设施”，潜力巨大，有望成为金融智能分析的新基石。</div>
+  <div class="target">👥 最适合：量化交易员、金融分析师、对AI在金融市场应用感兴趣的投资者，以及相关领域的AI研究员和开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">💡</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">让AI写代码更靠谱的智慧指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 18656</span>
+      <span class="stat">🍴 1475</span>
+      <span class="stat today">📈 2,369 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象这是一个高级编程导师给AI学徒写的“行为规范手册”。它不像教科书那样复杂，而是提炼出几条黄金法则，教AI如何像经验丰富的工程师一样思考，别瞎猜、别复杂化，只做最对的事，让AI写出的代码更实用、更可靠。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI写代码常犯错，顶尖AI科学家卡帕西的洞察直击痛点。这个项目将他的观察变成简单有效的解决方案，迅速获得大量关注和共鸣，因为很多人都苦于AI生成的代码不够理想。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI（如Claude）帮你编写新程序或功能时，提供指令让AI写出简洁、高效、不过度设计的代码。', '请AI修改现有代码，避免AI随意改动不相关部分、增加多余复杂性或删除重要注释。', '当AI生成的代码太复杂、难以理解或充满不必要的“花活”时，用来指导AI进行重构和简化。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将顶尖AI科学家卡帕西对大模型编程缺陷的深刻洞察，提炼成“思考优先、简洁至上、精准修改、目标驱动”这四大简单易懂、可操作的原则，极大地降低了理解门槛。', '以一个简洁的`CLAUDE.md`文件形式呈现，用户可以直接复制粘贴到AI提示词中，即刻提升AI生成代码的质量，无需复杂的配置或安装，真正做到了开箱即用。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是未来趋势，但如何让AI“听话”且高效是核心难题。此类直接提升AI代码质量的实用方案，有巨大且持续的需求，是当前AI应用落地的关键。</div>
+  <div class="target">👥 最适合：任何使用AI（如ChatGPT、Claude等）来生成、修改或优化代码的人，包括软件开发者、数据分析师，甚至想让AI帮写点小工具、脚本的非技术人员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🦞</span>
+    <div class="repo-title">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+      <span class="one-line">个人AI助手，数据你做主。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 355,954</span>
+      <span class="stat">🍴 72,087</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">assistant</span><span class="topic">crustacean</span><span class="topic">molty</span><span class="topic">openclaw</span><span class="topic">own-your-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的私人智能秘书住在自己电脑里，能连微信、WhatsApp等几十个聊天应用，帮你处理各种事，所有数据都在你掌控，隐私安全。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">结合AI助手热潮与用户对数据隐私的强烈需求，可在多平台本地运行，吸引大量注重隐私和自由度的用户。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['在微信、Telegram等常用聊天软件中，即时询问它天气、新闻摘要或安排日程。', '让它帮你总结一篇长文档或生成创意文本，同时确保所有数据都在你本地设备上，不外泄。', '在macOS/iOS/Android设备上通过语音与它互动，或控制一个实时画布进行创意创作。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**数据隐私与本地运行**：AI助手部署在个人设备上，所有数据完全由用户掌控，保障隐私和安全。', '**强大的多渠道集成**：能无缝接入WhatsApp、微信、Telegram等几十种主流聊天和语音平台。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI助手需求旺盛，且项目强调数据隐私与本地化部署，完美契合当下用户痛点。</div>
+  <div class="target">👥 最适合：注重个人数据隐私，希望AI助手能本地运行、随时待命，并能整合到各种常用聊天应用中的科技爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月13日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
