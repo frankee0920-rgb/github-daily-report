@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月15日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月15日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💡</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">让AI写出更好代码的“秘籍”指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 36217</span>
+      <span class="stat">🍴 2967</span>
+      <span class="stat today">📈 9,263 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个很聪明的AI助理（比如Claude），它能帮你写代码，但有时会自作主张、把事情搞复杂。这个项目就像一本“AI编程行为规范”，给AI助理定了四个核心规矩，教它如何像个资深工程师一样思考和工作，写出更高效、更简洁的代码。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它提供了解决AI代码生成常见痛点的实用方案，结合了AI大牛Karpathy的洞察，能立竿见影地提升AI编程质量，因此备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI生成新代码时：把这份指南提前告诉AI，让它直接按高标准编写。', '请AI修改旧代码时：指导AI进行“外科手术式”修改，避免不必要的改动。', '开发AI编程助手时：将这些原则整合进助手的指令集，提升其产出质量。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI大牛经验总结：基于AI专家Andrej Karpathy对LLM编程弊端的深刻洞察，具有权威性和实用性。', '极简高效的解决方案：仅一个Markdown文件就提供了四项核心原则，能显著提升AI代码生成质量，操作门槛极低。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型编程是未来趋势，这类能提高AI代码质量、解决痛点的工具需求巨大且持续增长。</div>
+  <div class="target">👥 最适合：软件开发者、数据科学家等利用Claude等AI模型进行编程或代码优化的专业人士，以及所有希望提升AI代码质量的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
+      <span class="one-line">给AI助手Claude装上记忆，让它在编程时更聪明。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 56317</span>
+      <span class="stat">🍴 4540</span>
+      <span class="stat today">📈 2,997 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">ai-memory</span><span class="topic">anthropic</span><span class="topic">artificial-intelligence</span><span class="topic">chromadb</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超聪明的AI助手Claude帮你编程。但它总是“过目就忘”。这个项目就像给Claude装了一个“智能记忆库”，能自动记住它每次跟你编程的细节，并用AI压缩精炼。下次你再找它时，它能立刻回想起相关旧知识，让你的编程助手变得更有“经验”和连贯性。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">解决了AI助手“短期记忆”的核心痛点，让Claude像有经验的专家一样记住项目细节和历史。这极大提升了程序员效率，是AI个性化、长期记忆发展的重要方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你反复调试一个复杂的程序错误时，Claude不再是每次都从零开始理解，而是能记住你之前所有的尝试和错误，直接给出更有针对性的解决方案。', '开发一个持续数周的大项目时，Claude能记住项目的整体架构、设计思路和已完成的部分，确保每次协作都能保持连贯性，避免前后矛盾。', '学习新编程语言或框架时，Claude能记住你遇到的各种概念性问题和练习，逐步建立起你专属的知识库，提供更个性化的辅导。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['它不只是简单存储数据，而是通过AI智能地压缩并提炼核心信息，形成精简的“记忆碎片”，高效解决了AI助手处理长文本的限制。', '采用RAG（检索增强生成）技术，能根据当前对话智能地从记忆库中找到最相关的信息，并注入到新的对话中，让AI的回复更准确、更贴合上下文。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI的“长期记忆”是实现更高级智能和自主代理的关键瓶颈。此类项目让AI能真正学习和积累经验，是未来AI发展的重要方向，潜力巨大。</div>
+  <div class="target">👥 最适合：主要面向那些经常使用Claude等AI助手进行编程的程序员，以及希望AI助手能记住上下文、提供更个性化和高效帮助的开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🎙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/jamiepine/voicebox" target="_blank">jamiepine/voicebox</a>
+      <span class="one-line">您的专属AI声音工作室，隐私本地运行。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 17608</span>
+      <span class="stat">🍴 2051</span>
+      <span class="stat today">📈 1,162 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">cuda</span><span class="topic">mlx</span><span class="topic">qwen3-tts</span><span class="topic">qwen3-tts-ui</span><span class="topic">voice-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个“私人AI配音间”或“声音打印机”。你给它几秒钟的声音样本，它就能学习并记住这个声音的特点，然后用这个声音“读”出你输入的任何文字，甚至还能给声音加混响、变调等效果。最棒的是，这一切都在你自己的电脑里完成，完全不用上传到网络，非常私密安全。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它提供了一个免费、开源、功能强大且**完全保护隐私**的AI声音克隆和生成工具，是热门商业服务ElevenLabs的优质替代品。用户能把声音模型放在自己电脑上运行，这让它迅速获得大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['为你的个人Vlog、播客或短视频制作独特的旁白，轻松用自己的声音克隆出专业的播音效果。', '制作多语言的有声故事或教学内容，可以方便地切换不同语言的语音讲解。', '为游戏角色或虚拟助手生成独特的、有感情色彩的声音，让它们更具个性。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**极致的隐私与本地化**：它不像大多数AI服务那样需要上传你的声音数据到云端，所有操作都在你自己的电脑上进行，最大限度保护了个人隐私，让你用得更安心。', '**多功能语音合成工作室**：不仅能快速克隆声音，还能用克隆的声音生成23种语言的语音，并提供多种AI语音引擎选择和专业的后期音效处理，几乎就是一个“声音创作工厂”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI语音技术本身就是热点，而Voicebox结合了强大的语音克隆、多语言支持、隐私保护以及本地运行等优势，满足了用户对个性化、安全高效语音工具的强烈需求，未来在内容创作、个性化交互等领域有非常广阔的应用前景。</div>
+  <div class="target">👥 最适合：视频博主、播客制作者、教育工作者、游戏开发者，以及任何希望用AI生成个性化语音、又注重数据隐私的普通用户和技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🦞</span>
+    <div class="repo-title">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+      <span class="one-line">运行在自己设备上的个人AI助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 357,603</span>
+      <span class="stat">🍴 72,643</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">assistant</span><span class="topic">crustacean</span><span class="topic">molty</span><span class="topic">openclaw</span><span class="topic">own-your-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下你有一个专属的智能小秘书，它不住在云端，而是直接安装在你的电脑或手机里。它能通过你常用的微信、WhatsApp等聊天软件与你沟通，帮你处理信息、回答问题，就像你身边的一个私人助理，而且所有数据都由你自己掌控。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对“私人专属AI”的渴望，功能强大且能跨越多种聊天平台。更重要的是，它强调数据隐私，让你完全掌控自己的AI和数据，符合当下“数据主权”的热点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI帮你汇总并回复WhatsApp、微信、Telegram等各种聊天软件里的信息。', '在手机上，直接用语音向它提问，获取天气、新闻，或安排日程提醒。', '作为一个专属知识库，存储和检索你的个人笔记、文件，随时随地问答。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['数据主权与本地运行：AI完全跑在你的设备上，个人数据不需上传云端，隐私得到最大保障。', '超广泛平台兼容：能无缝接入几乎所有主流聊天软件（如微信、WhatsApp、Slack等），实现统一管理和交互。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人AI助手结合数据主权是当前科技巨头和用户都高度关注的焦点，其跨平台整合能力也极具竞争力。</div>
+  <div class="target">👥 最适合：追求数据隐私、不愿将个人信息上传云端，以及希望在多个聊天平台拥有一致AI体验的科技爱好者或专业人士。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月15日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
