@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月16日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月16日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💡</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">指导AI写出更好、更靠谱代码的秘籍。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 44875</span>
+      <span class="stat">🍴 3669</span>
+      <span class="stat today">📈 9,646 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你给一个聪明的实习生一本“职场生存手册”，告诉他怎么工作才能不出错、不添乱、更高效。这个项目就是给AI编程助手（比如Claude）的这本手册，让它像个经验丰富的老手一样写代码。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">知名AI专家指点迷津，直击AI编程痛点，让AI写代码更可靠、更简洁，极大提升用户体验。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你用AI（如Claude）写程序时，希望它少犯低级错误，代码更精炼。', 'AI开发者想让自己的AI助手能生成高质量、少“废话”的代码。', '企业想用AI辅助开发，确保AI输出的代码符合专业标准。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将顶尖AI专家（Karpathy）的经验，直接转化为可“喂给”AI的清晰指令，让AI学会像人一样思考。', '用“思考先行、简洁至上、精准修改、目标驱动”四大原则，系统性地纠正AI常见的过度设计和不靠谱行为。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是未来趋势，这个项目直接解决了AI代码质量的核心难题，对整个AI生态都有积极影响。</div>
+  <div class="target">👥 最适合：任何使用AI编程工具（如Claude）的人，尤其是希望AI代码更简洁、更可靠的开发者、产品经理或技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🏠</span>
+    <div class="repo-title">
+      <a href="https://github.com/pascalorg/editor" target="_blank">pascalorg/editor</a>
+      <span class="one-line">在线3D建筑编辑器，轻松设计与分享。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 12864</span>
+      <span class="stat">🍴 1573</span>
+      <span class="stat today">📈 1,391 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个网页版的“乐高积木+模拟城市”设计工具。你不需要安装专业软件，就能在浏览器里轻松搭建、规划你的3D建筑项目，并能把设计分享给朋友或同事，就像在线文档一样方便。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它结合WebGPU新世代技术，让网页3D建筑设计更流畅强大。无需安装，浏览器里就能轻松创作、分享3D建筑项目，降低门槛，非常适合快速可视化和协作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['建筑师/设计师：快速搭建建筑草图，与客户直观沟通设计方案，提高沟通效率。', '房地产开发/销售：展示项目楼盘的三维结构，让潜在买家更好地了解户型和空间布局。', '普通用户/爱好者：规划家居装修，DIY自己的理想房屋结构，或纯粹体验3D搭建的乐趣。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['WebGPU的早期采用：突破浏览器3D性能瓶颈，为在线3D编辑带来桌面应用般的流畅体验。', 'React Three Fiber结合TypeScript：利用主流Web技术栈构建复杂3D应用，确保项目稳定且易于开发和扩展。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。3D可视化和在线协作是未来趋势，结合WebGPU和React Three Fiber等前沿技术，有潜力成为建筑设计领域的革新者，尤其在非专业用户市场前景广阔。</div>
+  <div class="target">👥 最适合：对建筑设计、空间规划有兴趣的普通用户、小型设计师团队、房地产销售人员，以及需要快速可视化和共享3D建筑方案的任何人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
+      <span class="one-line">Claude编程记忆插件，让AI不“健忘”。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 58242</span>
+      <span class="stat">🍴 4726</span>
+      <span class="stat today">📈 2,305 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">ai-memory</span><span class="topic">anthropic</span><span class="topic">artificial-intelligence</span><span class="topic">chromadb</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个特别聪明的编程助手Claude，但它每次重新开始都“失忆”。这个插件就像给它装了个超级记忆芯片，它能记住你和它之前所有的互动和代码，下次再聊，它就记得清清楚楚，帮你事半功倍。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI助手“短期记忆”的痛点，让AI从单次对话工具升级为能长期协作的伙伴，大大提升了编程效率。AI助手本身就很火，解决了AI的“健忘症”自然更受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你连续几天开发同一个复杂项目时，Claude能记住之前讨论过的所有设计细节和解决方案，无需重复说明。', '修复一个老旧代码库的bug时，Claude能自动回忆起这个代码库的结构和历史改动，帮你更快定位问题。', '学习新编程语言或框架时，Claude可以记住你的学习进度、薄弱环节，并智能推荐下一步的学习内容或练习。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI智能压缩记忆：它能把Claude在编程中产生的大量信息，通过AI技术智能地“提炼精华”，去除冗余，只保留最核心的知识，就像大脑记住关键概念而非所有细节。', '相关上下文自动回注：当你在新会话中提问时，它能从海量记忆中快速找出与当前问题最相关的历史信息，自动“喂”给Claude，让它一下子就能理解你的意图。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI的“记忆”和“上下文理解”是当前AI领域最核心、最有潜力的方向之一，直接关系到AI从单次对话工具进化为智能助手的关键。</div>
+  <div class="target">👥 最适合：主要面向使用Claude AI进行编程工作的开发者、工程师，以及希望AI助手能有更强“记忆力”和“上下文理解”能力的科技爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">💻</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费编程学习社区，助力职业转型</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 442,991</span>
+      <span class="stat">🍴 44,308</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个全球性的“编程免费大学”，由慈善机构运营。你可以在这里免费学习编程、数学和计算机科学，通过完成互动练习和项目，一步步掌握技能，甚至获得行业认可的证书，最终找到好工作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它提供完全免费、高质量且实用的编程课程和认证，帮助全球数百万人成功转行，还有活跃友好的社区支持。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['零基础但想转行科技行业的人，可以系统学习编程。', '希望免费获取前端、后端、Python等开发技能证书的自学者。', '大学生或职场人士，想提升编程能力，为职业发展加码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**开放源码的课程和平台**：全球志愿者共同维护和更新，确保课程内容紧跟技术前沿，透明且不断优化。', '**丰富的互动式编程挑战**：结合主流技术（如React、Node.js），通过手脑并用的实践让学习者快速掌握真本领。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。免费、高质量、实践导向的编程教育在全球需求巨大，其慈善模式和活跃社区确保了持续发展和广泛影响力。</div>
+  <div class="target">👥 最适合：对编程感兴趣的零基础小白、希望免费学习或转行IT的职场人士、追求实用技能提升的自学者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月16日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
