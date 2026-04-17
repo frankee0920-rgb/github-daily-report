@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月17日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月17日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+      <span class="one-line">给AI“程序员”的编程“秘籍”，让它写代码更靠谱。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 51517</span>
+      <span class="stat">🍴 4284</span>
+      <span class="stat today">📈 7,959 stars today 今日</span>
+      
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本给AI程序员的“工作指导手册”。当AI写代码时，它会参考这本“手册”里的原则，比如“先想清楚再动手”、“越简单越好”，还有“只改动必要的部分”，这样就能像一个老练的工程师一样，写出更可靠、更简洁的代码，不再犯低级错误。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它直接解决了AI（比如Claude）写代码时常犯的“低级错误”，让AI生成代码变得更可靠、更精炼。这是知名AI专家Andrej Karpathy的宝贵经验总结，今日星标猛增，表明大家急切需要让AI成为更出色的“编程助手”！</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['软件开发者在使用Claude编写或优化代码时，可以把这些原则作为提示词（Prompt）的一部分，指导Claude产出更高质量的代码。', 'AI产品团队在构建基于Claude的代码生成工具时，可以内置这些“行为准则”，让他们的产品默认就能提供更好的代码体验。', '公司希望AI助手能像资深工程师一样思考，生成可靠、避免过度设计的代码，减少人工审查和修改的成本。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**将顶尖洞察转化为AI指令：** 项目核心是将AI专家Andrej Karpathy关于LLM编码缺陷的深刻观察，直接转化为一套简单有效的“提示词”（Prompt），让AI能够更好地理解和执行编程任务。', '**改变AI的“编程思维”：** 通过“先思考再编码”、“力求简洁”、“精准修改”等四大原则，从根源上优化AI的编程“思维过程”，使其产出的代码更可靠、更精炼、更符合实际需求。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI辅助编程是未来趋势，该项目直接提升了AI生成代码的质量和可靠性，解决核心痛点。顶级专家的洞察加上快速增长的关注度，预示着它在AI代码生成领域将扮演重要角色。</div>
+  <div class="target">👥 最适合：寻求利用AI高效生成高质量代码的软件开发者、AI产品经理以及任何对提升AI编程能力感兴趣的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
+      <span class="one-line">Claude AI的超级记忆力插件</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 60420</span>
+      <span class="stat">🍴 4988</span>
+      <span class="stat today">📈 1,897 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">ai-memory</span><span class="topic">anthropic</span><span class="topic">artificial-intelligence</span><span class="topic">chromadb</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下你有个超聪明的AI助手叫Claude。这个项目就像给它装了个“超级大脑”，能把你们之前所有的工作细节都自动记录下来，并用它自己的智慧把这些“记忆”整理好。下次你再问它问题时，它就能像个老朋友一样，精准地回忆起你过去做过什么，然后把最相关的信息调出来帮你，让你们的合作更顺畅、高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI助手在多轮对话后容易“健忘”，而这个项目完美解决了AI的“短期记忆”问题，让AI能真正长时间地辅助工作，大大提升了AI的实用性和效率。大量明星和快速增长就是证明。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['长期代码项目开发：你让Claude帮你写了一个月的功能，它能记住你项目的所有细节、决策和代码风格，新功能开发时直接调用这些记忆，减少重复解释。', '调试复杂Bug：当你多次尝试修复一个Bug，Claude能记住之前的所有调试步骤、遇到的错误和解决方案，避免你俩在原地打转，更快找到问题。', '学习新框架/语言：你和Claude一起学习一个新的编程框架，它会记住你问过的所有概念、代码示例和遇到的困惑，帮你建立专属的学习路径，下次可以直接从上次中断的地方继续。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI记忆压缩与召回（RAG）：它不只是简单存储，而是用AI（Claude自己的agent-sdk）把所有互动“压缩”成精华记忆，并在需要时智能地“召回”最相关的部分，就像一个图书馆管理员，能迅速找到你需要的书。', '持久化与检索能力：结合了ChromaDB/SQLite等技术，确保这些宝贵记忆能被长期、高效地存储和检索，让Claude拥有真正的“过目不忘”能力，且能在海量信息中快速定位。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI的“记忆力”和上下文理解是当前AI发展的重要瓶颈，这个项目直接解决了这个问题，让AI从“单次对话高手”变成“长期合作伙伴”，潜力巨大。</div>
+  <div class="target">👥 最适合：主要面向使用Anthropic Claude进行编程开发、需要AI长期辅助的程序员和技术人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🌱</span>
+    <div class="repo-title">
+      <a href="https://github.com/lsdefine/GenericAgent" target="_blank">lsdefine/GenericAgent</a>
+      <span class="one-line">会学习进化的智能AI，帮你掌控电脑。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3025</span>
+      <span class="stat">🍴 334</span>
+      <span class="stat today">📈 872 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agent</span><span class="topic">automation</span><span class="topic">autonomous-agent</span><span class="topic">browser-automation</span><span class="topic">claude</span><span class="topic">computer-control</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你雇了个特别聪明的私人助理，他刚开始只会基础操作，但你每次教他完成新任务，他都会把经验记下来变成“技能”，下次遇到类似任务就能直接用。用得越多，他学会的技能越多，最终能帮你完全掌控电脑，还特别省钱。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">独特的“自我进化”能力让AI越用越聪明，像私人助理。同时，它以极低的资源消耗实现全系统控制，既强大又经济，满足了AI自动化和高效能的迫切需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动监控股市并预警；', '让AI帮你自动安装软件、配置环境；', '甚至能自动登录网站、抓取数据。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['独创的“自我进化”机制：AI不再是只会背书的工具，它会像人一样自动学习新技能，越用越聪明，形成一套为你量身定制的专属能力。', '超高效率与轻量级：只需极少的代码和算力消耗（比同行少6倍），就能完全掌控你的电脑，大大降低了AI自动化的门槛和成本。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是当前最热门的赛道之一，其独创的自我进化机制和极高的效率，解决了现有Agent的痛点，市场潜力巨大。</div>
+  <div class="target">👥 最适合：追求高效自动化、对AI技术充满好奇并希望将其应用到日常电脑操作中的个人和企业用户。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">从零开始，手把手教你“造轮子”</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 490,931</span>
+      <span class="stat">🍴 46,361</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你平时用的手机、电脑里的各种程序和系统，它们内部是怎么运转的？这个项目就像一本巨型“科技DIY手册”，不只教你用，更手把手教你像搭乐高一样，把它们从最底层一点点搭建出来，让你彻底搞懂它的原理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它满足了人们“知其然更知其所以然”的深层好奇心。不是简单使用，而是亲手拆解和创造，这种学习方式既硬核又充满成就感。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['如果你是一名想深入理解各种软件和系统底层原理的程序员，这是绝佳的实践资源。', '如果你是对计算机科学充满好奇的学生或技术爱好者，想通过动手挑战自我，打造自己的专属程序。', '如果你正在学习某一门新技术，想通过构建一个简化版来快速掌握核心概念。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['内容涵盖广泛：从最基础的3D渲染、Web服务器，到高级的操作系统、区块链和AI模型，几乎覆盖了所有核心技术领域。', '强调实践出真知：通过亲手构建而非纯理论学习，帮助用户更深刻地理解复杂技术，真正掌握编程技能。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道</div>
+  <div class="target">👥 最适合：对技术原理有强烈好奇心，愿意动手实践的程序员、准程序员，以及任何想深入了解计算机工作方式的技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月17日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
