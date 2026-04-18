@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月18日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月18日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧬</span>
+    <div class="repo-title">
+      <a href="https://github.com/EvoMap/evolver" target="_blank">EvoMap/evolver</a>
+      <span class="one-line">AI智能体“自我进化”的大脑引擎</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 4373</span>
+      <span class="stat">🍴 426</span>
+      <span class="stat today">📈 737 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，AI智能体不再是“一成不变”的机器人，而是能像生物一样不断学习、迭代、变得更聪明。Evolver就是给AI智能体装上了“进化引擎”，让它们能自动优化自己的行为和策略，从经验中成长，像玩游戏一样不断通关升级。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI智能体是当前热点。Evolver赋能AI自我进化、学习，解决其能力提升痛点。今日星数暴涨，表明市场对AI“自己变聪明”的需求和关注度极高。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI游戏NPC或玩家：游戏中的AI角色能自我学习和优化战术，提供更具挑战性或真实的游戏体验。', '智能助理与客服：智能助手或客服AI能从每次互动中学习和进化，不断提升理解用户意图、解决问题的能力。', '自动化生产力工具：让AI自动完成复杂的设计、编程或数据分析任务，并通过进化不断优化其工作流程和产出质量。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['GEP驱动的“基因”进化：引入“基因进化协议”（GEP），让AI智能体能像生物一样，通过有策略的“基因”变异和筛选，迭代出更优的能力和行为。', '可追踪的“进化资产”：将AI能力提升的经验（如优化后的提示词）转化为可记录、可复用的“资产”，让AI的每一次进步都能积累，而非从零开始。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它是AI自主智能体和通用人工智能（AGI）的核心技术，解决AI如何持续学习和自我进化的根本问题。市场需求强劲，发展潜力无限。</div>
+  <div class="target">👥 最适合：AI开发者、研究人员；对未来AI智能体如何“自我成长”和实现更高级智能感兴趣的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🌱</span>
+    <div class="repo-title">
+      <a href="https://github.com/lsdefine/GenericAgent" target="_blank">lsdefine/GenericAgent</a>
+      <span class="one-line">自主学习，掌控电脑的智能助手。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3747</span>
+      <span class="stat">🍴 392</span>
+      <span class="stat today">📈 845 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agent</span><span class="topic">automation</span><span class="topic">autonomous-agent</span><span class="topic">browser-automation</span><span class="topic">claude</span><span class="topic">computer-control</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个能不断学习和成长的智能小助手。你教它如何在电脑上完成一项任务，它就会把这个经验变成自己的技能，下次遇到类似的任务就能直接用，就像你的私人秘书一样，越用越聪明，能帮你处理所有电脑操作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它能让AI像人一样自主学习和操作电脑，代码量极小却功能强大，还能大幅降低成本。最酷的是，它自己搭建了这个项目！</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动登录网站、填写表格、预订机票等重复性上网操作。', '安装软件、配置系统、处理文件等日常电脑管理任务。', '控制手机（通过ADB），实现移动设备的自动化操作。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**自主学习与进化**：不像传统程序固定死板，它能通过实践不断学习新技能，形成自己的专属技能树，越用越聪明。', '**极简高效与全能掌控**：代码量小巧精悍，运行成本低（省钱），却能像人一样全面控制你的电脑和手机，做到指哪打哪。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是未来趋势，其自主学习和高效控制电脑的能力，预示着AI将更深入地融入我们的日常工作和生活，潜力巨大。</div>
+  <div class="target">👥 最适合：对AI技术感兴趣，希望让电脑操作更智能、更高效的普通用户和技术爱好者。尤其适合那些想用AI解放双手，但不想学习编程的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🕵️</span>
+    <div class="repo-title">
+      <a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill" target="_blank">SimoneAvogadro/android-reverse-engineering-skill</a>
+      <span class="one-line">AI助手，帮你解剖安卓App，看透其内部API。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 2796</span>
+      <span class="stat">🍴 289</span>
+      <span class="stat today">📈 538 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个安卓App就像个“黑盒子”，你不知道它怎么和外界沟通。这个工具就像一个智能“X光机”，能帮你透视这个盒子，自动找出它所有跟服务器交流的“秘密通道”（API），甚至能告诉你这些通道是怎么加密、怎么认证的，让你无需源代码也能“看懂”App的行为。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将复杂的安卓逆向工程与AI助手（Claude Code skill）结合，使得门槛大大降低。用自然语言就能高效提取App内部API，满足了安全分析、竞品研究等多种专业需求。今日新增星标数高，表明其强大实用性和热门程度。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['安全研究员：分析第三方App，查找潜在漏洞或恶意行为，如数据泄露接口。', '竞品分析师：研究竞争对手App如何与服务器交互，了解其业务逻辑和接口设计。', '开发者：在没有源代码的情况下，理解或重构老旧App的API接口，进行集成或迁移。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI赋能的智能逆向: 结合Claude Code，让复杂的解包、分析过程变得像聊天一样简单，用自然语言即可操作，大大降低了技术门槛。', '深度API智能提取与追踪: 不仅解包，还能识别多种HTTP API调用模式（如Retrofit, OkHttp），甚至能追踪App内部的调用流程，还原与服务器的通信细节和认证模式。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。移动应用逆向工程和API分析是安全、竞品分析、漏洞挖掘等领域的核心需求。该项目将AI与此结合，极大地提升了效率和易用性，前景广阔。</div>
+  <div class="target">👥 最适合：对安卓应用运行原理感到好奇的技术爱好者、网络安全研究人员、渗透测试工程师、以及需要分析第三方API接口的开发者或业务分析师。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python世界宝藏图，应有尽有</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 292,939</span>
+      <span class="stat">🍴 27,706</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你走进一个超级大的图书馆，里面所有关于Python编程的“好书”都被精心分类整理好了。这个项目就像那本“图书馆目录”，详细列出了Python世界里各种顶尖的工具、库和学习资源，让你找什么都方便快捷。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">作为GitHub排名前十的项目，它汇集了Python生态最精华的工具与资源。Python开发者和学习者都用它来快速找到所需的“宝藏”，省时高效，自然受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['初学者想学习Python，不知道从何开始？它可以推荐最流行的Web开发框架或AI库。', '项目需要处理图片或视频？它可以帮你找到最合适的Python图像/视频处理库。', '想提高代码质量？它列出了各种代码分析、测试和调试工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['权威精选：不是简单的堆砌，而是经过社区验证的“opinionated”精选，确保质量和实用性。', '全面覆盖：从AI到Web，从数据科学到开发工具，Python几乎所有主流应用领域的核心资源都一网打尽。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长，Python语言本身在全球开发者社区中地位稳固且持续发展，应用领域广泛。作为其核心资源索引，该项目将随Python生态一同稳步成长。</div>
+  <div class="target">👥 最适合：任何对Python技术感兴趣的人，无论是编程初学者想了解Python能做什么，还是经验丰富的开发者寻找特定工具，或是企业想探索Python解决方案。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月18日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
