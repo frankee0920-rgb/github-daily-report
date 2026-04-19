@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月19日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月19日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">⚡️</span>
+    <div class="repo-title">
+      <a href="https://github.com/thunderbird/thunderbolt" target="_blank">thunderbird/thunderbolt</a>
+      <span class="one-line">掌控AI大脑，数据尽在己手，告别厂商锁定。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 1641</span>
+      <span class="stat">🍴 83</span>
+      <span class="stat today">📈 447 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">llms</span><span class="topic">on-device-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个万能AI遥控器，能让你自由选择AI模型（本地或云端），将所有AI互动数据安全存储在自己设备上，完全摆脱对任何AI服务商的依赖，真正拥有自己的专属AI助手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI控制权、数据隐私和去厂商锁定是当下最热门痛点。Thunderbolt直击这些需求，提供跨平台、可私有部署的AI解决方案，确保数据安全，因此迅速获得大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['企业私有AI助手：将公司敏感数据部署到本地AI，确保内部信息不泄露，提升员工工作效率。', '个人专属智能管家：在自己设备上运行AI，处理私人信息（如邮件、日程），所有数据均本地存储，保障隐私。', '多AI模型集成测试：开发者无需切换平台，统一管理并测试不同AI模型，加速应用开发。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['强大的跨平台与开源特性：支持几乎所有主流系统（PC、手机、Web），开源确保透明与社区共创，降低使用门槛。', '数据主权与模型自由：用户完全掌控AI模型选择和数据存储，彻底消除厂商锁定和隐私担忧。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。隐私和数据主权日益受重视，本地AI能力不断增强。Thunderbolt提供的AI自主掌控方案潜力巨大，加上其跨平台和企业级定位，市场前景广阔。</div>
+  <div class="target">👥 最适合：对数据隐私、AI控制权有高要求的个人用户、中小企业，以及需要私有部署AI解决方案的企业客户。也适合希望自由整合多AI模型的开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/BasedHardware/omi" target="_blank">BasedHardware/omi</a>
+      <span class="one-line">你的AI第二大脑，看屏听语，帮你记事出主意</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 10543</span>
+      <span class="stat">🍴 1726</span>
+      <span class="stat today">📈 609 stars today 今日</span>
+      <span class="stat lang">Dart</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">app</span><span class="topic">bci</span><span class="topic">c</span><span class="topic">flutter</span><span class="topic">friend</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个超级智能助理，像电影里的AI管家，随时随地观察你、记录你、理解你，还能给你提建议，比你自己还了解你。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了人们记忆力有限、信息过载的痛点，用AI打造专属“第二大脑”，提高效率，且支持多设备，非常实用和前沿。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['会议或在线课程：自动记录并总结屏幕内容和对话，生成会议纪要和待办。', '个人学习与研究：实时捕捉你浏览的信息和思考，帮助你建立个性化知识库。', '日常工作辅助：在复杂任务中，AI能根据你看到和听到的，给你提供即时决策建议。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多模态AI感知：能同时“看”（屏幕内容）和“听”（对话），实现更全面的实时信息捕捉与理解。', '跨平台与开源生态：支持桌面、手机和穿戴设备，且完全开源，意味着潜力无限的社区共创和定制。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它结合了AI、穿戴设备和“第二大脑”概念，直击信息过载痛点，市场潜力巨大，创新空间广阔。</div>
+  <div class="target">👥 最适合：需要处理大量信息、经常开会、学习新知识，或者希望提升个人效率和记忆力的职场人士、学生和研究者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤝</span>
+    <div class="repo-title">
+      <a href="https://github.com/openai/openai-agents-python" target="_blank">openai/openai-agents-python</a>
+      <span class="one-line">构建多智能体协作流的强大框架</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 22438</span>
+      <span class="stat">🍴 3554</span>
+      <span class="stat today">📈 470 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agents</span><span class="topic">ai</span><span class="topic">framework</span><span class="topic">llm</span><span class="topic">openai</span><span class="topic">python</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个超级项目经理（框架），能指挥一群AI助理（智能体）协作完成复杂任务。每个助理都有专长、工具和规矩，还能互相配合，甚至请人帮忙，让AI工作更智能、可靠。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">OpenAI出品，自带光环。它让多个AI像团队一样高效协作，解决复杂问题，是AI从“单兵作战”走向“团队协作”的关键工具，备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能客服团队：AI客服能自动查询信息、回答问题，遇到复杂情况还能分派给其他AI专家或转接人工处理。', '自动化内容创作：一个AI负责资料搜集，另一个AI撰写初稿，第三个AI进行校对润色，高效完成创作任务。', '复杂数据分析：AI代理自动调用数据工具进行分析，生成报告，并可根据需要请求人类决策。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多智能体协作：让AI不再是“单打独斗”，能像团队成员一样分工合作、互相配合，甚至能把复杂任务拆分给不同AI处理。', '高度开放兼容：不仅支持OpenAI的AI模型，还能轻松接入市面上100多种其他AI模型，选择更多，未来扩展性更强。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。多智能体协作是AI走向更高级、更自主应用的关键。它解决了单一AI的局限，市场潜力巨大，未来可期。</div>
+  <div class="target">👥 最适合：希望构建复杂、智能、多AI协作系统的AI开发者、研究人员及技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank">EbookFoundation/free-programming-books</a>
+      <span class="one-line">全球最大的免费编程学习资源库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 385,687</span>
+      <span class="stat">🍴 66,113</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">books</span><span class="topic">education</span><span class="topic">hacktoberfest</span><span class="topic">list</span><span class="topic">resource</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个巨大、永不打烊的在线图书馆，里面堆满了各种编程语言、技术和工具的免费学习书籍和资料。你无需付费，只需轻轻一点，就能找到从入门到进阶的编程知识宝藏，就像逛免费书店一样方便！</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费！这是最大的吸引力。它让编程学习不再昂贵，海量高质量资源满足不同需求，加上全球社区共同维护更新，保证了内容的广度和时效性。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你对编程充满好奇，想学习Python、Web开发或人工智能，但不知如何开始，可在这里找到大量免费的入门书籍和教程。', '你正在学习某项编程技术，需要查找特定主题（如数据结构、算法）的深度资料，或者想参考不同作者的讲解，来拓宽知识面。', '作为学生或预算有限的自学者，你希望通过高质量的免费资源来系统地提升编程技能，减少学习成本。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['汇聚全球免费学习宝藏：它不是自己写书，而是将互联网上免费、开放的优质编程学习资料分类整理，形成一个庞大且持续更新的“知识目录”。', '高效便捷的搜索体验：提供了专门的搜索网站，你可以输入关键词（如编程语言、技术名称或作者）快速找到所需资料，极大提升了查找效率。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。理由：全球对编程技能的需求持续增长，免费高质量的学习资源将永远是稀缺品。这个项目作为最权威、最全面的免费资源入口，其价值和影响力将长期保持并扩大。</div>
+  <div class="target">👥 最适合：编程新手、学生、自学者、职场转型者，或任何想免费学习、深化编程知识的爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月19日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
