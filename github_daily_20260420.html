@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月20日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月20日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/Fincept-Corporation/FinceptTerminal" target="_blank">Fincept-Corporation/FinceptTerminal</a>
+      <span class="one-line">现代金融分析与智能投资研究平台</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 7061</span>
+      <span class="stat">🍴 1065</span>
+      <span class="stat today">📈 1,254 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bloomberg-terminal</span><span class="topic">contributions-welcome</span><span class="topic">finance</span><span class="topic">financial-markets</span><span class="topic">foss</span><span class="topic">good-first-issue</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你拥有一个超级智能的私人金融分析师，能帮你分析全球市场数据、研究投资机会。这个项目就是这样一个“智能金融大脑”，它把复杂的经济信息和投资数据，变成易懂的洞察，辅助你做出更明智的决策。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像一个免费开源的“彭博终端”，将AI自动化与专业金融分析完美结合。大量投资者和研究员渴望高效智能工具，它正好满足。今日星标暴涨，人气爆棚。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人投资者：分析股票、债券等市场趋势，寻找潜在投资机会，制定投资策略。', '金融学生或研究员：用于进行学术研究，验证经济模型，学习高级量化金融分析方法。', '小型投资顾问：作为替代昂贵商业终端的工具，为客户提供数据驱动的投资建议。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多语言结合：巧妙融合了Python的快速开发与AI能力、C++的极致性能以及Qt框架的精美界面，打造出强大且易用的应用。', 'AI赋能：集成了机器学习（AI）和量化金融模型，能自动处理和分析海量金融数据，为用户提供智能决策支持。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。金融科技融合AI是当前最热门领域。它提供专业且开源的分析能力，有望成为个人和机构投资者重要的免费/低成本工具，市场需求巨大。</div>
+  <div class="target">👥 最适合：对金融市场、投资分析感兴趣，希望通过数据和AI辅助决策的个人投资者、金融学生、分析师以及小型投资机构。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">⚡️</span>
+    <div class="repo-title">
+      <a href="https://github.com/thunderbird/thunderbolt" target="_blank">thunderbird/thunderbolt</a>
+      <span class="one-line">你的AI你做主：一个管理AI模型和数据的开源客户端。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 2314</span>
+      <span class="stat">🍴 133</span>
+      <span class="stat today">📈 695 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">llms</span><span class="topic">on-device-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有很多不同品牌、不同功能的智能家电（比如AI模型），Thunderbolt就像一个万能遥控器和中央控制系统。它让你能把所有AI集中起来，自由选择用哪个，数据都在你自己手上，不受任何一家厂商的限制。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI浪潮中，人们渴望更强的控制权和数据隐私。Thunderbolt主打“AI你做主”，让你自由选择AI模型、掌握数据，摆脱厂商锁定，这种理念直击痛点，自然备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['企业内部安全调用AI：公司将它部署在自己的服务器，员工安全地用AI处理内部资料，无需担心数据泄露给外部AI公司。', '个人AI模型自由定制：AI爱好者在自己电脑上安装，连接本地AI（如Ollama）或各种云端AI，像管理App一样统一调度和切换，打造专属AI体验。', '摆脱厂商锁定，自由切换AI：不想被任何一家AI大厂“绑架”，希望随时能切换到更适合自己需求或更便宜的AI模型。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['模型与平台兼容性强：它能统一管理和调用多种AI模型（无论是本地运行还是云端大模型），并支持所有主流操作系统和设备，让AI无处不在。', '强调用户数据主权：核心理念是“AI你做主”，用户数据存储在自己手上，自由选择和切换AI服务，彻底摆脱单一厂商的束缚。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。理由：它精准抓住了AI时代用户最关心的隐私、控制权和去中心化需求。结合开放兼容性与企业级部署潜力，将在AI个人化和企业应用中占据重要位置。</div>
+  <div class="target">👥 最适合：重视数据隐私、不愿被单一AI厂商锁定的企业及个人；热衷尝试和管理各种AI模型（本地或云端），希望打造专属AI体验的极客和爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🏛️</span>
+    <div class="repo-title">
+      <a href="https://github.com/tractorjuice/arc-kit" target="_blank">tractorjuice/arc-kit</a>
+      <span class="one-line">企业IT规划与采购的智能导航仪</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 1052</span>
+      <span class="stat">🍴 138</span>
+      <span class="stat today">📈 263 stars today 今日</span>
+      <span class="stat lang">HTML</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个超级智能的“建筑设计师工具箱”，帮助大公司在搭建各种IT系统（比如开发新APP、新网站）时，从宏观规划、选择最好的技术和供应商，到确保符合各种规范和法律，都能一站式搞定。把过去散乱的文件变成清晰的流程。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了大公司IT规划和采购的长期痛点：信息混乱、决策复杂。通过“AI辅助”和“系统化流程”，让原本头疼的IT决策变得高效、规范，节省大量时间和成本，自然备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['公司要上线一个全新的APP或业务系统，需要从零开始规划技术架构、评估风险、制定需求，并选择合适的第三方服务商。', '定期审查公司现有IT系统的健康状况，确保所有系统都符合最新的安全和合规标准，找出潜在问题。', '在多个技术方案中做选择（比如自研还是采购），需要详细的数据支撑和风险评估报告。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. AI辅助的“一站式”决策流程：把繁琐的规划、采购、风险评估等工作，整合成AI助力的智能流程，让决策更高效、有依据。
+2. 高度结构化的管理与可视化：不仅能细致规划需求、管理数据，还能通过像Mermaid这样的工具，把复杂的架构图画出来，一目了然。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。大公司IT系统日益复杂，对规范化、智能化管理的需求非常迫切。AI辅助更是锦上添花，加上今天暴增的星标数，预示着巨大的市场潜力和关注度。</div>
+  <div class="target">👥 最适合：大型企业的IT部门负责人、企业架构师、项目经理，以及负责技术采购和战略规划的管理层。他们不写代码，但需要懂技术、做决策。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费编程教育，助你转型科技业</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 443,213</span>
+      <span class="stat">🍴 44,336</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个免费的线上大学，专门教你编程和计算机知识。它有海量课程和练习，就像游戏闯关一样，让你从零开始学会写代码，甚至拿到官方认证证书。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费提供高质量编程课程，帮助无数人成功转行科技，获得就业机会，还有活跃的全球社区支持，广受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['一个对编程好奇的职场新人，想免费学习网页开发技能。', '一位想转行科技行业的传统行业工作者，需要系统学习编程知识并获得认证。', '学生或自学者，希望提升数学、编程和计算机科学素养。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">作为一个大型开源项目，它的整个学习平台和课程都是全球志愿者共同开发和维护的。这意味着内容会不断更新，也让全球用户能参与到平台的建设中来。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。科技行业人才需求持续旺盛，它作为免费、高质量的教育平台，已成功帮助数十万人就业，模式成熟且有强大社区支持。</div>
+  <div class="target">👥 最适合：对编程感兴趣的零基础学习者；希望免费系统学习编程技能并获得工作机会的职场转型者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月20日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
