@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月21日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月21日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/Fincept-Corporation/FinceptTerminal" target="_blank">Fincept-Corporation/FinceptTerminal</a>
+      <span class="one-line">投资者智能决策助手，一站式金融数据分析平台</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 9897</span>
+      <span class="stat">🍴 1346</span>
+      <span class="stat today">📈 3,109 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bloomberg-terminal</span><span class="topic">contributions-welcome</span><span class="topic">finance</span><span class="topic">financial-markets</span><span class="topic">foss</span><span class="topic">good-first-issue</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你拥有一个免费的“金融超脑”。Fincept Terminal就像一个智能工具箱，汇集了实时股市行情、深度公司分析、经济数据等，用直观图表帮你理解复杂的金融世界，助你做出更明智的投资决策。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像专业级金融终端的免费开源替代品，融合AI分析能力，让普通人也能用上高端工具。每日星标暴涨，表明市场对其革新金融分析模式充满期待。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人投资决策：快速查询股票、基金数据，分析公司财报，预测市场走势。', '金融学术研究：获取海量宏观经济数据，构建模型，进行量化分析。', '小型投资团队：作为辅助工具，提升团队对市场动态的理解和投资策略的制定效率。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI深度金融分析：利用机器学习技术，不只展示数据，更能智能洞察市场趋势，辅助决策。', '开源免费的“彭博平替”：提供媲美付费专业终端的功能，却以开源形式降低门槛， democratizing高级金融工具。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它将昂贵的专业金融分析工具普及化，结合机器学习和开源社区力量，有望成为个人和中小机构投资者不可或缺的利器，市场前景广阔。</div>
+  <div class="target">👥 最适合：渴望通过数据分析提升投资水平的个人投资者；需要大量金融数据进行研究的学生；希望用低成本获得专业分析能力的小型投资团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">👻</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/RuView" target="_blank">ruvnet/RuView</a>
+      <span class="one-line">WiFi透视眼，不用摄像头看清世界</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 48346</span>
+      <span class="stat">🍴 6461</span>
+      <span class="stat today">📈 713 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">densepose</span><span class="topic">esp32</span><span class="topic">firmware</span><span class="topic">mcu</span><span class="topic">mincut</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的Wi-Fi路由器不再只是上网工具，它变成了一双“隐形眼睛”。RuView就是这样一套系统，它能捕捉WiFi信号在遇到人、动物甚至呼吸时产生的细微变化，从而“看到”墙后的人，监测心跳、呼吸，甚至识别姿态，就像蝙蝠通过声波感知世界一样，一切尽在无形中。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">突破性地将日常WiFi变成强大的无感传感器，解决隐私痛点，低成本、高科技，满足人们对未来智能家居、健康监测和安防的想象，引发广泛关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['居家养老与儿童看护：非接触式监测老人和孩子的呼吸、心跳，及时发现跌倒等异常，提升安全。', '智能家居与节能：自动感应房间内是否有人，智能开关灯、空调，统计室内人数，实现更智能高效的居住体验。', '匿名人流量分析：在商店或办公室匿名统计人流量和活动模式，优化空间布局和资源分配。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**WiFi透视与无感监测**：利用普通WiFi信号实现“隔墙观物”，无需摄像头和可穿戴设备，就能精准捕捉人体姿态、呼吸、心跳等数据，颠覆传统传感模式。', '**极致隐私与本地智能**：所有数据在本地低成本设备（如ESP32）上处理，不联网、不上传云端，最大化保护用户隐私。系统还能自学习适应环境，无需复杂设置。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它颠覆了传统视觉监控，在隐私保护、智能健康、智能家居等领域有巨大市场潜力，尤其是在对隐私敏感的场景，前景广阔。</div>
+  <div class="target">👥 最适合：对未来智能家居、隐私保护、健康监测、或追求科技酷玩体验的普通用户。尤其适合家里有老人或小孩，需要无感监护的家庭。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">⚡</span>
+    <div class="repo-title">
+      <a href="https://github.com/thunderbird/thunderbolt" target="_blank">thunderbird/thunderbolt</a>
+      <span class="one-line">你的AI，你做主：数据隐私，模型自由，告别厂商锁定。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 2889</span>
+      <span class="stat">🍴 173</span>
+      <span class="stat today">📈 675 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">llms</span><span class="topic">on-device-ai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个万能遥控器，可以自由选择、切换市面上各种AI模型（无论是强大的云端AI还是你电脑上的AI），而且你与AI的对话内容完全归你所有，不会被任何厂商获取。Thunderbolt就是这样一个全能的AI助手，让你真正掌控AI。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI时代，用户对数据隐私和自由选择的需求日益增长。Thunderbolt完美响应了“掌控AI、数据自留、无厂商锁定”的核心痛点，加上全平台支持，迅速捕获了大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['企业内部私密AI助理：在公司服务器部署，员工用AI处理敏感数据，确保信息绝不外泄。', '个人隐私AI工作台：在家电脑上运行AI，不依赖网络也能聊天、写作，所有对话都只留在你设备上。', 'AI模型测试与切换平台：轻松尝试和对比不同AI模型（如ChatGPT、本地AI等），找出最适合的AI助手。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['数据与模型的完全主权：让你自由选择使用各类AI模型（云端、本地、私有），同时保证所有对话和数据都完全归你所有，避免厂商锁定。', '全平台覆盖与企业级部署能力：无论手机、电脑还是企业服务器，都能灵活部署和使用，尤其适合对安全性和可控性要求高的场景。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，理由：AI客户端/代理是当前技术前沿。项目直击用户痛点，提供数据主权和模型自由，且已面向企业级市场发力，潜力巨大。</div>
+  <div class="target">👥 最适合：对数据隐私和AI模型自由度有极高要求的企业用户；希望在本地设备上运行AI，并能自主选择AI模型的个人极客和技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a>
+      <span class="one-line">大型系统设计学习与面试备考的一站式指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 343,500</span>
+      <span class="stat">🍴 55,479</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">design</span><span class="topic">design-patterns</span><span class="topic">design-system</span><span class="topic">development</span><span class="topic">interview</span><span class="topic">interview-practice</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象建一座摩天大楼，你需要建筑蓝图和结构知识。这个项目就是为你准备的“数字建筑设计手册”，它把复杂的系统设计知识系统化，教你如何像搭积木一样，规划并构建出稳定、高效的大型网站或应用，比如淘宝、微信那样的庞大系统。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它完美解决了程序员在大型系统设计面试中的痛点，将散乱的知识系统化，提供实战练习和答案。一站式学习和备考，加上活跃的社区持续更新，自然深受工程师追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['准备跳槽或晋升的软件工程师，用它来系统复习并模拟系统设计面试。', '希望提升技术能力、向架构师方向发展的程序员，学习如何从宏观层面规划复杂系统。', '对大型互联网服务背后的技术架构原理感兴趣的非程序员，可作为通俗易懂的科普读物。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**系统化学习路径**：它将散落在各处的系统设计知识，像教材一样清晰地组织起来，形成一套完整的学习体系，避免了零散学习的困扰。', '**实战面试指南**：不仅讲解理论，还提供大量模拟面试题、参考答案、讨论和图解，直接助力程序员求职和技能提升。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着互联网业务规模的不断扩大，构建和维护大型系统是永恒的挑战。系统设计能力是顶尖工程师必备的核心技能，市场对这类人才需求旺盛，该项目价值持久。</div>
+  <div class="target">👥 最适合：希望深入理解并掌握大型系统设计原理的软件工程师、技术面试者，以及对互联网技术架构有好奇心的非程序员。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月21日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
