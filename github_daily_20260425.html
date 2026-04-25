@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月25日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月25日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1/free-claude-code</a>
+      <span class="one-line">免费使用Claude代码助手，无需API密钥。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 9303</span>
+      <span class="stat">🍴 1383</span>
+      <span class="stat today">📈 2,638 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个“智能转接器”，让本来需要昂贵“会员卡”（Anthropic API Key）才能用的AI编程助手Claude Code，能够免费连接到NVIDIA、OpenRouter等平台，或直接在你的电脑上运行。这样，你就能享受AI编程便利，却不用花一分钱。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">人们热衷于免费使用强大的AI编程助手Claude Code，它巧妙地绕过了官方API费用，还提供了多种免费或本地运行的替代方案，极大地降低了AI使用门槛。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['程序员在VSCode中编写代码，免费获得Claude Code的实时智能建议和自动补全。', '对AI编程好奇的技术爱好者，无需支付昂贵费用，就能体验AI生成和优化代码的强大功能。', '希望在个人电脑上离线运行AI代码助手，保护隐私且不依赖云服务。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['无需官方API密钥就能免费使用Claude Code，通过“代理”机制巧妙地连接到NVIDIA NIM、OpenRouter等免费或低成本AI服务。', '提供五种不同的AI提供商选择，甚至能完全在本地电脑运行（LM Studio, llama.cpp），让用户既能省钱又能灵活选择AI模型和部署方式。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI编程助手需求持续井喷，能以免费、多渠道、本地化方式使用顶级AI，完美切中用户痛点，市场潜力巨大。</div>
+  <div class="target">👥 最适合：所有对AI编程感兴趣，但又不想支付高昂AI服务费用的技术爱好者、学生和希望降低开发成本的程序员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/huggingface/ml-intern" target="_blank">huggingface/ml-intern</a>
+      <span class="one-line">AI实习生，帮你搞定机器学习</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 5464</span>
+      <span class="stat">🍴 478</span>
+      <span class="stat today">📈 2,985 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的“AI实习生”，它能自主学习最新的AI论文，然后帮你动手训练模型，甚至打包部署好。就像你给它一个任务，它就能自己去查资料、写代码、解决问题，而你只需给出方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI自己动手做AI成为可能，一天新增近3000星，足见大家对这种高度自动化和智能化的ML工作模式充满了期待。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你想用最新的AI模型识别图片中的猫狗，但不会写代码，告诉它，它帮你搞定。', '有个新的AI技术发布了，你想尝试效果，它可以帮你快速搭建环境并跑通。', '你的团队需要一个AI模型，它可以从研究、训练到部署，全程自动帮你处理。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['高度自主性：它能像人一样思考，自主阅读文献、规划任务、编写和修改代码，直到完成你的指令。', '拥抱Hugging Face生态：深度整合了Hugging Face丰富的模型、数据集和工具，让它能站在巨人的肩膀上高效工作。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI代理（Agent）是当前AI领域最热方向。Hugging Face出品，有望引领ML自动化新范式。</div>
+  <div class="target">👥 最适合：那些对机器学习感兴趣，想利用AI解决问题，但可能不擅长繁琐编程的创作者、研究员或初学者。也适合希望提高ML开发效率的专业人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🛡️</span>
+    <div class="repo-title">
+      <a href="https://github.com/google/osv-scanner" target="_blank">google/osv-scanner</a>
+      <span class="one-line">项目安全漏洞扫描，谷歌出品</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 9555</span>
+      <span class="stat">🍴 623</span>
+      <span class="stat today">📈 141 stars today 今日</span>
+      <span class="stat lang">Go</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">scanner</span><span class="topic">security-audit</span><span class="topic">security-tools</span><span class="topic">vulnerability-scanner</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个“代码体检医生”。当你开发软件时，会用到很多别人写好的“零部件”（开源代码库），OSV-Scanner就是帮你检查这些零部件有没有已知的安全漏洞，就像医生查阅权威病历库，确保你的整个项目安全健康。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">背靠谷歌大厂，使用权威开源漏洞库，覆盖极广。软件供应链安全备受重视，项目迅速获得近万星且日增141颗，广受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['软件开发者在项目提交或发布前，快速扫描代码中引用的第三方库，查找并修复已知安全漏洞。', '企业安全团队定期对公司的所有软件项目进行“体检”，确保没有潜伏的安全风险，尤其是在容器部署前。', '开源项目维护者，利用它来检查其项目所依赖的库是否安全，提升项目整体信誉。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['广泛兼容性与全面性：支持主流编程语言、包管理器、操作系统甚至容器镜像，几乎能扫描任何软件项目的“零部件”。', '智能修复指引：不仅指出问题，还能提供升级建议，甚至考虑投入产出比，帮助用户高效解决漏洞。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。软件供应链安全日益重要，对开源组件漏洞扫描和修复是刚需。OSV-Scanner背靠谷歌，数据权威，功能全面并提供修复建议，前景广阔。</div>
+  <div class="target">👥 最适合：软件开发人员、企业安全团队、DevOps工程师以及任何需要确保其软件项目（包括容器镜像）安全无漏洞的技术从业者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python技术资源导航，开发者宝典</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 294,243</span>
+      <span class="stat">🍴 27,766</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它不是一个软件，而是一份精心挑选、分门别类的Python技术资源指南。就像一份超级详细的Python宝藏地图，帮你快速找到开发AI、网站、数据分析等各种应用所需的工具和库，让你不再迷路。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是GitHub星标量前十的项目，汇集了Python领域最优质、最全面的工具与资源，几乎覆盖所有开发方向。开发者可在此快速找到所需，极大地提升了学习和开发效率，因此广受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['零基础想学Python开发，但不知从何开始？它能指引你学习AI、Web开发等方向的基础工具和库。', '资深开发者想寻找特定功能的Python库，如处理图像或构建爬虫，这里有详尽的分类和推荐。', '技术爱好者想了解Python生态的最新趋势和热门工具，通过这份列表能快速掌握概况，拓宽技术视野。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **GitHub星标前十的权威性**：全球开发者公认的Python资源宝库，确保收录内容的质量与流行度。
+2. **无与伦比的广度和深度**：从AI到Web开发，从数据分析到DevOps，几乎涵盖了Python生态的每一个角落，满足不同需求。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。Python作为最热门的编程语言之一，其生态系统持续扩张。这份列表是Python生态的权威入口和指南，随着Python应用领域的拓宽，其价值和影响力也将稳步提升。</div>
+  <div class="target">👥 最适合：所有对Python技术感兴趣的人，包括想入门Python的初学者、寻找特定工具的资深开发者、以及想了解Python生态全貌的技术爱好者和产品经理。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月25日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
