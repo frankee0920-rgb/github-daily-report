@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月26日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月26日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1/free-claude-code</a>
+      <span class="one-line">免费使用AI代码助手Claude，无需付费</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 11682</span>
+      <span class="stat">🍴 1750</span>
+      <span class="stat today">📈 4,007 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">Claude Code是Anthropic公司的一个强大AI，专门帮你写代码。这个项目就像给它开扇“免费后门”或“团购渠道”，让你不用买“门票”（API密钥），就能通过NVIDIA等平台免费或低成本使用Claude的强大功能。就像你不用买火车票，也能搭顺风车到目的地。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI编程助手是热门刚需，但费用高昂。这个项目巧妙地解决了“想用AI又不想付费”的痛点，提供多种免费使用方式，快速吸引了大量渴望体验AI的开发者和普通用户。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['编程初学者：让AI免费帮你解释代码、找错误，降低学习门槛。', '小型项目开发者：用AI免费辅助编写代码片段，快速实现功能。', 'AI好奇者：免费体验顶级AI编程助手的智能，了解其潜力。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. “免费通行证”机制：它作为一个巧妙的“中间人”，把原本需付费的AI请求，转发给NVIDIA等提供免费或低成本AI服务的平台，让你省下API费用。
+2. 多平台接入与本地化：不仅提供在线免费方案，还支持在个人电脑上运行AI模型，即使没有网络也能免费使用AI，兼顾隐私与成本。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是未来趋势，免费和多渠道接入更是刚需。只要AI技术持续发展，这类能降低AI使用门槛的项目就拥有巨大的用户吸引力。</div>
+  <div class="target">👥 最适合：想免费体验顶级AI编程助手的程序员、学生；对AI技术感兴趣，想了解AI如何写代码的非专业人士；预算有限但希望利用AI提升效率的个人开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a>
+      <span class="one-line">程序员的AI智能工具箱，一键增强开发能力。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 20338</span>
+      <span class="stat">🍴 1691</span>
+      <span class="stat today">📈 1,139 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个无所不能的超级助理，你告诉他：“帮我写个产品计划！”或“检查下代码有没有问题！”他就能立刻帮你完成。这个项目就是把这样的“超级助理”能力，打包成一个个随时能用的工具，让程序员通过简单命令就能召唤它们。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它把AI智能融入编程工作的方方面面，能极大提升效率，让开发者拥有“超能力”。加上作者Matt Pocock在技术圈影响力巨大，因此备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你有一个新产品想法，想快速转化成项目文档。AI能帮你把聊天记录总结成产品需求文档 (PRD)，并自动生成GitHub任务。', '你的代码里有个难缠的bug，不知道从何下手。AI可以帮你深入代码库，找出问题根源，甚至提出一个测试驱动开发（TDD）的修复方案。', '你想优化项目结构，或者想学习测试驱动开发。AI能为你生成详细的重构计划，或创建练习项目结构，让你轻松上手。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['核心AI智能代理能力: 它把复杂的AI能力打包成一个个“技能”，让AI能像真正的同事一样，参与到软件开发的规划、设计、编码、测试等各个环节。', '可组合、可扩展的脚本化工具: 这些“技能”本质是简单的脚本，易于安装和组合。未来任何开发者都可以贡献自己的AI“技能”，形成一个强大的生态系统。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与软件开发的结合是未来趋势。这类工具能显著提高生产力，降低开发门槛，市场潜力巨大，会持续涌现更多创新应用。</div>
+  <div class="target">👥 最适合：渴望提高效率、拥抱AI工具的程序员和技术团队。尤其是那些希望通过自动化和智能化来简化工作流程的开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧰</span>
+    <div class="repo-title">
+      <a href="https://github.com/Z4nzu/hackingtool" target="_blank">Z4nzu/hackingtool</a>
+      <span class="one-line">网络安全“瑞士军刀”，一站式渗透测试工具集。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 64069</span>
+      <span class="stat">🍴 7180</span>
+      <span class="stat today">📈 1,200 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">allinonehackingtool</span><span class="topic">besthackingtool</span><span class="topic">ctf-tools</span><span class="topic">ddos-attack-tool</span><span class="topic">hacker</span><span class="topic">hacking</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个网络世界的“瑞士军刀”，它把上百种常见的网络安全工具和测试程序打包在一起。你不用四处找工具，就像用一个万能遥控器，就能进行各种网络安全测试。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">因为它像一个网络安全领域的“万能工具箱”，集成海量工具，省去了用户逐一寻找安装的麻烦。加上持续更新和友好的操作体验，深受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['安全研究员模拟网络攻击，评估网站、系统或Wi-Fi是否存在漏洞。', '网络安全爱好者或初学者，通过实战练习了解各类网络威胁和防御方法。', '参与CTF（夺旗赛）竞赛的选手，快速查找和运用所需的安全工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“万能工具箱”：集成超过185种工具，涵盖渗透测试、密码破解、无线攻击等多种场景，一站式解决需求。', '“智能助手”：提供搜索、标签筛选和智能推荐功能，帮助用户快速找到并管理所需工具，甚至能批量安装和智能更新。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。网络安全是刚需，这类“一站式”工具极大地降低了学习和使用门槛，持续吸引大量安全爱好者和专业人士。</div>
+  <div class="target">👥 最适合：网络安全研究员、渗透测试工程师、CTF（夺旗赛）玩家，以及对网络攻防感兴趣、希望一站式学习和实践的初学者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank">EbookFoundation/free-programming-books</a>
+      <span class="one-line">免费编程学习书单</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 386,042</span>
+      <span class="stat">🍴 66,124</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">books</span><span class="topic">education</span><span class="topic">hacktoberfest</span><span class="topic">list</span><span class="topic">resource</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个巨大的免费图书馆，里面收藏了数不清的编程电子书。你不需要花一分钱，就能找到各种编程语言、技术和主题的学习资料，就像逛书店一样方便。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">汇集全球免费编程书籍，内容涵盖广，持续更新，满足了无数学习者对知识的渴求，是编程入门和进阶的宝藏。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['编程新手想入门Python，可以在这里找到高质量的免费教程。', '资深开发者想学习一门新语言（如Rust），寻找高质量的免费教材。', '学生或自学者在特定技术领域（如机器学习）寻找参考资料。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['庞大且分类清晰的免费资源集合，内容质量经过社区筛选和持续维护。', '提供了便捷的在线搜索网站，让用户能快速找到所需书籍，提升了查找效率。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。编程学习需求永不枯竭，免费优质资源始终是刚需，社区持续贡献保证了其生命力。</div>
+  <div class="target">👥 最适合：任何想学习编程的人，无论是零基础小白、学生、程序员还是技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月26日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
