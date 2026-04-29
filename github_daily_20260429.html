@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月29日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月29日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a>
+      <span class="one-line">AI编程助手实用技能工具箱</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 38550</span>
+      <span class="stat">🍴 3032</span>
+      <span class="stat today">📈 7,321 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个很厉害的AI编程助理，但有时它不理解你真正想做什么。这个项目就像一套“工具包”或“操作指南”，专门教你的AI助理如何更聪明、更准确地完成编程任务，让它不再“瞎忙活”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI编程助手普遍存在的“理解偏差”、“不听指挥”等痛点。在AI大爆发的当下，它让工程师更高效驾驭AI，提升生产力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI助理精准理解你的编程意图，避免返工。', '利用AI自动管理和分类软件开发中的问题（如GitHub或Linear上的Bug）。', '指导AI自动生成项目文档，减少手动编写工作。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“小巧灵活”设计理念：这些技能模块非常精简，易于根据个人需求调整和组合，能与任何AI模型无缝协作。', '解决AI“沟通障碍”：专注于弥合人与AI之间在理解上的鸿沟，让AI真正做你想要它做的事，而不是“瞎猜”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI编程是未来趋势，该项目直击AI工具核心痛点，提升实用性，市场需求巨大，将持续增长。</div>
+  <div class="target">👥 最适合：那些使用AI编程助手（如Claude Code）进行开发，希望AI能更准确、高效地理解并完成任务的工程师和开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank">abhigyanpatwari/GitNexus</a>
+      <span class="one-line">浏览器里的代码智能大脑</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 32756</span>
+      <span class="stat">🍴 3716</span>
+      <span class="stat today">📈 1,607 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个专门为代码项目打造的“超级讲解员”。你只需把代码文件扔给它，它就能在你的浏览器里自动生成一份详细的“代码关系图”（知识图谱），把所有代码模块、功能之间的联系都清晰地展示出来。最酷的是，它还能自带一个AI助手，随时解答你关于代码的问题，让你瞬间理解复杂项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI理解复杂代码的痛点，能让AI变得更聪明，而且所有分析都在浏览器里完成，既方便又保护隐私。短短时间就获得了海量关注，是当下AI与代码结合的明星项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速探索新接手的代码项目，迅速掌握其结构和功能。', '让AI（如ChatGPT）在修改或生成代码时，能真正理解项目的整体架构，避免出错。', '个人学习或研究开源项目，通过可视化图谱更直观地理解代码原理和设计思路。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**隐私安全，浏览器内运行**：所有对代码的分析和理解，都完全在你自己的浏览器里完成，不需要上传到任何服务器。这不仅意味着速度快，更重要的是极大地保护了你的代码隐私和数据安全。', '**代码“透视眼”与智能向导**：它能把复杂的代码变成一张清晰的“知识图谱”，就像给代码拍了一张X光片，让你看清代码的每个细节和相互关联。再结合内置的AI助手，就像有了一个专业向导，帮你快速理解代码的来龙去脉，即使是庞大的项目也能轻松掌握。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，理由：它将“代码理解”和“AI代理”这两个前沿技术完美结合，解决了AI在处理复杂代码时“看不懂全貌”的核心痛点，且技术实现（客户端运行、知识图谱）有独特优势，市场潜力巨大。</div>
+  <div class="target">👥 最适合：想要快速理解复杂代码项目的人，特别是开发者、AI工程师，以及希望利用AI更好地辅助编程的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">⚙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/ComposioHQ/awesome-codex-skills" target="_blank">ComposioHQ/awesome-codex-skills</a>
+      <span class="one-line">智能助手Codex的自动化技能库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 4173</span>
+      <span class="stat">🍴 267</span>
+      <span class="stat today">📈 953 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">awesome-lists</span><span class="topic">awesome-resources</span><span class="topic">codex</span><span class="topic">codex-cli</span><span class="topic">codex-skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI助手Codex（或类似智能助手）有个工具箱，里面装满了各种“技能书”或“操作手册”。这个项目就是这样一个精心整理的工具箱，让Codex能更聪明地完成发邮件、写报告等自动化任务，就像给AI装备了超能力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它结合了AI自动化潮流，提供实用的“技能”，让AI助手能真正动手操作，而非仅仅对话，效率提升巨大。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI自动整理会议纪要，并根据内容智能分配待办事项。', '根据数据自动生成电子表格公式，省去手动计算的麻烦。', '自动化邮件发送、创建项目任务或发布Slack消息等日常办公流程。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['提供了AI智能助手Codex的“即插即用”技能包，能执行跨应用操作。', '通过命令行工具和API接口，实现AI与1000+应用的深度自动化连接。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI自动化和智能助手是当前技术前沿，将文本生成与实际操作结合，潜力无限，是提高效率的未来方向。</div>
+  <div class="target">👥 最适合：希望通过AI提升工作效率、减少重复劳动，或者想探索AI助手更多可能性的个人和团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/nilbuild/developer-roadmap" target="_blank">nilbuild/developer-roadmap</a>
+      <span class="one-line">程序员职业发展导航图，手把手教你学编程</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 353,851</span>
+      <span class="stat">🍴 43,976</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，如果你想去一个陌生的城市旅行，却不知道怎么走。这个项目就像一份详细的“旅行攻略”，它为想成为程序员或提升技能的人，画出了清晰的学习路线图，告诉你从哪开始、学什么、怎么学，让你不再迷茫。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">程序员的世界发展太快，很多人苦于找不到学习方向和资源。这个项目提供了清晰的路径和海量资源，解决了这个大痛点，而且是全球社区共同维护，内容可靠又实用，自然受到热捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['一个大学生想成为前端工程师，他可以通过项目找到前端学习路线，按图索骥。', '一位有经验的后端程序员，想学习DevOps，项目能为他提供跨领域学习的指引。', '一个自学者，不确定某个技术方向该学哪些基础知识，可以在这里找到详细的知识点和学习资源。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['交互式学习路线图：不只是静态图片，你可以点击每个知识点深入了解，像玩游戏一样探索学习路径。', '社区共建的权威内容：由全球开发者共同贡献和维护，确保内容的最新、最实用、最可靠，避免过时信息。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。技术领域不断发展，对学习路径和职业规划的需求永远存在。作为一个社区驱动且内容持续更新的平台，它能长期保持价值和影响力。</div>
+  <div class="target">👥 最适合：刚入门的编程新手、想转行成为程序员的人、希望提升技能或转型方向的在职程序员、技术教育者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月29日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
