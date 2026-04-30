@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年04月30日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年04月30日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/warpdotdev/warp" target="_blank">warpdotdev/warp</a>
+      <span class="one-line">智能命令行：AI帮你写代码</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 45143</span>
+      <span class="stat">🍴 2743</span>
+      <span class="stat today">📈 12,822 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bash</span><span class="topic">linux</span><span class="topic">macos</span><span class="topic">rust</span><span class="topic">shell</span><span class="topic">terminal</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的电脑里有一个“黑盒子”命令行，程序员都在里面输入指令。Warp就像给这个“黑盒子”装上了AI大脑和漂亮的界面。它不仅能执行命令，还能理解你想做什么，像个智能助手帮你写代码、自动补全，甚至管理项目。让老旧的命令行变得超级聪明、好用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">结合了AI智能体的下一代命令行工具，让传统终端焕发新生。OpenAI的重磅加持，加上惊人的增长速度，引爆开发者社区。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['程序员在命令行里编写、调试代码时，Warp的AI能智能补全命令、生成代码，极大提升效率。', '团队利用其AI代理自动化管理项目，比如自动分类和处理Bug报告（issue）、审查代码提交（PR），甚至编写项目规范。', '开发者在不熟悉的新环境中，让AI解释复杂命令、提供最佳实践，快速上手。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['"Agentic"开发环境：将AI智能体深度集成到命令行中，让AI不只是助手，而是能自动处理开发任务（如生成代码、管理问题）的“小助手”。', '革新传统命令行：结合Rust的高性能和现代化UI设计，彻底改变了传统命令行笨重、不智能的形象，提供更流畅、更直观的交互体验。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI与开发者工具结合是未来趋势，Warp将智能代理融入核心开发流程，潜力巨大，且获得OpenAI重磅支持。</div>
+  <div class="target">👥 最适合：经常使用命令行（Terminal）的程序员、软件开发者，以及希望用AI提升团队开发效率的技术团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a>
+      <span class="one-line">AI编码助手的“超级技能包”，让AI更懂你。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 45579</span>
+      <span class="stat">🍴 3675</span>
+      <span class="stat today">📈 7,280 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一本给AI程序员的“武功秘籍”或“工程师宝典”。它不是直接写代码，而是教AI如何像一个经验丰富的工程师一样思考和工作，解决AI常犯的理解偏差问题，让AI助手更精准、高效地完成开发任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI代码生成虽酷，但常“词不达意”。这个项目提供一套久经考验的“技能”，让AI更精准理解开发者意图，大幅提升AI助手效能，完美击中AI时代开发者痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI根据模糊需求生成更准确的代码：你只需说出大概想法，AI就能基于这些技能，像资深工程师一样理清思路，给出更符合预期的方案。', '解决AI代码逻辑缺陷：当AI生成的代码出现问题时，这些技能能帮助AI更好地诊断问题，并像一个人类专家那样去修正错误。', '标准化AI开发流程：通过这套技能，可以训练AI助手遵守特定的开发规范和流程，让团队成员使用AI时，产出更一致、高质量的代码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“AI智能体技能”：它超越了简单的代码生成，是为AI智能体设计的工作流程和思考模式，让AI具备“工程思维”。', '通用性与可组合性：这些技能独立于具体AI模型，可灵活与不同AI工具搭配使用，且模块化设计易于定制和扩展。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体（Agent）是未来趋势，而如何让它们更智能、更实用是核心挑战。此项目直击AI开发中的沟通痛点，有巨大发展潜力和市场需求。</div>
+  <div class="target">👥 最适合：软件工程师、程序员，以及任何希望利用AI智能体（如GitHub Copilot、Claude等）更高效、更精准地进行软件开发的技术人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🕵️</span>
+    <div class="repo-title">
+      <a href="https://github.com/HunxByts/GhostTrack" target="_blank">HunxByts/GhostTrack</a>
+      <span class="one-line">追踪位置与手机号，开源信息收集工具。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 11692</span>
+      <span class="stat">🍴 1596</span>
+      <span class="stat today">📈 1,033 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">cybersecurity</span><span class="topic">fyp</span><span class="topic">hacking</span><span class="topic">hacking-tool</span><span class="topic">indonesia</span><span class="topic">information</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像你的数字侦探助手，能从公开渠道收集信息，比如一个IP地址、手机号或社交媒体用户名，帮你找到它背后的蛛丝马迹，但它不会像电影里那样瞬间定位到精确位置。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">网络安全和“黑客”相关话题自带流量，加上操作相对简单，能满足人们对信息探索的好奇心，且近期在社交媒体上可能被广泛传播。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['追踪IP地址的归属地和网络运营商信息。', '查询手机号码的归属地、运营商等公开数据。', '通过社交媒体用户名，收集用户公开信息。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多功能信息收集：集成了IP、手机号、社交媒体用户名等多种信息查询功能，一站式满足初步调查需求。', '简单易用：基于Python脚本，提供了清晰的安装和使用教程，降低了非专业用户上手门槛。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。OSINT（开源情报）工具在网络安全、调查取证领域需求旺盛，且隐私意识提升也带来对这类工具的关注。但需注意合法合规性。</div>
+  <div class="target">👥 最适合：网络安全爱好者、初学者、安全研究员、以及对信息收集和OSINT技术感兴趣的非程序员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🧭</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python开发者的全能工具箱指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 295,108</span>
+      <span class="stat">🍴 27,794</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一本Python编程世界的“米其林美食指南”，但不是评餐厅，而是精心挑选并整理了Python语言里最实用、最流行的各种“工具”、“组件”和“资源”。当你需要用Python实现某个功能时，来这里就能找到最佳的方案和方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Python是全球最热门的编程语言之一。这个项目像一本权威且持续更新的“寻宝图”，帮助所有Python开发者快速找到解决问题的最佳工具，省去了大海捞针的烦恼，自然吸引了海量用户关注和贡献。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想用Python搭建一个网站？它会推荐最流行的Web开发框架（如Django、Flask）和相关组件。', '对AI感兴趣但不知从何入手？这里能帮你找到顶尖的机器学习库、深度学习框架和自然语言处理工具。', '需要处理大量数据并制作图表？它有数据分析、数据可视化等方面的工具推荐，让你的数据会“说话”。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**权威且全面：** 汇集了Python世界最精华的工具和资源，覆盖AI、Web、数据等几乎所有主流应用领域，堪称一个巨大的“技术宝库”。', '**社区驱动的活力：** 拥有近30万星标（GitHub关注数），这不仅体现了其在开发者中的巨大影响力，更意味着它能通过全球社区的贡献而持续更新和优化，保持内容的鲜活和领先。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。Python是AI、大数据、Web等众多前沿技术领域的基石，此项目作为Python生态的“导航塔”，其价值将随Python的普及和发展持续攀升，前景光明。</div>
+  <div class="target">👥 最适合：任何想学习或使用Python进行开发的人，无论是编程新手寻找入门工具，还是资深开发者寻找最新、最佳的解决方案。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年04月30日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
