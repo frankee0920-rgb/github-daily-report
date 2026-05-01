@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月01日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月01日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/warpdotdev/warp" target="_blank">warpdotdev/warp</a>
+      <span class="one-line">AI加持的下一代智能终端，解放开发者双手。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 49640</span>
+      <span class="stat">🍴 3255</span>
+      <span class="stat today">📈 8,399 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bash</span><span class="topic">linux</span><span class="topic">macos</span><span class="topic">rust</span><span class="topic">shell</span><span class="topic">terminal</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你平时用的电脑“命令行”（那个黑底白字的窗口）突然拥有了人工智能！Warp就是这样的“超级智能命令行”，它能理解你的意图，自动帮你写代码、查找问题，甚至像个开发助手一样处理复杂任务，让传统命令行变得更聪明、更高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将强大的AI智能体（如GPT）融入开发者日常工具，大幅提升效率。OpenAI是其赞助商，项目开发也由AI驱动，这种“AI生AI”的模式极具未来感，迅速引爆话题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能指令输入：你想在电脑上执行复杂操作时，只需用自然语言告诉Warp，它就能自动生成正确的指令并执行，就像有个私人助理帮你操作电脑。', '自动排查问题：当你的程序或电脑出现错误时，Warp的AI能快速分析问题，并给出解决建议，省去你手动搜索和摸索的烦恼。', '开发者的智能助手：编写代码时，它能自动补全代码，甚至根据你的描述直接生成代码片段，极大地提高工作效率。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI智能体全程赋能：它不仅用AI帮助开发者写代码、排查问题，更令人惊叹的是，Warp项目自身的开发和管理也大量依赖AI智能体完成，是真正的“AI造AI”。', '革新传统命令行：将古老的“黑框”命令行升级为拥有智能大脑、现代交互界面的高效开发环境，大幅提升工作效率和体验。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与开发者工具结合是未来大趋势，Warp凭借“智能体开发环境”的创新理念、OpenAI的强力支持以及自身AI驱动开发的实践，具备巨大潜力和颠覆性。</div>
+  <div class="target">👥 最适合：追求极致效率、乐于尝试前沿技术的软件开发者、系统管理员及对命令行操作有高要求的技术人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📈💰</span>
+    <div class="repo-title">
+      <a href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch/TradingAgents</a>
+      <span class="one-line">AI金融交易大脑</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 58032</span>
+      <span class="stat">🍴 11036</span>
+      <span class="stat today">📈 2,023 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">finance</span><span class="topic">llm</span><span class="topic">multiagent</span><span class="topic">trading</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超专业的AI团队，里面有研究员、交易员、投资组合经理，各司其职，协同作战，帮你分析市场、做出买卖决策，并管理你的钱。这个项目就是搭建这样一个由多个AI智能体组成的自动化金融交易系统，让AI帮你更聪明地炒股。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将最前沿的AI大模型技术与高回报高风险的金融交易结合，让AI自动化投资的梦想触手可及。极高的热度和每日新增星数证明了市场的巨大期待。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['普通投资者：借助AI智能体优化个人投资策略，实现自动化交易，节省精力。', '金融机构：探索并部署AI驱动的量化交易模型，提升市场洞察和决策效率。', 'AI研究者：提供一个实用的平台，研究多智能体系统在金融领域的应用和效果。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI团队分工明确：它不是一个简单的AI，而是像一个专业的金融团队，有专门的“研究经理”、“交易员”和“投资组合经理”等AI智能体，各司其职，共同决策，让交易更专业化。', '决策过程可追溯可恢复：系统能像人类一样记录每一次决策的逻辑和过程（持久化决策日志），即使遇到问题也能从上次中断的地方继续（断点恢复），保证交易的稳健性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是LLM未来的重要方向，而金融交易是其最有价值的应用场景之一。市场对AI赋能金融有巨大需求和期待。</div>
+  <div class="target">👥 最适合：对AI如何改变金融投资感兴趣的人，特别是希望探索自动化、智能化交易策略的个人投资者和金融从业者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a>
+      <span class="one-line">AI智能助理的工程技能库，助你高效开发</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 49948</span>
+      <span class="stat">🍴 4105</span>
+      <span class="stat today">📈 6,187 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你给一个聪明的AI“实习生”配置了一套专业工具箱和详细的操作手册。这些“技能”就是工具和手册，让AI能像经验丰富的工程师一样，更准确、高效地帮你写代码、解决问题，而不是瞎折腾。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI时代，大家渴望AI写代码，但AI常“不靠谱”。这个项目提供实用“秘籍”，让AI像真实工程师思考工作，提升效率和准确性，解决了普遍痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI更准确地理解你的需求，编写高质量代码，避免返工。', '当软件出现Bug时，AI能更好地分析问题，提出修复方案。', '帮助AI系统地管理项目任务、追踪问题，并生成规范文档。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['它不是一个笨重的“大而全”系统，而是由一套小巧、灵活且可随意组合的“技能”组成，能轻松适应各种AI模型和开发流程。', '旨在解决AI编程中最常见的“误解”问题，让AI能真正理解人类工程师的意图，从而产出更符合预期的代码和方案，告别“瞎折腾”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程和AI智能体是当下最火热的技术趋势。它提升了AI智能体的实用性与可靠性，直接解决了AI落地应用的痛点，未来潜力巨大。</div>
+  <div class="target">👥 最适合：软件开发者、技术团队，以及任何希望通过AI智能体更高效、更准确地完成编程和工程任务的技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a>
+      <span class="one-line">大型系统设计学习与面试的百科全书</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 346,469</span>
+      <span class="stat">🍴 55,900</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">design</span><span class="topic">design-patterns</span><span class="topic">design-system</span><span class="topic">development</span><span class="topic">interview</span><span class="topic">interview-practice</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本为想建造摩天大楼（设计大型互联网系统）的人准备的建筑设计指南。不是教你怎么砌砖（写代码），而是教你如何画蓝图、规划结构、选择材料，确保大楼（系统）又高又稳，还能应对千万人的访问。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">系统设计是技术面试核心考点，它汇集了大量优质资源，并提供实战练习，帮助工程师从容应对大厂面试，快速提升设计能力，因此备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['准备跳槽到谷歌、字节跳动等大型科技公司，急需提高系统设计面试能力时。', '好奇淘宝、微信这样能支持亿万用户访问的软件是如何搭建起来的，想了解其背后的技术原理。', '资深工程师或技术负责人，希望系统性学习和复习大型系统架构的常见模式与解决方案。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将分散在各处的系统设计知识点进行系统性梳理和整合，提供清晰的学习路径。', '不仅提供理论知识，还结合真实面试问题提供详细的案例分析、讨论、代码及图解，提升实战能力。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。大型系统设计能力是工程师职业发展的基石，也是顶级公司面试的必考项，需求长期存在且重要性日益提升，不会过时。</div>
+  <div class="target">👥 最适合：资深程序员、架构师、技术面试者，以及任何对大型互联网系统背后的设计原理感兴趣的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月01日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
