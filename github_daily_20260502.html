@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月02日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月02日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch/TradingAgents</a>
+      <span class="one-line">AI智能交易团队，帮你分析和买卖</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 60105</span>
+      <span class="stat">🍴 11557</span>
+      <span class="stat today">📈 2,112 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">finance</span><span class="topic">llm</span><span class="topic">multiagent</span><span class="topic">trading</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一支由多位顶级金融专家组成的AI团队：有人负责研究市场，有人决定买卖，有人管理投资组合。它们之间互相协作，用大语言模型（LLM）的智慧帮你做投资决策。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它结合了当下最热门的AI大模型（LLM）和多智能体技术，直接应用于高回报的金融交易领域，市场关注度极高，潜力巨大。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动化投资策略研究与回测：让AI帮你分析海量金融数据，找出潜在交易机会并验证策略效果。', '实时市场分析与交易执行：AI团队像永不疲倦的交易员，监控市场动态，及时调整投资组合并执行买卖指令。', '个性化投资顾问：根据你的风险偏好和投资目标，AI能提供定制化建议，甚至管理部分资产。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['结构化输出智能体：像给AI团队明确分工，每个成员（如研究员、交易员）都能按特定格式输出专业决策，让系统运作更清晰高效。', '支持多款主流AI大模型：能灵活接入GPT、Gemini、Claude、DeepSeek等多种强大的AI大脑，选择最适合市场分析和决策的模型。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。将前沿AI（LLM和多智能体）与高价值金融领域结合，想象空间巨大。但风险和监管挑战并存，需持续关注实际效果和合规性。</div>
+  <div class="target">👥 最适合：关注前沿AI技术在金融领域应用、希望探索自动化交易、或对AI投资感兴趣的个人及机构。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🕵️‍♂️</span>
+    <div class="repo-title">
+      <a href="https://github.com/soxoj/maigret" target="_blank">soxoj/maigret</a>
+      <span class="one-line">输入用户名，全网搜寻TA的数字足迹</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 21802</span>
+      <span class="stat">🍴 1533</span>
+      <span class="stat today">📈 535 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">blueteam</span><span class="topic">cli</span><span class="topic">cybersecurity</span><span class="topic">identification</span><span class="topic">infosec</span><span class="topic">investigation</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象Maigret是你的“网络侦探助手”。你给它一个用户名，它就像福尔摩斯一样，迅速跑到3000多个社交媒体、论坛等网站，帮你搜索并找出这个用户名可能注册过的所有账号，把这些“数字足迹”整理成一份档案。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对探索数字世界、了解个人网络足迹的强大需求。只需一个用户名，就能快速、简单地搜集到数千个网站上的相关信息，还无需复杂的设置，实用性强，因此迅速受到追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**个人数字足迹管理**：你可以用自己的常用用户名搜索，看看自己在哪些网站留下了公开信息，以便更好地管理个人隐私或发现潜在风险。', '**网络安全调查**：安全专家或普通用户可以用来追踪和分析某个可疑账号的活动范围，协助网络欺诈或骚扰事件的初步调查。', '**背景信息收集**：在与陌生人进行线上协作或社交前，快速了解对方在公共网络上的活动概况，作为初步的背景参考。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**覆盖超3000+网站，无需API密钥**：它能查询的网站数量庞大，且无需复杂配置或申请API密钥，大大降低了使用门槛。', '**多平台便捷使用**：不仅支持命令行，还提供了Telegram机器人和Web界面，让任何非技术背景的用户都能轻松上手。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着网络安全和开源情报（OSINT）领域的重要性日益凸显，这种高效、易用的信息收集工具需求巨大。其广泛的应用场景和持续增长的用户关注度，预示着强劲发展潜力。</div>
+  <div class="target">👥 最适合：对网络安全、个人隐私保护感兴趣的普通用户；记者、调查员、市场分析师等需要收集公开网络信息的人；以及任何想了解自己或他人数字足迹的好奇人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/warpdotdev/warp" target="_blank">warpdotdev/warp</a>
+      <span class="one-line">AI赋能的新一代智能开发终端。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 51677</span>
+      <span class="stat">🍴 3487</span>
+      <span class="stat today">📈 3,401 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bash</span><span class="topic">linux</span><span class="topic">macos</span><span class="topic">rust</span><span class="topic">shell</span><span class="topic">terminal</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，程序员平时用的“黑客帝国”式命令行窗口，Warp给它装上了AI大脑。它不再是冰冷的工具，而是能理解你、帮你写代码、找资料的智能助手，让编程变得像和AI同事聊天一样轻松高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">程序员每天离不开的命令行工具，被AI彻底颠覆了！它把AI智能体引入开发流程，大幅提升效率，加上OpenAI的加持，瞬间引爆了开发者社区的期待。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['代码自动生成与补全：AI能根据你的意图，快速生成或补全代码片段，大幅减少手动编写时间。', '智能问题排查与修复：当代码报错时，AI能分析错误信息，给出解决方案甚至直接修改代码。', '自动化开发流程：让AI管理项目任务、编写开发文档、审查代码提交，解放程序员处理重复性工作。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI赋能的智能体开发环境：将AI智能体（如GPT模型）直接融入到程序员的命令行工具中，实现代码生成、问题诊断、任务自动化等，彻底改变传统开发模式。', '基于Rust的性能与安全：核心部分使用Rust语言开发，确保了软件的高性能、稳定性和安全性，这对于一个基础开发工具至关重要。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与开发者工具的结合是未来趋势，Warp将传统终端升级为智能协作环境，潜力巨大。OpenAI的投资也证明了其前瞻性。</div>
+  <div class="target">👥 最适合：追求开发效率、乐于尝试新技术的程序员、开发者和技术团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费学编程，助你转型科技的在线大学</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 444,008</span>
+      <span class="stat">🍴 44,441</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像一所免费的“编程大学”，不收学费，课程从零基础到高级，手把手教你写代码。还有很多实战练习和社区伙伴互相帮助，目标是助你找到第一份科技工作。这是一个由捐款支持的非营利组织运营的公益项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费、高质量的系统化编程课程，结合全球活跃的互助社区，让无数想转行或提升技能的人找到了低门槛进入科技行业的途径，实现了职业梦想。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['零基础想转行进入科技领域，如想成为网站开发工程师。', '在校学生或职场人士，想免费学习前端、后端或数据分析技能。', '希望参与大型开源项目，与全球开发者协作贡献代码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['完整且前沿的课程体系：涵盖从网页设计、JavaScript编程到后端开发、Python、数据库乃至机器学习等全栈内容，帮助学员系统掌握行业所需技能。', '现代化的开源平台本身：它由TypeScript、React等主流技术构建，不仅提供学习内容，其平台代码本身就是一份极佳的“实战教材”，鼓励贡献者亲手参与。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。理由：全球对编程技能的需求持续增长，免费、高质量、社区驱动的学习模式深受欢迎，且不断更新课程，生命力旺盛。</div>
+  <div class="target">👥 最适合：渴望免费学习编程、寻求职业转型或技能提升的非技术背景人士，以及希望通过贡献开源提升自身能力的开发者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月02日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
