@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月03日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月03日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch/TradingAgents</a>
+      <span class="one-line">AI多智能体金融交易大脑</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 63132</span>
+      <span class="stat">🍴 12209</span>
+      <span class="stat today">📈 2,225 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">finance</span><span class="topic">llm</span><span class="topic">multiagent</span><span class="topic">trading</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个由多个“AI专家”组成的金融团队：有专门研究市场的、有制定交易策略的、还有管理投资组合的。它们都能用最先进的AI大模型（LLM）互相协作，帮你分析市场并自动交易。它就像你的AI私人银行家。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI（尤其是大模型）和金融交易都是当前最热门的领域。这个项目将两者完美结合，Stars数迅速飙升，每天新增数千，显示了极高的市场关注和潜力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人或机构投资者实现自动化量化交易，减轻人工分析负担。', '金融研究人员利用AI模拟市场行为，验证交易策略。', '开发者基于框架构建定制化的AI金融应用或机器人。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最值得关注的是它的“多智能体（Multi-Agents）”设计，像一个AI团队分工协作；以及支持多种主流AI大模型（GPT系列、Gemini等），持续集成最新技术。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，结合了AI大模型、智能体和金融交易这三大趋势，市场需求巨大，且技术迭代迅速，发展空间广阔。</div>
+  <div class="target">👥 最适合：对AI、金融投资和自动化交易感兴趣的个人投资者、量化交易员、金融科技开发者以及研究人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/ruflo" target="_blank">ruvnet/ruflo</a>
+      <span class="one-line">克劳德AI特工队队长，统筹协作。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 36996</span>
+      <span class="stat">🍴 4239</span>
+      <span class="stat today">📈 1,299 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">agentic-engineering</span><span class="topic">agentic-framework</span><span class="topic">agentic-rag</span><span class="topic">agentic-workflow</span><span class="topic">agents</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一支由许多聪明能干的AI特工（智能体）组成的队伍，每位特工各有所长。Ruflo就像是这支特工队的“总指挥部”，它能高效调配这些特工，让他们像人类团队一样自动协作，完成大项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI智能体协作是当下最热门趋势，让AI能像团队般解决复杂任务。Ruflo作为Claude AI的“智能体指挥系统”，完美契合企业级AI应用痛点，因此迅速爆火。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动化的企业级智能客服系统：调动不同AI处理查询、投诉、技术支持等，协同响应复杂客户需求。', '复杂的数据分析与报告生成：AI特工分工负责数据清洗、统计分析、可视化，最终生成综合报告。', '软件开发辅助：一个AI特工生成代码，另一个测试，还有一个优化性能，共同完成开发任务。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“AI智能体交响乐团指挥”：它能让上百个AI智能体像一支训练有素的队伍一样分工协作，甚至跨机器、跨团队协同，实现自我学习和优化，大大提升AI解决问题的能力。', '“企业级安全与前沿技术融合”：在底层，它由Rust语言编写的高性能WASM内核提供动力，确保稳定高效；同时与Claude AI模型深度集成，并提供RAG（检索增强生成）功能，让AI不仅聪明，还能“记住”和学习。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是下一代AI应用核心，多智能体协作极大拓展AI能力边界。Ruflo作为头部平台，在此超热赛道潜力巨大。</div>
+  <div class="target">👥 最适合：那些希望让AI不再是简单工具，而是能像一支智慧团队一样，自动分工、协作解决复杂问题的企业主、项目经理或创新者。特别适合想用AI打造高级智能客服、自动化分析系统等。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🌐🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/browserbase/skills" target="_blank">browserbase/skills</a>
+      <span class="one-line">让AI智能体也能像人一样上网冲浪、完成任务。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 1559</span>
+      <span class="stat">🍴 104</span>
+      <span class="stat today">📈 346 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个非常聪明的AI助手（比如《钢铁侠》里的贾维斯），但它平时只能跟你对话。这个项目就像给它安装了一套“上网工具”，让它学会了像人一样打开浏览器、点击网页、输入信息、甚至解决验证码，去网上完成各种任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI智能体是当前热点，而让AI能真正“上网”操作，是实现其价值的关键一步。它给AI装上“眼睛”和“双手”，拓展了AI的能力边界，所以备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**智能信息收集员**：让AI像人一样浏览多个新闻网站、论坛或电商平台，自动收集并整理特定产品或事件的最新信息和用户评价。', '**自动化在线助理**：交给AI复杂一点的在线任务，比如自动填写表格、比较不同网站的商品价格，甚至在特定网站上帮你抢购商品。', '**网站“找茬”专家**：让AI自动测试一个新上线的网站，模拟用户操作，找出页面显示错误、按钮失灵等问题，帮助网站开发者更快发现并修复漏洞。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**AI学会“隐身”和“思考”**：它不只是简单地打开网页，还能像专业玩家一样绕过网站的机器人检测、自动解决验证码，甚至通过代理切换身份，让AI的上网行为更像真人、更不容易被发现和阻拦。', '**AI自己找网页的茬**：当AI上网遇到问题时，它能自己分析是哪里出了毛病（比如是网站反爬、元素没找到、还是验证码失败），甚至能自己生成解决方案，大大提升了AI自动化任务的稳定性和效率。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是未来趋势，让AI具备上网能力是其从“大脑”走向“行动”的关键，市场需求巨大，发展潜力无限。</div>
+  <div class="target">👥 最适合：想要让AI智能体不只停留在对话，而是能真正“动起来”上网做事、处理复杂任务的开发者和技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">从零开始，亲手搭建核心技术</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 498,706</span>
+      <span class="stat">🍴 47,260</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一本“科技产品拆解与重构秘籍”，里面一步步教你如何从最基本的零件开始，亲手搭建出像搜索引擎、数据库甚至操作系统这样复杂的数字产品。不是简单地用，而是真正去创造！</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对技术“究其根本”的好奇心。通过亲手实践，能真正理解复杂技术背后的原理，这是最深入高效的学习方法，也带来了巨大的成就感。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想成为更高级的程序员，深入理解某个技术（比如数据库）的底层实现原理。', '对人工智能、区块链等热门技术感兴趣，想知道它们是如何从零构建的。', '计算机科学专业的学生，通过实践项目来巩固和拓展理论知识。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['覆盖面极广：从3D渲染器、AI模型到操作系统、编程语言，几乎涵盖了所有核心计算机技术领域。', '“从零开始构建”的学习哲学：强调亲手实现，让你不仅知道如何使用，更明白其内部运作逻辑。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。只要编程学习的需求不减，人们对“知其然，更知其所以然”的渴望就会一直存在。这类高质量、实践性强的学习资源会持续受到追捧。</div>
+  <div class="target">👥 最适合：渴望深入理解技术原理、喜欢动手实践的程序员、计算机系学生，以及对软件运作机制充满好奇心的技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月03日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
