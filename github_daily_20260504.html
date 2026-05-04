@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月04日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月04日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🌊</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/ruflo" target="_blank">ruvnet/ruflo</a>
+      <span class="one-line">Claude AI的智能体协作与调度平台</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 39335</span>
+      <span class="stat">🍴 4465</span>
+      <span class="stat today">📈 1,840 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">agentic-engineering</span><span class="topic">agentic-framework</span><span class="topic">agentic-rag</span><span class="topic">agentic-workflow</span><span class="topic">agents</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级聪明的AI助手，但如果你需要它做很多复杂事情，它可能需要其他AI助手一起帮忙。Ruflo就像一个“AI团队的指挥官”，它能把这些专业的AI助手组织起来，让它们互相沟通、协作、甚至学习，共同完成大项目，而不是单打独斗。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI助手（Agent）是目前人工智能领域最热门的趋势，Ruflo抓住了这个潮流，并专注于Anthropic强大的Claude模型，提供企业级解决方案，解决了AI单打独斗效率低的问题。其极高的社区关注度也印证了这一点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['复杂项目管理：调动多个AI，分别负责市场分析、代码编写、设计原型等，高效协作完成新产品开发。', '智能客服系统：部署多个AI客服，一个处理退货，一个解答技术问题，一个安抚情绪，它们共享信息，提供更专业服务。', '自动化研究与分析：AI团队自动完成数据收集、清洗、报告生成和趋势预测，形成闭环智能研究系统。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. AI智能体“团战”大脑：它不只是简单地分配任务，更像给AI团队装上了一个能自学、自优化的“神经网络”，让所有AI都能像一个整体一样高效协作，从每次任务中变得更聪明。
+2. 企业级安全与无缝协作：保证AI团队在不同机器和团队之间沟通时，数据安全有保障，不会泄露隐私，而且能像面对面一样流畅交流，极大提升了AI的应用边界。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。多智能体系统是AI的未来方向，Ruflo在Claude生态中占据领先地位，解决了AI协作的关键难题，且获得了大量关注，市场潜力巨大。</div>
+  <div class="target">👥 最适合：希望用AI解决复杂问题、提升工作效率的企业和团队负责人；想要搭建更智能、更自主的AI应用的AI产品经理和开发者；对AI前沿技术和应用感兴趣的技术爱好者和创业者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">💰🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch/TradingAgents</a>
+      <span class="one-line">用AI智能体帮你做金融交易决策</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 65594</span>
+      <span class="stat">🍴 12711</span>
+      <span class="stat today">📈 3,313 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">finance</span><span class="topic">llm</span><span class="topic">multiagent</span><span class="topic">trading</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你雇了一支顶尖的金融分析师团队，他们会用最先进的AI（大模型）帮你分析市场、研究股票、做出交易决策，甚至管理你的投资组合。这个项目就是为你搭建了这样一个自动化、高效率的“AI金融团队”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它巧妙结合了AI大模型、多智能体协作和火爆的金融交易领域，让普通人也能体验前沿的智能投资策略。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用AI模拟和测试各种新的投资策略，看看它们管不管用。', '建立一个你的专属AI金融团队，帮你分析市场，给出投资建议。', '让AI智能体24小时监控金融市场，抓住投资机会。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI团队分工：它像一个专业的AI金融团队，有“研究经理”、“交易员”、“投资经理”等角色，各司其职，协同合作。', '集成顶级AI：支持最新的GPT-5.4、Gemini 3.1、Claude 4等主流AI大模型，这意味着它能利用最先进的AI能力来分析和决策。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI赋能金融是大势所趋，多智能体协作能实现更复杂精密的交易策略，市场需求与潜力巨大。</div>
+  <div class="target">👥 最适合：对AI和金融投资感兴趣的普通人、希望探索智能投资策略的投资者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🕵️‍♂️</span>
+    <div class="repo-title">
+      <a href="https://github.com/soxoj/maigret" target="_blank">soxoj/maigret</a>
+      <span class="one-line">通过用户名搜索个人全网足迹</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 23964</span>
+      <span class="stat">🍴 1686</span>
+      <span class="stat today">📈 1,119 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">blueteam</span><span class="topic">cli</span><span class="topic">cybersecurity</span><span class="topic">identification</span><span class="topic">infosec</span><span class="topic">investigation</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个“数字福尔摩斯”，你给他一个名字（用户名），他就能帮你去几千个网站里，像寻宝一样找出这个名字可能注册过的账号和公开信息，帮你拼凑出一个人的网络画像。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像一个“八卦神器”，满足人们了解他人（或自己）网络足迹的好奇心。操作简单，结果强大，人人都能当数字侦探，且无需技术背景。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**自查数字足迹：** 看看自己在哪些网站注册过，有哪些公开信息，更好地管理个人隐私。', '**网络交友识别：** 帮你快速了解一个网友的更多公开身份，避免遇到虚假信息或进行更深入的了解。', '**品牌声誉管理：** 企业或个人查找自己的品牌名/用户名在全网的使用情况和潜在风险。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">支持3000+网站的超大规模搜索能力，且完全无需API密钥，只凭一个用户名就能高效挖掘公开信息；同时提供Telegram机器人和Web界面，极大降低了技术门槛。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着网络信息爆炸和隐私意识提升，这种公开信息收集工具需求持续旺盛，应用场景广泛且在合法合规前提下潜力巨大。</div>
+  <div class="target">👥 最适合：对网络世界和个人隐私好奇的普通用户、网络安全爱好者、调查记者、数字营销人员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">😎</span>
+    <div class="repo-title">
+      <a href="https://github.com/sindresorhus/awesome" target="_blank">sindresorhus/awesome</a>
+      <span class="one-line">各领域精选资源清单的大集合</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 462,136</span>
+      <span class="stat">🍴 34,698</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">awesome-list</span><span class="topic">lists</span><span class="topic">resources</span><span class="topic">unicorns</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个巨大的、由全球爱好者共同维护的“宝藏地图集”。如果你想了解任何一个技术或非技术领域，这里都能找到一份由专家或资深玩家精心挑选、整理好的资源清单，省去你大海捞针的麻烦。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它汇聚了各领域精华资源，让学习者能高效找到权威信息，节省了筛选时间，是信息过载时代的效率神器。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想学习编程语言，不知道从何入手，可以在这里找到对应语言的“Awesome”清单，获取学习路线和推荐工具。', '对人工智能感兴趣，但非技术背景，能在AI相关的清单里找到科普文章、学习资源或有趣的AI应用。', '准备开始一个新项目，想快速了解某个技术领域的主流框架和工具，获取概览和推荐。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">强大的社区协作模式，全球爱好者共同维护，确保内容广度和深度。极简高效的信息组织方式，通过统一格式快速定位所需。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长，作为互联网信息检索和学习的基石，其价值在于持续的社区贡献，是信息过载时代高效获取高质量信息的稳定入口。</div>
+  <div class="target">👥 最适合：对技术、兴趣领域有探索欲，希望高效获取高质量学习资料或工具推荐的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月04日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
