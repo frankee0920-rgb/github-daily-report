@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月05日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月05日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/ruflo" target="_blank">ruvnet/ruflo</a>
+      <span class="one-line">为Claude打造的AI智能体协作平台，让AI团队协作更高效。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 41673</span>
+      <span class="stat">🍴 4656</span>
+      <span class="stat today">📈 2,598 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">agentic-engineering</span><span class="topic">agentic-framework</span><span class="topic">agentic-rag</span><span class="topic">agentic-workflow</span><span class="topic">agents</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个高级的“AI智能体团队主管”。当你有一个强大的AI（比如Claude），Ruflo能帮你组织几十甚至上百个小AI（智能体），让它们像一支训练有素的团队一样，互相沟通、学习、分工协作，一起完成非常复杂的任务，而不是单打独斗。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI智能体协作是当前最热门趋势，Ruflo让强大的Claude AI能像一支高效团队一样工作，实现复杂任务的自动化，且增长极快。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['打造高度智能的客户服务系统，能理解复杂问题并调动不同AI处理咨询、下单、售后等环节。', '开发自动化内容创作平台，让AI智能体团队负责资料搜集、文章撰写、图片生成、校对发布等。', '构建自动化研发助手，让AI智能体协作编写、测试、优化代码，提高开发效率。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['多智能体协作与蜂群智能：它能让上百个AI智能体像一支有机的“蜂群”一样，自动分工、协作、学习，共同解决人类难以完成的复杂任务。', '自学习与记忆：AI智能体在每次任务中都能学习并记住经验，不断优化工作模式，越用越聪明，无需人工干预。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是AI前沿，多智能体协作是实现通用AI的关键一步。Ruflo聚焦大模型Claude，解决复杂任务协作痛点，潜力巨大。</div>
+  <div class="target">👥 最适合：AI产品经理、AI应用开发者、企业AI战略决策者，以及希望通过AI实现复杂业务自动化和创新的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch/TradingAgents</a>
+      <span class="one-line">AI交易员团队，用大模型帮你炒股。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 67795</span>
+      <span class="stat">🍴 13047</span>
+      <span class="stat today">📈 2,182 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">finance</span><span class="topic">llm</span><span class="topic">multiagent</span><span class="topic">trading</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你组建了一个“AI投资公司”：有专门研究市场的“分析师AI”，有负责买卖的“交易员AI”，还有管理你总资产的“基金经理AI”。它们都非常聪明（基于大模型），能互相讨论协作，帮你自动化投资。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">融合了AI大模型、多智能体协作和金融交易三大热点，描绘了AI自动化投资的未来，想象空间巨大，因此备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI团队帮你研究市场动态、分析财报，生成投资建议。', '自动化执行复杂的交易策略，无需人工盯盘买卖。', '模拟测试新的投资组合和策略，评估风险与收益。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**创新多智能体协作**：模拟人类团队分工，让多个AI各司其职（研究、交易、管理），共同做出投资决策。', '**强大模型兼容性与透明度**：支持顶尖大模型（如GPT-5.4），并能保存决策日志，确保AI交易过程透明可追溯。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型与金融的结合是未来大方向，多智能体协作更是前沿探索，有望彻底改变个人和机构的投资模式。</div>
+  <div class="target">👥 最适合：对AI、大模型和金融投资交叉领域感兴趣的技术爱好者；希望探索自动化交易和智能投研潜力的个人或机构。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/browserbase/skills" target="_blank">browserbase/skills</a>
+      <span class="one-line">让AI像人一样上网，自动完成复杂任务。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 2161</span>
+      <span class="stat">🍴 134</span>
+      <span class="stat today">📈 320 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像给你的AI助手（Claude）安装了一套“超级上网工具箱”，让AI不再是理论家，而是能像人一样在网上冲浪、点击、填写、甚至处理验证码。它能高效帮你完成网页上的各种复杂操作，就像雇了一个全能的虚拟员工。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI能真正“上手”操作网页，解决传统自动化难题，是AI Agent与真实世界交互的关键桥梁。与顶级AI模型Claude结合，且增长迅猛。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能抓取电商数据、新闻信息，自动整理报告。', 'AI自动填写在线表格、注册账户，处理日常事务。', '帮助开发者诊断并修复网页自动化程序，甚至进行智能UI测试。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['强大的反爬虫能力，支持智能验证码破解和隐藏IP，确保自动化顺畅。', '结合AI智能诊断和修复浏览器自动化问题，甚至能进行AI驱动的UI测试。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent与现实世界交互是未来趋势，该项目提供核心能力，解决痛点，市场潜力巨大，处于风口浪尖。</div>
+  <div class="target">👥 最适合：AI应用开发者、需要高效网页自动化解决方案的企业、数据分析师和任何想让AI智能浏览并操作网页的个人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🧭</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python技术世界的“精品店”购物指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 295,996</span>
+      <span class="stat">🍴 27,819</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你是一个想学习或使用Python的“大厨”。这个项目就像一本由顶级大厨们精心挑选、分类和推荐的“食谱宝典”。它不教你编程，而是告诉你哪些“工具”（框架、库）是最好的，能帮你做出美味佳肴。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是GitHub上最受欢迎的项目之一，近30万星。因为它将Python海量的工具和资源“去伪存真”，像明灯一样指引开发者，大大节省了探索时间，是Python社区的共同智慧结晶。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你想开发一个网站或App后端，它会告诉你应该用哪些Web框架、数据库工具。', '你想进行数据分析、AI建模，它会推荐最顶级的机器学习库和算法。', '你是一位Python初学者，不知道从何入手，它能为你规划学习路径和选择工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. 权威性与全面性：它汇集了Python世界几乎所有热门应用领域的“最佳实践”和“明星工具”，是社区智慧的结晶。
+2. 持续更新：作为一个社区驱动的“指南”，它能及时反映Python生态的最新趋势和变化。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。作为Python生态的“活地图”，只要Python这门语言继续发展，这个项目就会持续更新和保持其巨大价值。它不是技术本身，而是技术的导航员，所以前景非常稳健。</div>
+  <div class="target">👥 最适合：任何对Python编程感兴趣的人，无论是初学者、资深开发者，还是想了解Python能做什么的非技术背景人士。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月05日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
