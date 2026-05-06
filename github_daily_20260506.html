@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月06日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月06日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💻🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank">Hmbown/DeepSeek-TUI</a>
+      <span class="one-line">AI编程助手，在命令行里帮你高效写代码。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 8835</span>
+      <span class="stat">🍴 678</span>
+      <span class="stat today">📈 2,434 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">cli</span><span class="topic">deepseek</span><span class="topic">llm</span><span class="topic">rust</span><span class="topic">terminal</span><span class="topic">tui</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的电脑“黑框框”（终端）里住着一位超级聪明的AI编程师。你告诉它需求，它就能自动思考、写代码、改文件、甚至上网查资料，还能一步步展示它的思考过程，就像一个非常高效且透明的AI编程搭档。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将强大的DeepSeek V4 AI模型与开发者常用的命令行工具结合，打造了一个高效、透明的AI编程助手。特别是能实时看到AI的“思考过程”，以及今日星标暴涨，都证明了其强大的吸引力。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你需要快速生成一段代码或修改现有程序时，直接告诉AI，它会帮你完成。', '程序报错时，让AI分析错误信息并给出修改建议，甚至直接帮你修复。', '学习新编程语言或框架时，让AI帮你理解概念、编写示例代码并执行，作为你的实时学习伙伴。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **AI思考过程可见（Thinking-mode streaming）**: 不只是给出结果，而是能实时展示AI如何分析问题、做出决策，增加了透明度和信任感。
+2. **智能“自动模式”（Auto mode）**: 能根据当前任务自动选择最合适的AI模型和思考深度，让AI更智能地服务，无需手动干预。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI编程助手是当前最热门的技术方向之一，它将强大的大模型能力与开发者日常工具深度结合，效率潜力巨大，市场需求旺盛，未来发展空间广阔。</div>
+  <div class="target">👥 最适合：喜欢在命令行界面（“黑框框”）工作、追求效率，并希望利用AI提升开发速度的程序员和开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🌊</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/ruflo" target="_blank">ruvnet/ruflo</a>
+      <span class="one-line">Claude AI智能体编排平台，构建自主AI系统</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 43993</span>
+      <span class="stat">🍴 4889</span>
+      <span class="stat today">📈 2,432 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">agentic-engineering</span><span class="topic">agentic-framework</span><span class="topic">agentic-rag</span><span class="topic">agentic-workflow</span><span class="topic">agents</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个超级智能的“项目经理”，专门管理和协调多个AI助手（特别是Anthropic的Claude）。这些AI助手不再是各自工作，而是在Ruflo的调度下，像一支配合默契的团队一样，分工合作，自动完成复杂任务，比如研究、规划或对话。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI自主智能体是当下最前沿趋势，Ruflo作为Claude生态中的佼佼者，提供强大的多AI协作、自我学习和企业级架构，能让AI完成更复杂任务，解决实际痛点，所以备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动化市场研究：部署AI群体自动收集、分析市场数据，并生成报告。', '个性化学习助手：AI集群评估学生进度，定制学习计划，并实时答疑。', '企业智能决策系统：协调多个AI代理分析数据，模拟场景，提供决策建议。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“蜂群”智能体协作：它能让多个AI像一支训练有素的“蜂群”一样分工合作、自我学习，共同解决非常复杂的任务，极大提升AI的自主决策和执行能力。', '深度整合Claude能力：专门为Anthropic Claude设计，能充分利用Claude强大的代码生成、思考推理和外部工具调用能力，构建更强大的AI系统。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI自主智能体和多智能体协作是未来AI发展的核心，Ruflo精准抓住这一趋势，能让AI系统变得更智能、更自主，市场潜力巨大，处于爆发增长期。</div>
+  <div class="target">👥 最适合：那些想用最先进的AI（特别是Claude）来解决复杂问题，比如自动化工作流程、构建智能助理或打造AI决策系统，但又不想深入编程细节的企业决策者、产品经理或技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/virattt/dexter" target="_blank">virattt/dexter</a>
+      <span class="one-line">AI金融研究助手，帮你深度洞察市场。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 23908</span>
+      <span class="stat">🍴 2911</span>
+      <span class="stat today">📈 659 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的AI私人分析师，专门帮你做复杂的金融市场研究。你问它问题，它就能像人类专家一样思考、规划，然后从海量数据中找出答案，甚至还能自己检查和修正。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">将AI自动化研究能力带入高门槛的金融领域，能高效处理复杂问题，直击用户痛点，引发市场高度关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速分析某公司财务报表，评估其投资价值或风险。', '研究特定行业发展趋势，找出潜在机会或面临的挑战。', '实时追踪市场动态，获得基于最新数据的决策支持。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['智能任务规划与自我校正：不只是执行命令，它能分解复杂问题，像人一样“反思”并修正研究过程，确保结果准确可靠。', '实时数据与自主执行：能访问最新的财务报表和市场数据，并自动选择工具进行分析，无需人工干预即可得出结论。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。结合了AI、自动化和金融三大热门领域，解决专业研究痛点，拥有巨大的市场潜力。</div>
+  <div class="target">👥 最适合：金融分析师、机构投资者、个人高净值投资者，以及任何需要深度金融市场分析支持的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">💎</span>
+    <div class="repo-title">
+      <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a>
+      <span class="one-line">免费API的全球百科全书</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 432,339</span>
+      <span class="stat">🍴 47,266</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">api</span><span class="topic">apis</span><span class="topic">dataset</span><span class="topic">development</span><span class="topic">free</span><span class="topic">list</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个巨大的免费‘服务接口’（API）黄页或工具箱清单。这些‘接口’能让不同的软件互相沟通，比如你的天气App通过天气API获取实时信息。这个项目就是把各种免费、好用的‘接口’都收集起来，方便大家查找和使用，是构建各种应用的基础资源。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">项目汇集了海量免费、实用的API，极大降低了开发门槛，提升了效率。是搭建各种数字服务的‘积木’宝库。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['制作一个个性化天气预报App，通过天气API获取全球实时气温和预报。', '搭建一个内部数据看板，集成股票市场API，实时查看全球股市行情。', '开发一个网站，利用IP地址查询API，显示访客大概来自哪个城市。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. 社区驱动的广度和时效性：全球志愿者与APILayer共同维护，确保列表丰富、更新及时。2. 超低门槛的资源集合：涵盖众多领域，多数API调用便捷，大幅降低了集成与开发难度。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。API是现代软件开发的基石，‘搭积木’式开发效率高。免费API的需求持续旺盛，且项目由社区维护，生命力强。</div>
+  <div class="target">👥 最适合：希望快速集成外部数据或功能（如天气、金融数据）的技术爱好者、独立开发者、学生，及创业者和产品经理。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月06日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
