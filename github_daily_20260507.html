@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月07日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月07日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank">Hmbown/DeepSeek-TUI</a>
+      <span class="one-line">终端里的AI编程助手，与DeepSeek大模型协作。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 15176</span>
+      <span class="stat">🍴 1188</span>
+      <span class="stat today">📈 6,175 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">cli</span><span class="topic">deepseek</span><span class="topic">llm</span><span class="topic">rust</span><span class="topic">terminal</span><span class="topic">tui</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的电脑里有一个“AI小秘书”，专门帮你写代码。你告诉它需求，它就在一个黑窗口（叫“终端”）里，自己动手读文件、改代码、跑命令、甚至上网查资料，每步还向你汇报并征求同意，就像一个能和你对话协作的编程助理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">将强大的DeepSeek AI大模型带入终端，让AI直接在你的电脑上编程，高效又酷炫。特别是AI编程助手是热门趋势，它让程序员体验到AI驱动的开发新方式，因此广受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**快速编程与修改**：比如你突然需要一个实现特定功能的Python脚本，它能直接在你的项目里生成或修改代码。', '**智能调试与修复**：当你的代码报错时，它可以帮你分析错误、调试程序，甚至上网搜索解决方案并直接应用。', '**自动化开发任务**：创建新的文件、配置项目环境，甚至管理Git版本控制，AI都能帮你自动化处理。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**AI驱动的智能编程协作**：它不仅仅是生成代码，还能像个同事一样与你协作，实时展示AI的“思考过程”，编辑你的本地文件，并在修改前征求同意，确保安全可控。', '**终端原生体验与强大功能集**：直接在终端运行，完美融入程序员的工作流，同时集成了文件操作、命令执行、Git管理、网络搜索等全套工具，无需切换环境就能完成复杂任务。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI编程助手和大型语言模型（LLM）是当前最火的技术方向。这个项目将两者结合，直接在开发者最熟悉的终端工作，极大提升开发效率，潜力巨大。</div>
+  <div class="target">👥 最适合：追求效率的程序员和开发者，特别是那些习惯在命令行（终端）工作，希望将DeepSeek这类强大的AI大模型融入日常编程流程，实现智能代码生成、调试和自动化的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/addyosmani/agent-skills" target="_blank">addyosmani/agent-skills</a>
+      <span class="one-line">教AI像资深工程师一样写代码的经验库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 31025</span>
+      <span class="stat">🍴 3663</span>
+      <span class="stat today">📈 800 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-skills</span><span class="topic">antigravity</span><span class="topic">antigravity-ide</span><span class="topic">claude-code</span><span class="topic">cursor</span><span class="topic">skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个聪明的AI编程助手，但它写代码时有时会犯低级错误或思路不清。这个项目就像给AI请了一位经验丰富的“导师”，把顶级工程师写代码的最佳实践、思考流程和质量标准打包教给AI，让它也能像高手一样工作，输出高质量代码。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI编程正炙手可热，这个项目解决了AI代码质量和工程规范的核心痛点，让AI能更好地遵循专业流程，大幅提高开发效率。今日新增800星，可见其备受业界关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI助手在编写复杂软件功能时，通过`/spec`命令首先明确需求和设计，再按`/plan`制定详细开发步骤，确保项目结构清晰、逻辑严谨。', '当AI完成代码后，使用`/test`确保代码经过严格测试，然后通过`/review`命令促使AI进行自我代码审查，查找潜在问题，提升代码健壮性。', '帮助缺乏资深工程师指导的AI开发团队，其AI助手能通过这些“技能包”自动学习和应用行业最佳实践，降低开发门槛，加速产品上市。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['工程化思想注入AI：它将人类资深工程师的“最佳实践”和“质量门禁”抽象为可供AI学习和执行的“技能”，让AI开发过程更规范、代码质量更高。', '全生命周期覆盖的指令系统：通过7个简洁的斜杠命令（如`/spec`, `/build`, `/ship`）和智能化的技能激活机制，让AI能系统地遵循软件开发的全流程，从构思到上线。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。理由：AI辅助开发是未来趋势，该项目直击AI编程的核心痛点——工程化和代码质量。它为AI提供了高级思维框架，是提升AI智能体实用价值的关键一步，市场潜力巨大。</div>
+  <div class="target">👥 最适合：AI编程工具（如Claude Code, Cursor等）的开发者和用户；希望提升AI代码质量和开发流程效率的工程师；寻求利用AI更高效、高质量完成项目的AI产品经理或团队负责人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">⚡</span>
+    <div class="repo-title">
+      <a href="https://github.com/PriorLabs/TabPFN" target="_blank">PriorLabs/TabPFN</a>
+      <span class="one-line">表格数据的智能大脑，即插即用高效预测。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 6626</span>
+      <span class="stat">🍴 660</span>
+      <span class="stat today">📈 218 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">data-science</span><span class="topic">foundation-models</span><span class="topic">machine-learning</span><span class="topic">tabpfn</span><span class="topic">tabular-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个专门处理表格数据（比如Excel表格）的“AI大师”。它不像普通AI需要从头学习，而是像一位经验丰富的医生，见过海量病例，一看到你的数据，就能快速给出诊断或预测，而且非常准确，省去了繁琐的调校过程。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将大模型（如GPT）的“通用智能”带入表格数据处理，极大简化了AI应用。无需专业调参，即可快速实现高精度预测，效率高且易用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['预测客户流失：企业利用客户消费行为、年龄等数据，预测哪些客户可能离开。', '辅助疾病诊断：医疗机构分析病人的化验结果、症状，快速评估患某种疾病的风险。', '金融欺诈检测：银行分析交易数据，实时识别可疑交易，防范金融风险。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最值得关注的亮点：
+1. **表格数据领域的“基础模型”**：它像通用大脑一样，无需训练就能理解并处理各种表格数据，提供即时、高精度的预测能力。
+2. **极致的易用性与效率**：仅需几行代码就能完成复杂的机器学习任务，大大降低了AI技术在实际业务中应用的门槛和时间成本。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，表格数据是各行各业的基石，TabPFN大幅降低了AI应用的门槛和复杂度，市场需求巨大，是AI普惠化的关键技术之一。</div>
+  <div class="target">👥 最适合：希望快速、准确地从表格数据中获取洞察或预测的数据分析师、业务专家，以及想要高效处理日常报表的任何人。即使是非程序员，也能轻松上手。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python宝藏指南，一网打尽</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 296,279</span>
+      <span class="stat">🍴 27,831</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本精心编纂的Python百科全书，或者说，是Python世界里的“大众点评”+“黄页”。无论你想用Python做什么，从建网站到分析数据，它都能指引你找到最棒的工具、库和资源，就像找到了最专业的推荐列表。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Python开发者必备的权威指南，内容全面且持续更新，省去大量搜索时间，大大提高开发效率，是Python生态的灯塔。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['Python新手：快速了解Python能做什么，找到学习路径和推荐工具。', '项目开发者：寻找特定功能的最佳库或框架，如想做数据分析，直接查看“Data Analysis”类别。', '技术选型者：评估不同工具的优劣，为项目选择最合适的Python技术栈。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**精心策展的质量保证：** 不只是简单罗列，而是“有见地”的精选，确保推荐的都是业界认可的优秀项目。', '**全方位覆盖的Python生态：** 从AI、Web开发到数据科学，涵盖Python应用所有主流领域，展示其强大通用性。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。Python生态持续蓬勃，作为其精选资源指南，将长期保持核心价值和影响力。</div>
+  <div class="target">👥 最适合：所有对Python技术感兴趣的人，包括Python开发者（从新手到专家）、项目经理、技术选型者、教育工作者等。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月07日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
