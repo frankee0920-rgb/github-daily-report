@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月09日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月09日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📈</span>
+    <div class="repo-title">
+      <a href="https://github.com/anthropics/financial-services" target="_blank">anthropics/financial-services</a>
+      <span class="one-line">金融行业AI助手，提升专业效率。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 15628</span>
+      <span class="stat">🍴 1963</span>
+      <span class="stat today">📈 3,660 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一群聪明高效的“AI实习生”或“初级分析师”，它们专门处理金融领域繁琐的数据和报告。这个项目就是提供这样一群AI助手，能帮你起草投资方案、市场研究报告或财务对账，省去大量基础工作，最终由你审核把关。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将火热的AI大模型（Claude）与高门槛的金融业务结合，大幅提升效率，解放专业人士双手。加上Anthropic官方出品，质量和可靠性有保障，在市场获得极高关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['投资银行家：让“路演报告助手”自动生成包含估值、案例分析的完整演示文稿。', '股权研究员：用“市场研究员”快速梳理特定行业概览、竞争格局和潜在投资标的。', '财富管理顾问：由“会议准备助手”自动生成每次客户会议前的背景资料和简报。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['高度可定制与灵活部署：既可作为Claude平台的插件即插即用，也能通过API集成到企业自有系统，适应不同需求。', '辅助而非决策：AI仅负责生成分析草稿、模型和报告，最终决策和合规审核仍由人类专业人士负责，有效规避风险。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI在金融领域的应用需求巨大，能显著提升效率，降低人力成本。Anthropic作为顶级AI公司，其解决方案天然具备吸引力，未来有望成为金融业AI工具的重要基石。</div>
+  <div class="target">👥 最适合：投资银行家、股权研究员、私募基金经理、财富管理顾问等金融专业人士。以及任何需要处理大量金融数据、撰写报告和进行分析的机构和个人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">⚙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/addyosmani/agent-skills" target="_blank">addyosmani/agent-skills</a>
+      <span class="one-line">AI编程助手的专家级工程技能库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 35855</span>
+      <span class="stat">🍴 4058</span>
+      <span class="stat today">📈 1,893 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-skills</span><span class="topic">antigravity</span><span class="topic">antigravity-ide</span><span class="topic">claude-code</span><span class="topic">cursor</span><span class="topic">skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本由顶级工程师撰写的“武功秘籍”或“操作手册”，教导AI编程助手如何像人类专家一样，系统地完成软件开发任务，从规划到测试，确保每一步都专业且高质量。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI编程助手正火，但常缺乏经验。本项目为AI注入资深工程师的“最佳实践”和“工作流程”，让AI产出更专业可靠的代码，完美契合当下需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI辅助开发团队：当团队使用AI编程助手时，确保AI遵循统一的开发标准和流程，提高代码质量和开发效率。', '个人开发者/学习者：通过AI助手实践专业的软件开发流程，理解从构思到上线的全貌，提升自身工程素养。', '智能代码生成工具提供框架：为各类AI代码生成或审查工具提供标准化的“思考”框架和“执行”逻辑，提升AI工具的智能水平。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将人类“高级工程思维”模块化：把资深工程师的经验（如“规范先行”、“小步迭代”）抽象成AI可执行的“技能”，用简洁命令触发，是AI实用化的关键。', '适应开发生命周期的自动化技能激活：根据AI当前所处阶段（定义、规划、构建等）自动激活相应技能，实现智能工作流引导，让AI编程助手更“懂行”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是当前技术前沿，本项目直接提升AI Agent的核心能力——工程实践水平，潜力巨大。</div>
+  <div class="target">👥 最适合：使用或开发AI编程助手（如Claude Code, Cursor）的开发者及团队；希望提升AI工具产出质量的技术负责人；对AI Agent发展感兴趣的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank">Hmbown/DeepSeek-TUI</a>
+      <span class="one-line">终端里的DeepSeek AI编程助手，帮你高效写代码。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 22145</span>
+      <span class="stat">🍴 1738</span>
+      <span class="stat today">📈 3,731 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">cli</span><span class="topic">deepseek</span><span class="topic">llm</span><span class="topic">rust</span><span class="topic">terminal</span><span class="topic">tui</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个非常聪明的编程搭档，它就住在你电脑的“黑框框”（命令行）里。你告诉它需求，它就能帮你思考、写代码、修改文件、甚至上网查资料，像一个高效的AI编程秘书，所有操作都在命令行界面完成。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将强大的DeepSeek AI模型带入命令行，直接变身智能编程助手。能自动思考、修改代码，极大提高开发效率。再加上终端的极客范和Rust的高性能，迅速捕获了开发者关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['快速生成特定功能的代码草稿，比如“帮我写一个处理JSON数据的Python函数”。', '在命令行中直接让AI审查和重构代码，优化现有逻辑或修复简单bug。', '遇到编程难题时，让AI查询资料、提供解决方案，而无需离开终端环境。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['深度整合DeepSeek V4大模型，在命令行界面实现智能编程，并具备代码修改审批机制。', '独特的“自动模式”，AI能智能判断并选择合适的模型与思考深度，提供更高效的编程辅助。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI编程助手是当前最炙手可热的方向之一，它能显著提高开发效率。本项目结合了强大的DeepSeek模型和高效的终端操作，解决了开发者的痛点，未来发展潜力巨大。</div>
+  <div class="target">👥 最适合：追求高效率、习惯使用命令行的程序员和开发者。他们希望在不离开终端的情况下，利用AI智能辅助编程、提高开发效率。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/nilbuild/developer-roadmap" target="_blank">nilbuild/developer-roadmap</a>
+      <span class="one-line">程序员的学习导航图</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 354,438</span>
+      <span class="stat">🍴 44,041</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你要去一个陌生的城市旅行，需要一份详细的“攻略”，告诉你景点、交通、美食。这个项目就是给想进入或深耕技术领域的“旅人”，提供这样一份“攻略”，告诉你学习什么、按什么顺序学，怎么才能成为一名优秀的“技术旅行家”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">技术领域发展太快，新人不知道从何学起，老人也想跟上潮流。它提供清晰的指引，还能互动学习，并且是大家一起贡献的，所以特别受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['一个刚毕业的大学生，想成为前端工程师，不知道该学什么，按什么顺序学，可以参考路线图。', '一位有经验的后端程序员，想扩展知识到DevOps领域，查看相应的学习路径和进阶内容。', '对区块链技术或人工智能感兴趣但不知从何入手的人，可以找到系统化的学习路线图。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**互动式学习体验**：学习路线图不再是死板的图片，你可以点击每个知识点，查看详细解释和推荐资源，就像玩游戏闯关一样，让学习更高效。', '**全球技术社区智慧结晶**：它不是少数人闭门造车，而是全球开发者共同维护和更新，确保内容最新、最实用、最全面，紧跟行业发展前沿。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。互联网技术日新月异，学习需求永不停止。这种结构化、社区共建、互动性强的学习工具，其价值会持续提升。</div>
+  <div class="target">👥 最适合：想进入IT行业但不知道如何开始的零基础新人；想提升技能或转型到新领域的在职技术人员；对特定技术栈感兴趣，希望系统学习的自学者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月09日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
