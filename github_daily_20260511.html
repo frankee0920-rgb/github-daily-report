@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月11日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月11日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/bytedance/UI-TARS-desktop" target="_blank">bytedance/UI-TARS-desktop</a>
+      <span class="one-line">让AI像人一样操作电脑的智能框架</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 32354</span>
+      <span class="stat">🍴 3201</span>
+      <span class="stat today">📈 669 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">agent-tars</span><span class="topic">browser-use</span><span class="topic">computer-use</span><span class="topic">cowork</span><span class="topic">gui-agent</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个给电脑装上的“智慧大脑”，不仅能看懂屏幕内容，还能像人一样操作鼠标键盘、点击按钮，甚至打开浏览器。它帮你完成各种复杂电脑任务，是能“手眼并用”的超级智能电脑伙伴，超越了简单的语音助手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">字节跳动出品，顺应AI Agent大趋势，让AI能真正“上手”操作电脑，大幅提升自动化能力，解决真实世界问题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动处理复杂网页任务：让AI自动登录电商网站，查找商品，比较价格，甚至完成下单。', '桌面自动化办公：AI帮你整理电脑文件，自动填写表格，或在不同软件间复制粘贴数据。', '远程协作与教学：老师或团队成员通过AI演示复杂软件操作步骤，AI能实际执行并展示。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“手眼并用”的多模态AI：AI不只理解文字，还能“看懂”屏幕上的图像、按钮和窗口，像人一样通过视觉信息来操作电脑。', '高度智能的自动化操作：能让AI像人类用户一样，在电脑桌面和浏览器里点击、拖拽、输入，实现过去需要人工干预的复杂任务自动化。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agents是AI从“回答问题”走向“解决问题”的未来方向，与多模态结合，大幅拓展AI应用边界，市场潜力巨大。</div>
+  <div class="target">👥 最适合：对AI自动化、未来智能办公感兴趣的企业或个人用户，尤其是有大量重复性电脑操作需求，希望通过AI提升效率的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">💼</span>
+    <div class="repo-title">
+      <a href="https://github.com/anthropics/financial-services" target="_blank">anthropics/financial-services</a>
+      <span class="one-line">Claude AI赋能金融业的智能助手工具箱。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 19191</span>
+      <span class="stat">🍴 2488</span>
+      <span class="stat today">📈 1,449 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级聪明的秘书，他能瞬间帮你整理复杂的金融报告、分析市场数据，甚至起草演示文稿的初稿。这个项目就是Anthropic的AI大模型Claude，专门为金融行业的专业人士量身定制的智能工具箱，帮你高效完成日常工作，但最终决策还是你来定。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">金融业急需效率和数据分析，AI大模型是关键。该项目结合了Anthropic强大AI与金融专业知识，能显著提升工作效率，并明确AI辅助定位以规避风险，因此备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['准备路演提案 (Pitch Deck): 帮助投资银行家快速生成包含公司对比、估值分析的定制化路演演示文稿初稿。', '市场调研与分析: 为分析师快速生成某个行业概览、竞争格局分析和潜在投资标的列表。', '财报更新与纪要撰写: 根据公司财报电话会议和文件，自动更新财务模型并起草研究纪要。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI智能体与金融业务深度融合: 提供“路演助手”、“市场研究员”等开箱即用的AI智能体，直接对应金融核心工作流，大幅提升专业人士的工作效率。', '灵活部署与人机协作：既可作为Claude Cowork插件使用，也可通过API部署，并强调所有AI输出需经人类专业人士审核，确保合规与准确，完美结合了AI效率与人类判断力。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI在金融领域的应用前景广阔，能极大提升效率，降低成本。该项目明确其辅助工具定位，规避了直接提供投资建议的风险，非常符合金融行业的监管和业务需求，预计将持续高速增长。</div>
+  <div class="target">👥 最适合：投资银行家、股权分析师、私募股权专业人士、财富管理顾问等金融行业专业人士，以及所有需要处理大量金融数据和报告的知识工作者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">⚙️</span>
+    <div class="repo-title">
+      <a href="https://github.com/addyosmani/agent-skills" target="_blank">addyosmani/agent-skills</a>
+      <span class="one-line">AI编程助手的专家级工作指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 38730</span>
+      <span class="stat">🍴 4282</span>
+      <span class="stat today">📈 1,065 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-skills</span><span class="topic">antigravity</span><span class="topic">antigravity-ide</span><span class="topic">claude-code</span><span class="topic">cursor</span><span class="topic">skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个AI编程助手是你的学徒。这个项目就像一本“高级工程师宝典”，把软件开发的最佳实践和工作流程打包，让AI学徒也能像老手一样，有章有循地高质量完成项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">让人工智能编程更靠谱、更专业，把AI从“会写代码”升级到“懂工程实践”，解决AI编码质量痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI帮你定义新项目的需求，确保思路清晰，有完整的开发规范。', '指导AI编写新功能代码，从构思到实现，遵循行业最佳实践和质量标准。', '请AI对你或团队写的代码进行专业审查，找出潜在问题并提出改进建议，提升整体代码质量。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['将人类高级工程师的“软技能”（工作流程、质量门槛、最佳实践）系统化，教会AI，使其能像人类专家一样思考和行动。', '通过简洁的“斜杠命令”和自动化机制，让AI能按部就班地遵循软件开发的全生命周期，从规划到交付，确保项目进度和质量。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI编程是未来趋势，该项目极大提升AI助手实战能力和工程质量，是AI开发的核心组件。</div>
+  <div class="target">👥 最适合：使用或开发AI编程助手、希望提高AI代码质量和工程效率的软件开发者、团队和公司。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🦞</span>
+    <div class="repo-title">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+      <span class="one-line">你的专属AI助理，数据隐私尽在掌握。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 370,628</span>
+      <span class="stat">🍴 76,592</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">assistant</span><span class="topic">crustacean</span><span class="topic">molty</span><span class="topic">openclaw</span><span class="topic">own-your-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级聪明的私人助理，它不住在云端别人的服务器里，而是就安在你的手机或电脑上。它能通过你常用的微信、WhatsApp等应用跟你对话，所有数据都只为你服务，安全又快捷。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">用户对AI的隐私和自主掌控需求激增，OpenClaw正好满足了这一痛点。它支持海量平台和消息应用，让个人AI助理真正“为我所用”，且数据完全本地化。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['通过微信/Telegram随时随地查询个人日程、邮件，并回复信息，无需切换应用。', '让AI助理管理你的本地知识库，快速检索个人笔记、文档中的信息。', '在多种设备和消息平台间无缝切换，实现私密对话、高效信息管理。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['数据本地化与隐私优先：将AI助理运行在用户自己的设备上，确保个人数据不上传第三方服务器，隐私得到极致保护。', '跨平台与多渠道无缝集成：几乎支持所有主流操作系统和数十种消息应用，实现真正的“万能”个人AI助理。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人AI助理和数据主权是AI领域两大趋势。OpenClaw以其本地化、跨平台集成优势，牢牢抓住用户对隐私和自主控制的需求，增长潜力巨大。</div>
+  <div class="target">👥 最适合：关心数据隐私、喜欢尝鲜最新AI技术、且希望个人助理能深度集成到自己日常使用习惯中的用户。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月11日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
