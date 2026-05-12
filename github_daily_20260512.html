@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月12日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月12日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🦾</span>
+    <div class="repo-title">
+      <a href="https://github.com/bytedance/UI-TARS-desktop" target="_blank">bytedance/UI-TARS-desktop</a>
+      <span class="one-line">让AI智能助手像人一样操作你的电脑。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 33149</span>
+      <span class="stat">🍴 3284</span>
+      <span class="stat today">📈 956 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">agent-tars</span><span class="topic">browser-use</span><span class="topic">computer-use</span><span class="topic">cowork</span><span class="topic">gui-agent</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的电脑里住着一位超级智能的虚拟助理。它能看懂屏幕上的内容，理解你的指令，然后像你一样，熟练地用鼠标点击、键盘输入，帮你处理各种电脑操作，从打开软件到处理文件，甚至浏览网页，省心又高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">字节跳动出品，自带流量。实现了AI像人一样操控电脑，是AI Agent领域最热门、最实用的前沿技术，直观高效，备受瞩目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自动帮你填写复杂的在线表格，例如报销单或注册信息，解放双手。', '安排行程，比如自动帮你浏览不同网站比价、预订机票酒店，省时省力。', '操作电脑软件，比如在PS中按指令修图，或按要求整理电脑中的文件。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">最核心的亮点是其**多模态AI智能体**技术。这意味着AI不仅能理解你的文字指令，还能像人一样“看懂”电脑屏幕上的内容，并熟练地用鼠标键盘操作桌面和浏览器，实现真正意义上的自动化和人机协作。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是未来人机交互和自动化趋势，能让AI像人一样操作电脑界面，市场潜力巨大，前景无限光明。</div>
+  <div class="target">👥 最适合：希望通过AI自动化、智能化地提升工作效率的办公族；对AI前沿技术充满好奇心，想体验未来人机交互的普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🕵️</span>
+    <div class="repo-title">
+      <a href="https://github.com/CloakHQ/CloakBrowser" target="_blank">CloakHQ/CloakBrowser</a>
+      <span class="one-line">能伪装成真人的隐形浏览器</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 6473</span>
+      <span class="stat">🍴 472</span>
+      <span class="stat today">📈 1,320 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anti-detect</span><span class="topic">antidetect-browser</span><span class="topic">bot-detection</span><span class="topic">browser-automation</span><span class="topic">captcha-bypass</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一款能“隐形”的浏览器，就像特工能乔装打扮，骗过安保系统一样。它能让自动化程序（机器人）在访问网站时，被认为是真实的普通人，从而不被网站发现或拦截。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它能轻松绕过最先进的机器人检测系统，让自动化工具畅行无阻，且集成简单，对开发者吸引力巨大。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['数据采集（网络爬虫）: 轻松从网站获取大量信息，不会被封IP或识别为机器人。', 'AI智能体: 训练或部署需要与复杂网站交互的AI，确保AI操作被视为人类行为。', '自动化测试: 在需要模拟真实用户行为，测试反机器人系统的场景中大显身手。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['底层C++级修改: 并非简单的配置或代码注入，而是直接在浏览器核心代码层面修改了指纹信息，让其看起来像一个真正的“正常”浏览器。', '行为拟人化: 独创`humanize=True`功能，能模拟人类真实的鼠标轨迹、键盘输入速度和滚动模式，骗过基于行为的机器人检测。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着AI和自动化需求激增，以及网站反爬虫技术日益强大，这种“隐形浏览器”的需求只会越来越高。</div>
+  <div class="target">👥 最适合：网站数据分析师、市场研究人员、AI开发者、自动化测试工程师，以及任何需要大规模自动化获取网络信息，但又不想被网站发现的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">💰</span>
+    <div class="repo-title">
+      <a href="https://github.com/yikart/AiToEarn" target="_blank">yikart/AiToEarn</a>
+      <span class="one-line">AI智能体，多平台内容分发与变现</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 11033</span>
+      <span class="stat">🍴 2026</span>
+      <span class="stat today">📈 427 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">auto-publish</span><span class="topic">douyin</span><span class="topic">douyin-api</span><span class="topic">electron-app</span><span class="topic">electron-react</span><span class="topic">kuaishou</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像你的专属“AI内容工厂”和“发布管家”。你只需要告诉它想法，AI就能帮你自动生成文案、图片甚至视频，然后一键同步发布到抖音、小红书、TikTok等全球各大平台。让你一个人也能轻松搞定内容创作、分发与变现。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它完美结合了“AI自动化”和“内容变现”两大热门趋势。解决了个人创作者和中小企业多平台内容创作与分发效率低下的痛点，让“一人公司”也能轻松做内容、赚大钱，自然备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人创作者：用AI快速生成短视频脚本和配图，一键发布到抖音、小红书、TikTok等，节省大量时间，专注于创意。', '中小企业/品牌：利用AI批量生产营销内容，同时覆盖国内外多个社交媒体平台，扩大品牌影响力，降低营销成本。', '线下实体店：将新品推荐、优惠活动等转化为线上图文或视频，通过AI发布到本地生活平台和社交媒体，吸引顾客到店。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI自动化内容创作与全球多平台一键分发：将AI生成文案、图片、视频与国内外主流社交媒体平台的发布功能完美结合，极大提升内容生产和传播效率。', '“All In Agent”智能体与多种灵活使用模式：引入了AI智能体，可以自动进行内容生成和发布；同时提供网站直用、AI助手集成、Docker部署等多种方式，满足不同用户需求。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI和内容营销是流量和金钱的焦点，该项目通过AI自动化帮助个人和企业降本增效、快速变现。市场需求巨大且持续增长，潜力无限。</div>
+  <div class="target">👥 最适合：想利用AI提高内容创作效率、扩大社交媒体影响力，并在抖音、小红书、TikTok等平台赚钱的个人创作者、小微创业者和中小企业主。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank">EbookFoundation/free-programming-books</a>
+      <span class="one-line">免费编程学习资源宝库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 388,106</span>
+      <span class="stat">🍴 66,283</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">books</span><span class="topic">education</span><span class="topic">hacktoberfest</span><span class="topic">list</span><span class="topic">resource</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个巨大的免费线上图书馆，专门收集全球各地免费的编程书籍和学习资料链接。你无需付费，就能在这里找到各种编程语言、技术方向的宝藏资源，像寻宝图一样指引你学习。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费是硬道理！它汇集海量高质量学习资源，无需付费，降低了学习门槛。社区协作维护，内容持续更新、包罗万象，自然广受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['编程新手想入门某门语言，如Python或Java，可在此寻找免费的入门书籍和教程。', '资深开发者想学习新框架或深入某一技术点，搜索相关主题，找到免费进阶资料。', '高校师生或自学者在预算有限时，能找到高质量、合法的编程学习资源。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['强大的社区驱动和协作模式：它能成为GitHub最受欢迎的项目之一，得益于全球无数贡献者持续更新和维护，确保内容的广度和时效性。', '友好的在线搜索与阅读体验：不仅是GitHub上的一个列表，更提供了独立的动态搜索网站和静态阅读页面，让用户查找和浏览资源极其便捷。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。编程学习需求持续旺盛，免费资源永远有市场。只要社区持续贡献和维护，它就能长久地服务广大学习者，价值稳固。</div>
+  <div class="target">👥 最适合：所有对编程感兴趣的初学者、学生、自学者，以及希望免费获取高质量学习资料的各类技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月12日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
