@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月13日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月13日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/tinyhumansai/openhuman" target="_blank">tinyhumansai/openhuman</a>
+      <span class="one-line">你的专属AI私人助理，简单又强大</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 3026</span>
+      <span class="stat">🍴 294</span>
+      <span class="stat today">📈 1,014 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">就像电脑里的“智能小秘书”或“数字宠物”，它是一个私密、强大的AI助手，能主动学习融入你的日常生活，甚至可以加入你的在线会议，帮你处理各种任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI助手热潮中，它强调个人隐私、极简操作和“人性化”交互（如桌面吉祥物、加入会议），满足了用户对智能、安全又有趣的AI伴侣的需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['日常办公：在你开Google Meet时，它能加入并协助记录要点、提供背景信息，像个贴心助理。', '个人生活：作为桌面上的智能伙伴，主动提供天气、新闻或提醒，帮你规划日常。', '学习与创作：在你需要灵感时，它能快速整合信息，甚至为你提供创意思路。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['Rust语言开发：保证了高性能和安全性，让这个AI助手既强大又稳定，响应迅速。', '智能代理（Agentic）特性与隐私保护：它不只是问答，还能主动思考、执行任务；同时强调个人数据本地化和隐私安全，让用户更放心。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人AI助手是大势所趋，它兼顾强大、隐私和创新人机交互，尤其今日新增1014星，潜力巨大。</div>
+  <div class="target">👥 最适合：追求高效率、喜欢尝鲜AI技术、注重个人隐私，并且希望有一个智能、互动性强的桌面AI助手的普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/rohitg00/agentmemory" target="_blank">rohitg00/agentmemory</a>
+      <span class="one-line">AI编程助手，拥有超强记忆力。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 6127</span>
+      <span class="stat">🍴 570</span>
+      <span class="stat today">📈 1,048 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentmemory</span><span class="topic">agents</span><span class="topic">ai</span><span class="topic">claude</span><span class="topic">claudecode</span><span class="topic">codex</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手不再“健忘”，它能记住所有你告诉过它的代码、项目细节甚至修改历史，就像一个永远不会忘记的私人秘书。每次交流都能从上次的进度无缝衔接，无需重复交代。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI编程助手普遍存在的“短期记忆”问题，让它们变得更聪明、更高效，大幅提升了开发者的体验。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI助手完整记住一个复杂项目的架构和代码，无需反复讲解。', 'AI助手能持续学习你的编码习惯和偏好，提供更个性化的建议。', '当项目出现bug时，AI能快速回顾之前的讨论和修改，帮助你定位问题。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**持久记忆力**：让AI编程助手能够长期记住上下文，避免重复劳动，大幅提高工作效率。', '**知识图谱与混合搜索**：它不仅存储信息，还通过知识图谱组织信息，并结合多种搜索方式，让AI能更智能、更准确地检索和利用记忆。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着AI编程助手普及，长期记忆是提升效率的关键。它填补了AI Agent能力的重要空白。</div>
+  <div class="target">👥 最适合：依赖Claude Code、Cursor、Copilot等AI编程工具进行开发工作的程序员、技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🎭</span>
+    <div class="repo-title">
+      <a href="https://github.com/CloakHQ/CloakBrowser" target="_blank">CloakHQ/CloakBrowser</a>
+      <span class="one-line">能伪装成真人，瞒过所有机器人检测的隐身浏览器。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 8164</span>
+      <span class="stat">🍴 597</span>
+      <span class="stat today">📈 1,606 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anti-detect</span><span class="topic">antidetect-browser</span><span class="topic">bot-detection</span><span class="topic">browser-automation</span><span class="topic">captcha-bypass</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想让一个程序自动上网做点事，但很多网站会设置“火眼金睛”来识别是不是机器人。CloakBrowser就像给你的程序穿上了一件“隐身衣”，并教会它“如何像真人一样上网”。这样一来，程序操作的浏览器就像一个真的普通用户，网站的“火眼金睛”完全看不出破绽。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它完美解决了困扰自动程序上网的“反机器人检测”难题，效果出奇地好（甚至瞒过Cloudflare），同时又非常易用。这让它在需要大量自动任务的领域极受欢迎，迅速成为焦点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['网络数据抓取：比如你想自动收集某个购物网站上的商品价格，但网站会阻止频繁的自动访问。用它就能伪装成真人，顺利“逛街”并获取数据。', '智能AI代理：让AI助手在网上执行更复杂的任务，比如自动填写表格、注册账号或与网页互动，而不会被当作机器人拦截。', '自动化测试：软件开发者可以用它来测试网站在真实用户操作下的表现，确保网站功能在各种复杂情况下都能正常运行。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“基因级”隐身术：它不是简单地给浏览器“化妆”，而是深入到Chromium浏览器的底层C++源码，进行了近50处修改。这意味着它的隐身能力是与生俱来的，而非表面功夫，能骗过最先进的机器人检测。', '“真人级”行为模拟：不仅外表像真人，它还能通过一个简单的设置（`humanize=True`），模仿人类真实的鼠标移动、键盘输入和滚动习惯，让网站坚信它是一个普通用户，甚至能达到0.9的reCAPTCHA V3得分。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体和各种自动化应用正爆炸式增长，而网站的反机器人检测也日益严苛。能完美伪装成真人的“隐身浏览器”是解决这个“猫鼠游戏”的关键，市场需求巨大且持续上升。</div>
+  <div class="target">👥 最适合：任何需要让程序自动访问网站，但又不想被网站发现是“机器人”的人。比如，要自动收集信息的数据分析师、开发AI助理的工程师，或是进行自动化测试的程序员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">😎</span>
+    <div class="repo-title">
+      <a href="https://github.com/sindresorhus/awesome" target="_blank">sindresorhus/awesome</a>
+      <span class="one-line">一个包罗万象、帮你探索兴趣的精选资源大宝库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 465,755</span>
+      <span class="stat">🍴 34,935</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">awesome-list</span><span class="topic">lists</span><span class="topic">resources</span><span class="topic">unicorns</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一个由全球爱好者共同维护的“数字藏宝图”。每个主题，从编程到咖啡，都有一份精心整理的“精华资源清单”。无论你想学新技能，还是找好用工具，它都能帮你快速找到方向，省去大海捞金的烦恼。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它火爆是因为：信息爆炸时代，它像一位经验丰富的向导，帮你从海量信息中精选出最优质、最值得探索的资源。省时省力，快速找到学习和兴趣方向。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想学习一门新的编程语言或技术？你可以找到对应的“Awesome XXX”列表，里面有入门教程、推荐书籍、实用工具等，帮你快速上手。', '寻找某个领域的最佳工具或软件？比如，你需要一款好用的项目管理工具，它能帮你列出社区公认的好评工具，省去你大海捞针的麻烦。', '纯粹想扩展知识面或探索新兴趣。比如想了解人工智能的最新趋势，或者看看有哪些关于太空探索的酷炫资源。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“众人拾柴火焰高”的社区力量：这个项目能涵盖如此广阔的话题，并保持高质量，全靠全球无数志愿者共同维护和贡献。它不是少数人的意见，而是集体的智慧结晶。', '内容组织的“元模式”：它不仅仅是一个列表，更定义了一种高效整理和分享信息的格式标准，让不同主题的精选资源都能以统一、易读的方式呈现。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。它提供高效信息组织和发现模式，而非短期热点。只要有学习和探索需求，精选清单就永远有价值，社区贡献保障其长久生命力。</div>
+  <div class="target">👥 最适合：技术爱好者、各领域初学者，以及任何有探索欲的人。只要你想快速找到某个主题下被筛选过的优质资源，它就是你的最佳起点和效率工具。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月13日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
