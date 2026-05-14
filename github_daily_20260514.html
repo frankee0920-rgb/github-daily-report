@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月14日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月14日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/tinyhumansai/openhuman" target="_blank">tinyhumansai/openhuman</a>
+      <span class="one-line">你的私密桌面AI助手，智能又亲切</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 6015</span>
+      <span class="stat">🍴 492</span>
+      <span class="stat today">📈 1,696 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它就像你的电脑上多了一个“私人秘书”或者“智能宠物”，不仅有可爱的桌面形象，还会“说话”、帮你处理日常任务。它能主动融入你的数字生活，比如帮你开会、提醒事项，所有数据都只在你的电脑里，非常私密和安全。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它将AI助手带到个人桌面，强调私密性、简单易用，并以一个可爱的“数字伴侣”形象融入生活，甚至能主动参与会议。这种既智能又亲切的个人AI体验，引发了极高关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能会议助手：当你在开Google Meet会议时，它能作为你的“数字分身”参与，可能帮你记录重点、总结会议内容。', '日常任务管家：像一个桌面上的贴身小秘书，提醒你重要的日程，管理待办事项，甚至根据你的习惯主动提供帮助。', '个性化信息整理：它可以帮你整理电脑上的各类信息、文件，或者在你需要时快速找到你想要的数据，所有处理都在本地，确保隐私。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['私密性与本地智能：大多数AI在云端处理数据，而OpenHuman强调个人私密，意味着它能尽可能在你的设备上运行AI，保护用户数据不外泄。', '桌面级“代理人”AI：它不只是一个问答工具，而是以可爱的桌面形象，像一个真正的“代理人”一样，能主动参与并协助你的日常数字活动，例如加入并协助会议。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人AI助手结合隐私保护、主动智能（agentic）和友好的桌面交互，完美契合当下需求。快速增长的星标数也表明市场对这类产品的巨大热情。</div>
+  <div class="target">👥 最适合：任何对AI技术感兴趣、希望拥有一个私密又智能的个人电脑助手、但不喜欢复杂设置或命令行操作的用户。特别是那些注重数据隐私的办公人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/rohitg00/agentmemory" target="_blank">rohitg00/agentmemory</a>
+      <span class="one-line">AI编程助手的“永不忘记”记忆库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 7957</span>
+      <span class="stat">🍴 679</span>
+      <span class="stat today">📈 1,379 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentmemory</span><span class="topic">agents</span><span class="topic">ai</span><span class="topic">claude</span><span class="topic">claudecode</span><span class="topic">codex</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个聪明的编程助手。每次你问它问题，它都记得住之前的对话和经验，就像它拥有一个“超级记忆大脑”，让你不用反复解释，工作更高效。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI代理记性差是痛点，它让AI助手拥有“永久记忆”，提高效率，获得广泛认可，且支持主流AI工具。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI编程助手写代码时，能记住整个项目背景和历史修改，无需反复提醒。', '让AI持续迭代优化一个复杂程序，因为它能记住每次测试结果和改进方向。', 'AI作为你的编程“副驾驶”，在大型项目中始终了解你的进度和历史决策，提供更精准的帮助。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['为AI助手提供了“永不忘记”的长期记忆能力，能记住复杂的对话和项目细节，让AI更聪明、更连贯地工作。', '结合了先进的记忆管理技术，如“知识图谱”和“混合搜索”，让AI能更准确、高效地提取和利用旧信息。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI代理是未来趋势，记忆能力是其核心，解决痛点需求，潜力巨大。</div>
+  <div class="target">👥 最适合：那些使用AI工具编写代码的程序员，或开发更强大AI助手的技术人员。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/obra/superpowers" target="_blank">obra/superpowers</a>
+      <span class="one-line">AI编程助手的智能升级秘籍</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 189838</span>
+      <span class="stat">🍴 16903</span>
+      <span class="stat today">📈 1,401 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手不再只会埋头写代码，而是一个有了“项目经理思维”和“超级技能包”的AI工程师。它会先跟你聊需求，再规划，最后才动手，就像有个聪明导师在指导。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI编程助手能像专业工程师一样思考、规划和执行任务，极大提升AI开发效率和质量，满足了智能编程的迫切需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你想开发新功能，给AI描述几句，它就能主动跟你沟通，细化需求，然后自己制定开发计划并执行。', '让AI帮你设计一个软件架构或复杂系统，它会一步步地跟你确认方案，而不是直接给出代码。', '当AI遇到复杂编程任务时，它能像有经验的工程师那样，分解任务，甚至指挥“子AI小分队”逐个攻克。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI主动思考与需求拆解：AI不再是被动地写代码，而是能主动与用户沟通，深入理解需求，并拆解成可执行的方案，像一个真正的项目经理。', '智能任务规划与协作：它让AI遵循专业的软件开发流程（如TDD、DRY），甚至能指挥“子AI小分队”协同工作，实现复杂任务的自主执行和审查，效率惊人。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是未来软件开发的核心趋势，Superpowers让AI能更智能地规划和执行复杂任务，潜力巨大。</div>
+  <div class="target">👥 最适合：希望利用AI编程工具（如GitHub Copilot、Claude Code等）来提高开发效率的程序员、软件工程师、技术团队负责人，以及对AI辅助开发感兴趣的技术爱好者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/nilbuild/developer-roadmap" target="_blank">nilbuild/developer-roadmap</a>
+      <span class="one-line">开发者的专属学习路线图和职业指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 354,735</span>
+      <span class="stat">🍴 44,071</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你是个新手，想去远方旅行，但不知道怎么走。这个项目就像一份为你精心绘制的“技术旅行地图”，详细标注了从哪里开始、会遇到什么风景、需要掌握哪些技能，并告诉你一步步怎么走，直到你到达目的地。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了无数技术人“学什么、怎么学”的痛点，提供了清晰的指引和丰富的资源，加上社区共同维护，内容及时权威，因此广受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**职业转型：** 比如你想从传统行业转行做前端开发，可以找到“前端路线图”，一步步了解要学哪些内容及顺序。', '**技能提升：** 比如你已经是后端工程师，想了解DevOps，就可以查看“DevOps路线图”，补足相关知识。', '**学习规划：** 大学生或编程初学者可以用它来规划学业和自学路径，避免盲目。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**交互式路线图：** 不再是静态图片，你可以点击路线图中的每个节点，深入了解具体的技术概念、工具和学习资源，让学习过程更生动高效。', '**社区驱动与权威性：** 内容由全球开发者社区共同贡献和维护，确保了信息的及时性、广度和深度，避免了个人经验的局限性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。技术发展日新月异，知识更新速度快，人们对系统性学习和职业规划的需求将长期存在，此类高质量的教育资源有巨大市场。</div>
+  <div class="target">👥 最适合：编程新手、大学生、想转行进入技术领域的人，以及希望提升技能、拓展职业方向的在职程序员。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月14日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
