@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月16日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月16日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/tinyhumansai/openhuman" target="_blank">tinyhumansai/openhuman</a>
+      <span class="one-line">你的私人AI智能管家</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 9218</span>
+      <span class="stat">🍴 776</span>
+      <span class="stat today">📈 1,271 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像你的私人AI智能管家，安装在你的电脑里，帮你管理各种AI工具，比你平时用的AI更强大，也更注重你的隐私。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它击中了大家对AI的强烈需求：一个强大、简单，又能真正属于自己的AI。如今很多人担心隐私，它正好满足了这一痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['本地私密助手：帮你安全地管理个人文档、笔记，打造专属知识库，数据不外泄。', '专属创意伙伴：在本地帮你构思文案、生成草图，作为你创作时的贴身AI顾问。', '复杂信息处理：无需上传，在你的电脑上高效分析和总结大量信息。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. 强调“私人隐私”：AI在你的电脑上运行，数据不上传，更安全。 2. 用Rust语言开发：意味着系统速度快、稳定性好，性能强劲。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着AI技术普及，人们对个人化、隐私保护的AI需求日益增长，OpenHuman正好抓住了这个趋势，前景广阔。</div>
+  <div class="target">👥 最适合：关心AI发展、注重个人隐私，希望在自己电脑上拥有一个强大且个性化AI工具的科技爱好者和普通用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🦸</span>
+    <div class="repo-title">
+      <a href="https://github.com/obra/superpowers" target="_blank">obra/superpowers</a>
+      <span class="one-line">让AI编程助手聪明地帮你写代码。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 192988</span>
+      <span class="stat">🍴 17158</span>
+      <span class="stat today">📈 1,648 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手像个很能干但有点急躁的助手。Superpowers就像是给它一套顶级的“工作指南”和“思维方式”，让它学会先理解需求、规划步骤，再动手写代码，而不是直接开干。它让AI变得更聪明、更有条理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI编程助手往往‘会写代码但不会思考’的痛点，让AI不仅能写代码，还能像经验丰富的工程师一样分析、规划和执行项目，大大提升了AI的实用性。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你想把模糊的应用想法变为具体实现方案时，AI能引导你梳理需求、制定详细开发计划。', '面对复杂项目，AI能像项目经理一样，将大任务拆解给“子AI”分工协作，并监控进展。', '确保AI产出高质量代码，它会遵循测试驱动开发等专业流程，避免无效或多余编码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**AI自主思考与规划：** 让AI从“代码生成器”升级为“项目架构师”，能主动理解用户需求，制定详细开发方案，甚至调度“子AI”执行任务。', '**内嵌专业开发方法：** 融合了测试驱动开发（TDD）、KISS等行业最佳实践，确保AI产出的代码质量高、维护性强。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体（Agent）是AI领域最热门方向之一。它让AI能像专家工程师一样思考和工作，完美契合AI大模型落地软件开发的痛点，潜力巨大。</div>
+  <div class="target">👥 最适合：技术爱好者、创业者、产品经理等，以及任何想利用AI高效开发软件，但不希望AI只盲目写代码，而是能有条理、有策略地工作的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🔬</span>
+    <div class="repo-title">
+      <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank">K-Dense-AI/scientific-agent-skills</a>
+      <span class="one-line">AI科研助手专业技能库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 22549</span>
+      <span class="stat">🍴 2436</span>
+      <span class="stat today">📈 646 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-skills</span><span class="topic">ai-scientist</span><span class="topic">bioinformatics</span><span class="topic">chemoinformatics</span><span class="topic">claude</span><span class="topic">claude-skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个非常聪明的AI助理，但它不懂科学。这个项目就像给它安装了135个“科学大脑模块”和“工具箱”，让它能立即理解并处理生物、化学、医学等各种复杂科研任务，变成你的专属科研助手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI能直接参与高精尖的科学研究，省去大量人工操作。兼容性强，还能在个人电脑上运行，数据安全，且每日新增关注数千。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['加速药物研发，通过AI分析分子结构和靶点。', '分析癌症基因组数据，辅助医生进行精准诊断和治疗方案制定。', '预测新材料性能，帮助工程师设计更高效、更耐用的材料。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['提供了135种即插即用的科学技能和100+科学数据库接口，覆盖多领域，让AI直接拥有专业能力。', '支持开放的“Agent Skills”标准，兼容多种AI智能体（如Claude），并提供桌面版K-Dense BYOK，确保数据隐私安全。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与科学研究的结合是未来趋势，尤其在数据分析、模拟预测等领域，极大地提高了研究效率，市场需求巨大且持续增长。</div>
+  <div class="target">👥 最适合：科研人员、高校师生、生物医药公司研究员、材料科学家以及任何需要AI协助处理复杂科学数据的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/nilbuild/developer-roadmap" target="_blank">nilbuild/developer-roadmap</a>
+      <span class="one-line">程序员学习成长导航图，手把手教你变大牛。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 354,822</span>
+      <span class="stat">🍴 44,076</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想在IT领域闯出一片天，但眼花缭乱的技术让你无从下手。这个项目就像你的“专属学习地图”，它清晰地规划了从入门到精通的每一步，告诉你该学什么、学多久，就像一张详细的旅行攻略，让你不再迷路。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了无数程序员和准程序员的“学习路径迷茫症”，提供了一站式的清晰指引和高质量资源，而且内容由全球开发者共同维护，非常实用和前沿。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想转行IT，但对庞杂的技术领域感到困惑，不知道该从哪个方向开始学起。', '已是程序员，希望学习新技能或转型到热门领域（如前端转后端，或学习DevOps）。', '技术小白或学生，希望系统性地规划自己的技术学习路径，避免走弯路，快速成长。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**交互式学习体验**：它不仅仅是枯燥的文字列表，你可以点击路线图上的每个知识点，深入探索相关资料、文章和视频，让学习过程更生动有趣。', '**社区力量共建**：项目内容由全球顶尖开发者们共同维护和更新，确保了知识的前沿性、准确性和实用性，你学到的都是行业最新最靠谱的经验。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。技术更新迭代飞快，开发者需要持续学习和成长，这种系统化、交互式的学习指南始终是刚需，且社区驱动能保持其活力。</div>
+  <div class="target">👥 最适合：对技术感兴趣，想进入IT行业或已经在行业内寻求进步的任何人，特别是那些需要清晰学习路径和高质量资源的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月16日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
