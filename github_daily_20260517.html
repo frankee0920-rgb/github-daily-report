@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月17日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月17日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">⚡</span>
+    <div class="repo-title">
+      <a href="https://github.com/oven-sh/bun" target="_blank">oven-sh/bun</a>
+      <span class="one-line">极速全能JavaScript工具箱，Node.js强力替代。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 91345</span>
+      <span class="stat">🍴 4556</span>
+      <span class="stat today">📈 397 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">bun</span><span class="topic">bundler</span><span class="topic">javascript</span><span class="topic">javascriptcore</span><span class="topic">jsx</span><span class="topic">nodejs</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">Bun就像是JavaScript开发领域的“瑞士军刀”，把运行代码、打包、测试和管理依赖等多个工具整合到一个超快应用里。它想替代你现在用的Node.js，让开发更快更省心。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Bun以惊人的速度和“多合一”功能脱颖而出，大幅简化JavaScript开发流程。它兼容Node.js生态，让开发者能轻松切换并享受飞一般的效率提升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['加速现有Node.js应用：直接替换Node.js运行环境，让你的Web服务或脚本更快启动和执行。', '前端项目开发提速：作为打包工具，极速构建和刷新你的React、Vue项目。', '包管理与测试：比传统工具更快安装依赖包，并闪电般运行项目测试。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['极致性能：底层用Zig语言开发并采用Apple的JavaScriptCore引擎，实现比传统工具快数倍的启动和运行速度。', '大一统工具链：将JS运行、打包、测试、包管理等功能整合到一个命令下，大幅简化开发者的工具配置。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它解决了JavaScript生态长久以来的痛点：速度慢、工具分散。作为Node.js的强力挑战者，凭借卓越性能和整合优势，未来潜力巨大。</div>
+  <div class="target">👥 最适合：JavaScript/TypeScript开发者，尤其是那些追求极致开发效率、希望简化工具链并加速项目运行的Web应用构建者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🔬</span>
+    <div class="repo-title">
+      <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank">K-Dense-AI/scientific-agent-skills</a>
+      <span class="one-line">AI科研助手的“专业技能工具箱”</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 23290</span>
+      <span class="stat">🍴 2494</span>
+      <span class="stat today">📈 673 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-skills</span><span class="topic">ai-scientist</span><span class="topic">bioinformatics</span><span class="topic">chemoinformatics</span><span class="topic">claude</span><span class="topic">claude-skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的AI助手不再是只会聊天的小白，而是拥有了各种顶级科学家和工程师的“专业技能包”。这个项目就是这样一个集合，它给AI提供了135项科学研究的专业能力，比如分析数据、查询特定数据库等，让AI能像专家一样帮你解决复杂问题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它把AI从泛用型工具升级为科学研究专家，解决了专业领域AI能力不足的痛点。兼容性强且可本地运行保护隐私，加之今日新增星标数高，显示出巨大需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['药物研发：让AI查询海量生物化学数据库，分析药物靶点，预测分子相互作用，加速新药发现过程。', '基因组学研究：指导AI分析复杂的基因测序数据，识别疾病相关基因变异，辅助生物学家进行癌症研究。', '材料科学探索：利用AI模拟新材料结构，预测其性能，帮助工程师设计出更高效的电池或复合材料。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['开放式AI代理标准：支持“Agent Skills”开放标准，意味着它不仅限于某个特定AI，能与多种AI代理（如Claude、Cursor等）无缝协作，极大地扩展了应用范围和灵活性。', '桌面级“AI联席科学家”：提供K-Dense BYOK工具，允许用户在自己电脑上运行AI研究助手，支持多种AI模型，数据本地存储，保障隐私安全，同时集成了135项专业技能和100+科学数据库。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent（智能代理）是当前技术前沿，结合科学研究的广阔需求，市场潜力巨大。其开源、兼容性强和注重数据隐私的特性，使其具有很强的吸引力。</div>
+  <div class="target">👥 最适合：科学家、研究员、工程师、数据分析师等，任何希望利用AI大幅提升科学研究、数据分析和专业写作效率的非编程或轻编程背景人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🦸‍♂️</span>
+    <div class="repo-title">
+      <a href="https://github.com/obra/superpowers" target="_blank">obra/superpowers</a>
+      <span class="one-line">赋予AI编程助手超级开发能力</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 194220</span>
+      <span class="stat">🍴 17271</span>
+      <span class="stat today">📈 1,305 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手不再只写代码，而是像个经验丰富的项目经理。Superpowers就是给它一套“武功秘籍”和“项目管理手册”，让它能独立规划、设计、编写、测试，甚至像团队一样协作开发，完成复杂项目。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI编程助手从“代码生成器”升级为“智能开发者”，能自主规划、开发和测试，大幅提升开发效率和质量，是AI Agent（智能体）领域的重大突破。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你有个产品想法，让AI帮你梳理成清晰的需求文档和技术规格。', '需要开发一个小功能或模块时，让AI独立完成从设计到编码、测试的全过程。', '代码需要重构优化时，让AI按照最佳实践帮你检查并改进现有代码。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI智能体协作开发（Subagent-driven development）: 像人类团队一样，让多个AI“小助手”分工合作，完成复杂的开发任务，并且能互相检查和迭代。', '内置专业开发方法论: 不仅仅是写代码，它让AI遵循TDD（测试驱动开发）、YAGNI、DRY等最佳实践，确保产出高质量、可维护的代码。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是当前最热门方向，它让AI从工具变智能“伙伴”。Superpowers让AI开发能力空前强大和独立，潜力巨大。</div>
+  <div class="target">👥 最适合：开发者、技术团队管理者、对AI编程助手效率不满意的人，以及任何想通过AI大幅提升软件开发效率和质量的用户。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🛠️</span>
+    <div class="repo-title">
+      <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a>
+      <span class="one-line">亲手重塑经典技术，从零到精通。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 501,872</span>
+      <span class="stat">🍴 47,595</span>
+      
+      <span class="stat lang">Markdown</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome-list</span><span class="topic">free</span><span class="topic">programming</span><span class="topic">tutorial-code</span><span class="topic">tutorial-exercises</span><span class="topic">tutorials</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你不是读烹饪书，而是跟着食谱，一步步从面粉鸡蛋开始制作一道大餐。这个项目就是这样，它汇集了无数份“食谱”，教你亲手从零开始搭建各种你常用或耳闻的科技产品，比如一个简易的搜索引擎或游戏。通过这种方式，让你真正理解它们背后的原理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它满足了人们对技术“知其所以然”的渴望。与其被动使用，不如主动创造！这种“从无到有”的实践学习模式，被誉为理解技术最深刻、最有效的方式之一，让你成为真正懂得技术原理的行家。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想深入理解某项技术原理的爱好者：比如好奇“浏览器怎么把网页显示出来的？”跟着教程就能亲手搭建一个简易浏览器。', '计算机专业的学生或自学者：作为最佳实践教材，提升编码能力和对系统设计的认知。', '工程师拓展知识面：从头构建一个分布式系统，更好地应对复杂架构挑战。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“建造者”学习法: 它提倡亲手从零开始搭建各种技术（如操作系统、AI模型），让你跳出表面、直抵核心，彻底理解其工作原理，而不是仅仅停留在使用层面。', '覆盖面广如百科全书: 从最基础的3D渲染器到复杂的区块链、数据库，甚至编程语言，涵盖了计算机科学的几乎所有关键领域，是深入学习技术的“一站式”宝库。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。理由：人类对“知其所以然”的求知欲是永恒的。无论技术如何演进，这种通过亲手构建来掌握深层原理的学习方法，都将持续吸引大量学习者，其价值历久弥新。</div>
+  <div class="target">👥 最适合：最适合那些对科技世界充满好奇，不满足于“会用”而是渴望“懂得如何创造”的人。无论是想入门的编程小白，还是寻求知识深度突破的资深工程师，都能在这里找到宝藏。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月17日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
