@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月20日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月20日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/tinyhumansai/openhuman" target="_blank">tinyhumansai/openhuman</a>
+      <span class="one-line">你的专属AI超能管家，私密又强大。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 21881</span>
+      <span class="stat">🍴 1943</span>
+      <span class="stat today">📈 3,973 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个只属于你的私人AI助手，不像通用AI那样数据都上传到云端，它更像一台专为你定制的超级电脑，能在你的设备上私密运行，听你指挥，帮你处理各种复杂任务，功能强大。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI浪潮下，人们对隐私和个性化需求激增。OpenHuman正好满足了拥有一个“私密、强大、简单”的专属AI的渴望，爆红是必然。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI帮你处理私人文件或财务数据，而不用担心隐私泄露。', '作为你的私人学习伙伴，深度解析你感兴趣的复杂知识，并总结给你。', '充当创意助手，生成文案、诗歌或编程思路，所有数据都只为你所有。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['主打“隐私优先”：与多数云端AI不同，它强调数据私有，保护用户隐私，让AI在你的掌控中运行。', '采用Rust语言开发：这意味着它可能拥有卓越的运行效率和系统稳定性，为强大功能打下坚实基础。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI技术仍在爆炸式发展，人们对“私密、强大、个性化”的AI需求巨大且日益增长。尽管处于早期测试，其潜力巨大。</div>
+  <div class="target">👥 最适合：['重视个人数据隐私，不想让信息被通用AI收集的用户。', '希望拥有一个能长期学习并提供高度个性化服务的AI助手的人。', '对前沿AI技术充满好奇，乐于尝试新工具的极客和早期采纳者。']</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/HKUDS/CLI-Anything" target="_blank">HKUDS/CLI-Anything</a>
+      <span class="one-line">AI代理控制万物软件的“通用遥控器”。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 37898</span>
+      <span class="stat">🍴 3625</span>
+      <span class="stat today">📈 1,038 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，AI智能体就像聪明的机器人。我们平时用的软件是给人操作的。CLI-Anything就像给这些机器人造了一个“万能遥控器”，让它们能直接操控各种软件，完成复杂任务，不再需要人类中间指挥。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI代理与现有软件“沟通”的难题，让AI能直接操控各种应用，这是当前AI大趋势下急需的工具，自然备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI自动设计复杂图纸：比如让AI自动控制CAD软件，生成建筑或机械设计图。', 'AI创作多媒体内容：让AI操控3D建模软件生成场景，或自动制作视频字幕。', 'AI辅助游戏：让AI智能体通过控制游戏软件，进行游戏玩法演示或测试。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['通用“软件接口”：它能将任何软件（包括那些没有API的）变成AI代理可以直接理解和操作的命令行工具，极大拓展了AI的应用边界。', '开放生态“CLI-Hub”：提供一个中心化的平台，让全球开发者都能贡献并分享AI能用的软件接口，加速AI代理能力的普及和丰富。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI代理是人工智能发展的下一个爆发点，该项目完美契合了AI代理能力落地的核心需求，拥有广阔的市场前景。</div>
+  <div class="target">👥 最适合：正在开发AI智能体的工程师、研究人员，以及希望将AI能力融入现有工作流的企业或个人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank">Imbad0202/academic-research-skills</a>
+      <span class="one-line">AI驱动的学术研究写作助手。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 14426</span>
+      <span class="stat">🍴 1347</span>
+      <span class="stat today">📈 3,164 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">academic-pipeline</span><span class="topic">academic-writing</span><span class="topic">ai-research</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">literature-review</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就是你的专属AI“副驾驶”，在学术研究和论文写作的漫漫长路上，帮你处理那些枯燥的“体力活”，比如查找资料、整理文献、检查格式。你只需掌控方向盘，它负责导航和处理细节。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了学生和研究人员写论文的巨大痛点，让AI成为高效智能助手。强调人机协作，避免AI局限性，加上巨大市场需求，让它迅速蹿红。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['规划论文结构：通过提问帮你一步步理清论文的思路和章节布局。', '文献综述与引用：自动查找相关文献，并按规范格式整理引用。', '文章质量把关：检查逻辑连贯性，校准写作风格，避免AI生成痕迹。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“人机协作”理念：AI扮演“副驾驶”而非“驾驶员”，处理繁琐任务，人类专注思考决策，有效避免AI的局限性（如胡编乱造）。', '覆盖学术研究全流程：从最初的论文规划、文献查找，到写作、修改、审阅，提供端到端的AI辅助。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助写作是当下焦点，学术需求巨大。它强调“人机协作”而非完全自动化，有效规避AI风险，有望成为学术界“必备工具”，增长潜力巨大。</div>
+  <div class="target">👥 最适合：大学生、研究生、科研人员、学者，以及任何需要进行学术研究和撰写论文的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎁</span>
+    <div class="repo-title">
+      <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a>
+      <span class="one-line">免费API资源大全，你的数字工具箱</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 435,993</span>
+      <span class="stat">🍴 47,794</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">api</span><span class="topic">apis</span><span class="topic">dataset</span><span class="topic">development</span><span class="topic">free</span><span class="topic">list</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个巨大的“数字工具箱”目录，里面详细列出了各种免费的“功能积木”（API）。这些“积木”能帮你实现查天气、看股票、翻译文字等各种小功能。你就像一个搭乐高玩具的人，通过这个目录找到合适的“积木”，轻松搭建自己的网站或应用，无需从零开始。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像一个免费的“万能工具箱”，汇集了全球开发者共享的实用功能，帮你省去找资料的时间和金钱。无论是个人学习还是小型项目，都能找到趁手的工具，所以特别受欢迎。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['制作天气预报小工具：你的网站想显示实时天气？直接用列表中的“天气API”就能获取数据。', '搭建一个股票查询页面：制作网页显示最新股价，数据就来自列表里的“股票API”。', '分析网站访客来源：想知道访客来自哪个城市？调用“IP地址查询API”帮你定位。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['全球社区众筹的“智慧宝库”：它由全球开发者共同贡献和维护，确保了列表的丰富性、实用性和时效性。', '一站式免费资源中心：提供了涵盖娱乐、金融、天气等各种领域的大量免费API，让你在一个地方就能找到所需的数据和服务。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。在数字世界，几乎所有应用都需要与外部服务或数据交互，API是基础建设。这个项目作为API的“寻宝图”，其价值会随数字经济发展而持续升高，前景非常广阔。</div>
+  <div class="target">👥 最适合：任何对构建网站、应用感兴趣，想获取各种免费数据的人，尤其适合技术爱好者、创业者、产品经理等，无需深厚编程背景也能快速上手。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月20日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
