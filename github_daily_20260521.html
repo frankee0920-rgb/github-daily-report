@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月21日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月21日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/colbymchenry/codegraph" target="_blank">colbymchenry/codegraph</a>
+      <span class="one-line">AI代码助手的“大脑”，让代码理解更快更省钱。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 10429</span>
+      <span class="stat">🍴 644</span>
+      <span class="stat today">📈 2,123 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想让AI（像一个学生）快速理解一大堆代码。CodeGraph就像为AI提前准备好一份超级详细的“代码知识地图”和“索引”。AI可以直接查阅这份地图，快速掌握代码结构和关系，不用再逐行“扫描”代码，省时省力又省钱。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI代码助手变得更聪明、更高效，大幅节省使用成本和时间。更重要的是，它能在本地运行，保证数据隐私，完美切合当下AI辅助编程的热潮。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI更快理解复杂项目：比如你想让AI解释一个大型开源项目的工作原理，它能更迅速、更准确地给出答案。', '提高AI编程效率：当AI帮你写代码、改Bug时，它能更好地理解你的整个项目，生成更智能、更吻合你需求的代码。', '节省AI使用成本：对于频繁使用AI编程助手的开发者，可以显著降低API调用费用。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“代码知识图谱”核心技术：它像给AI搭建了一座“代码百科全书”，让AI能快速查询所有代码的结构和关系，无需逐行扫描。', '压倒性优势：省钱快。显著降低AI代码助手的使用成本（平均35%），大幅提升效率（速度快49%，工具调用减少70%），且100%本地运行保障隐私。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是当下风口浪尖，CodeGraph精准解决了AI理解代码的效率和成本痛点，且100%本地运行满足隐私需求，潜力巨大。</div>
+  <div class="target">👥 最适合：依赖或计划使用AI代码助手（如Claude Code, Cursor）的程序员，尤其是在处理大型复杂项目时，以及重视代码隐私和效率的开发团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank">Imbad0202/academic-research-skills</a>
+      <span class="one-line">AI学术研究助手，提升效率</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16663</span>
+      <span class="stat">🍴 1470</span>
+      <span class="stat today">📈 1,667 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">academic-pipeline</span><span class="topic">academic-writing</span><span class="topic">ai-research</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">literature-review</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个超级聪明的AI“研究助理”，专门帮你处理写论文的各种琐事。它不是直接帮你写，而是像个高效的实习生，帮你找资料、校对格式、检查逻辑，让你专心思考那些真正需要你动脑筋的地方。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它用AI解决学术研究中重复繁琐的“脏活累活”，让学者能专注于创造性思考，极大提升效率和质量。今日新增星标激增，说明击中了学术界的痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用苏格拉底式对话帮你梳理论文结构和研究计划。', '自动查找和核对参考文献、检查引用格式和数据真实性。', '检查文章逻辑一致性和写作质量，甚至学习你的写作风格，避免文章听起来像机器写的。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“人机协作”理念：它明确指出AI是你的“副驾驶”，不是“飞行员”，只处理机械任务，让人类专注于高阶思考，从而规避AI可能出现的“胡说八道”等问题。', '注重质量与原创：它帮助提升写作质量，学习你的文风，检查AI生成痕迹，而不是帮你隐藏AI使用，确保学术成果的原创性和可信度。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助研究是学术界未来的趋势，该项目强调“人机协作”而非完全取代，有效规避AI局限性，提供高质量辅助，市场需求巨大。</div>
+  <div class="target">👥 最适合：大学生、研究生、大学教授、科研人员等所有需要进行学术写作和研究的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/tinyhumansai/openhuman" target="_blank">tinyhumansai/openhuman</a>
+      <span class="one-line">您的私有AI超级智能助手</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 23934</span>
+      <span class="stat">🍴 2152</span>
+      <span class="stat today">📈 3,394 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个只属于你、超级聪明的“私人定制AI管家”，所有对话和数据都保密，操作简单，就像你拥有了一个专属的AI大脑，能替你思考、管理信息。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI浪潮下，人们渴望拥有安全、私密的个人AI，OpenHuman满足了这种对“专属、强大且保护隐私的AI”的需求，所以人气飙升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['作为你的私密写作助手，帮你构思文章、整理思路，所有内容只为你所知。', '充当专属学习伙伴，解答你的个性化问题，记录并优化你的学习路径。', '管理你的个人数字信息，帮你快速检索文件、日程或特定记忆，像拥有“超强大脑”。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['采用高性能Rust语言开发：这意味着它运行速度快、安全性高、资源占用少，给你带来更流畅稳定的AI体验。', '核心理念是“隐私优先”：所有个人数据和交互都只存在于你的设备上，不会上传云端，真正实现私有化和数据安全。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人专属AI结合隐私保护是未来大趋势，加上它开源且由高性能Rust语言构建，增长潜力巨大。</div>
+  <div class="target">👥 最适合：任何对人工智能感兴趣、重视个人数据隐私，并希望拥有一个强大、专属且易用的AI助手来提升效率或生活品质的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🦞</span>
+    <div class="repo-title">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+      <span class="one-line">你的专属AI助理，数据尽在掌控。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 373,599</span>
+      <span class="stat">🍴 77,575</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">assistant</span><span class="topic">crustacean</span><span class="topic">molty</span><span class="topic">openclaw</span><span class="topic">own-your-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">你可以把它想象成一个只为你服务的私人AI助理，它不依赖大公司服务器，而是住在你自己的设备里，能通过你常用的微信、钉钉等聊天工具与你互动，为你处理信息或完成任务，就像一个聪明的数字管家。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">人们渴望拥有一个私密性高、数据自己掌控的AI助手，同时它能无缝融入各种日常聊天应用，非常实用且解决了用户痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['在你的WhatsApp里，让它帮你快速总结长篇消息，或设置重要提醒。', '通过Telegram或微信，直接问它一些日常问题，比如天气预报或最新资讯，不用切换其他应用。', '让它成为你专属的信息处理中心，所有聊天平台上的信息它都能帮你汇总、分析或响应。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**数据掌控在自己手中**：与大多数AI助理不同，你的所有数据和AI大脑都运行在你自己的设备上，确保隐私不外泄。', "**全能的聊天平台整合**：它能与市面上几乎所有主流聊天工具（如微信、WhatsApp、Telegram等）无缝连接，真正做到'哪里有你，哪里就有它'。"]</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。个人AI助理是当下和未来趋势，OpenClaw解决了用户对数据隐私和自主权的痛点，拥有巨大市场潜力。</div>
+  <div class="target">👥 最适合：重视个人隐私和数据安全、希望拥有高度定制化AI体验、并乐于自己动手搭建数字工具的技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月21日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
