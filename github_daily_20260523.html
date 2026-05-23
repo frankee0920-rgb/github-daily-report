@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月23日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月23日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🔌</span>
+    <div class="repo-title">
+      <a href="https://github.com/anthropics/claude-plugins-official" target="_blank">anthropics/claude-plugins-official</a>
+      <span class="one-line">Anthropic官方出品，Claude AI的“应用商店”</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 25212</span>
+      <span class="stat">🍴 2779</span>
+      <span class="stat today">📈 2,549 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">claude-code</span><span class="topic">mcp</span><span class="topic">skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的智能手机有个“应用商店”，这个项目就是Claude AI的“应用商店”。它收集了各种好用的“小工具”（插件），让你能轻松给Claude增添新功能，就像给手机装App一样，让它变得更强大、更实用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI大模型正炙手可热，Anthropic官方出手打造Claude插件生态，大大拓展了Claude的能力边界，让它能做更多专业且个性化的事情，自然备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让Claude连接到外部服务，比如帮你预订餐厅，或者查询实时股票数据。', '如果你是程序员，可以使用特定插件让Claude帮你自动生成代码、优化程序或调试错误。', '添加专业知识库插件，让Claude能快速回答特定领域的复杂问题，如医学、法律等，远超通用知识范围。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['标准化的插件结构：让任何人都能按规范开发和提交新功能，极大降低了扩展AI能力的门槛。', '官方策展与质量保证：Anthropic官方管理和审核，保证插件的质量和安全性，为用户提供了信任保障。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型是科技最热前沿，插件生态是AI广泛应用的关键。Anthropic官方平台潜力巨大，是AI服务的重要入口。</div>
+  <div class="target">👥 最适合：广大的Claude AI用户、希望通过AI解决特定问题的非技术人员、以及想为Claude开发新功能的开发者和公司。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/colbymchenry/codegraph" target="_blank">colbymchenry/codegraph</a>
+      <span class="one-line">AI编码助手加速器，更省钱更智能</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16912</span>
+      <span class="stat">🍴 936</span>
+      <span class="stat today">📈 3,684 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像给你的AI编码助手配备了一张超详细的“代码地图”。AI在理解你的项目时，无需大海捞针，能立即找到关键信息，从而更快速、更智能、更便宜地帮你写代码。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI编码助手工作更高效、更省钱（省代币、少调用），还能本地运行，既快又保护隐私，因此受到AI开发者追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用AI助手（如Cursor）快速理解一个不熟悉的复杂代码库，CodeGraph能让AI更准确地定位关键代码。', '让AI智能重构大型项目中的某个模块，CodeGraph帮助AI精准识别所有相关联的函数和变量。', '开发者希望AI为新功能提供代码建议，CodeGraph能让AI基于现有项目给出更贴切、更准确的方案。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['语义代码知识图谱：它不是简单地把代码喂给AI，而是预先整理代码的结构和关系，让AI能“理解”代码，而非仅仅“阅读”。', '本地化运行与高效率：完全在本地电脑运行，大幅减少AI交互成本（代币和工具调用），提升速度和数据安全性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI辅助编程是未来趋势，CodeGraph能显著提升AI编码效率和成本效益，且强调本地化，未来市场广阔。</div>
+  <div class="target">👥 最适合：使用AI编码助手的开发者、程序员，以及对AI工具效率提升感兴趣的技术爱好者，尤其适用于大型项目。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">👁️</span>
+    <div class="repo-title">
+      <a href="https://github.com/ruvnet/RuView" target="_blank">ruvnet/RuView</a>
+      <span class="one-line">WiFi透视，无需摄像头监测空间和生命体征。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 64131</span>
+      <span class="stat">🍴 8470</span>
+      <span class="stat today">📈 978 stars today 今日</span>
+      <span class="stat lang">Rust</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agentic-ai</span><span class="topic">densepose</span><span class="topic">esp32</span><span class="topic">firmware</span><span class="topic">mcu</span><span class="topic">mincut</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你家WiFi路由器就像一个无形的“雷达”，不停地发射电波。当有人在房间里移动、呼吸，甚至只是坐着，这些电波就会被“扰动”。RuView就是捕捉并分析这些细微扰动，从而“看清”房间里发生的一切，就像给WiFi信号装上了眼睛和耳朵，但又完全没有视频隐私问题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它以开创性的方式，让普通WiFi信号具备“透视”和“感知”能力，无需摄像头、穿戴设备就能监测生命体征和室内活动，解决了隐私和部署成本难题，极具科幻感。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['老人独居看护：非接触式监测呼吸心跳，及时发现异常，保障安全。', '智能家居与节能：自动感应房间是否有人，智能开关灯或空调，节省能源。', '隐秘安防：无需安装摄像头，就能监测陌生人闯入，保护隐私。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['利用普通WiFi信号（信道状态信息CSI）进行非接触式人体感知：将看不见的无线电波变成“眼睛”，洞察室内活动和生命体征，这是突破性的底层技术创新。', '极致隐私保护与穿墙能力：完全规避摄像头带来的隐私担忧，且能穿透障碍物感知，这是传统视觉或穿戴设备无法比拟的独特优势。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它解决了传统感知方式的隐私、成本和局限性，在智能家居、健康监测、安防等领域潜力巨大。一旦精度大幅提升，将颠覆现有市场。</div>
+  <div class="target">👥 最适合：智能家居发烧友、物联网（IoT）开发者、健康监测与养老护理解决方案提供商、以及对隐私保护型感知技术感兴趣的极客。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">💎</span>
+    <div class="repo-title">
+      <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a>
+      <span class="one-line">全球免费API资源宝库，助力产品创新。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 436,659</span>
+      <span class="stat">🍴 47,869</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">api</span><span class="topic">apis</span><span class="topic">dataset</span><span class="topic">development</span><span class="topic">free</span><span class="topic">list</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级强大的“工具箱目录”。每当你需要给你的产品添加某种功能，比如显示天气、查询股票，或者识别IP地址时，你不用自己从零开始造这些工具，而是可以查阅这个目录，找到别人已经做好的、免费开放的“工具接口”（API）。这个项目就是这样一个免费“工具接口”的超大目录，帮你快速找到所需服务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它汇集了海量免费API，就像开发者的“万能钥匙”。无需从零开发，可直接获取各种服务功能，极大节省开发成本与时间，是全球技术爱好者和创业者的宝贵资源。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发兴趣项目：比如你想做个小工具显示实时天气、查询电影信息或随机名言，这里有现成的免费API供你调用。', '快速原型搭建：创业者或产品经理在验证新想法时，可以用这些API快速搭建产品原型，无需投入大量开发资源。', '数据整合与分析：开发者可以找到各类免费数据API（如股票、地理信息），将它们整合到自己的系统中进行数据分析或展示。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['宝藏级资源库：汇集了近乎所有行业和领域的免费API，无论是想做天气预报、查股票、还是进行图片处理，都能在这里找到合适的“工具接口”。', '社区人工精选：这个列表由全球技术社区成员和专业团队共同维护和筛选，确保了API的质量、可用性和及时更新，不像机器抓取那样可能包含大量无效或过时的API。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长
+随着软件开发对模块化和数据互通的需求日益增长，API经济持续繁荣。作为一个免费API的权威目录，其价值只会越来越大，是开发生态中不可或缺的基础资源。</div>
+  <div class="target">👥 最适合：软件开发者、创业公司、学生、技术爱好者，以及任何希望快速集成现有功能、降低开发成本、或寻找灵感来构建新应用的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月23日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
