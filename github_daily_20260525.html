@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月25日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月25日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/Lum1104/Understand-Anything" target="_blank">Lum1104/Understand-Anything</a>
+      <span class="one-line">AI代码文档助手，变身可提问交互式知识图谱。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 27202</span>
+      <span class="stat">🍴 2319</span>
+      <span class="stat today">📈 3,999 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">antigravity-skills</span><span class="topic">business-knowledge</span><span class="topic">claude-code</span><span class="topic">claude-skills</span><span class="topic">codebase-analysis</span><span class="topic">codex</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你面对一堆复杂的代码或文档，像翻阅一堆无序的百科全书。这个工具就像一位超级图书馆管理员，能将这些内容自动整理成一张活的、交互式的概念地图。你不仅能看到知识间的联系，还能直接提问，它帮你理解、探索，就像有了私人AI导师。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它完美结合了AI大模型与知识图谱，解决了理解复杂代码和文档的巨大痛点。能将枯燥信息可视化、可交互，并支持提问，大幅提升学习和工作效率，星标飙升就是最好的证明。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['新手快速上手复杂项目：初学者或新员工能迅速理解大型代码库的结构与核心逻辑。', '老项目代码维护：接手遗留系统时，快速梳理不清不楚的代码关系和业务知识。', '深度学习与研究：开发者和研究员能通过交互图谱深入探索技术框架或LLM的内部机制。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **AI大模型驱动的知识图谱构建：** 利用LLM智能解析代码和文档，自动生成可视化、结构化的知识图谱。2. **交互式探索与智能问答：** 提供直观的图形界面，用户可自由探索知识关联，并直接提问，获取AI的深度解释。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，因为它直击软件开发和知识管理的核心痛点：理解复杂信息。结合AI大模型、知识图谱和交互式可视化，未来在学习、开发、维护等领域都有巨大应用潜力。</div>
+  <div class="target">👥 最适合：需要理解复杂代码的程序员、软件工程师、AI开发者；接手旧项目的团队成员；以及任何需要高效学习和管理技术文档的专业人士。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank">rohitg00/ai-engineering-from-scratch</a>
+      <span class="one-line">从零开始，亲手构建AI系统的实战指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 16690</span>
+      <span class="stat">🍴 2922</span>
+      <span class="stat today">📈 1,853 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agents</span><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">ai-engineering</span><span class="topic">computer-vision</span><span class="topic">course</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想盖一栋房子。不是买现成的家具拼凑，而是从地基、砖瓦、结构开始，一步步亲手建造。这个项目就是教你如何像工程师一样，从最底层原理开始，亲手“盖”出各种AI系统。它是一套完整的AI“建筑学”教程。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI应用普及，但懂原理、会实战的工程师稀缺。本项目提供系统性、动手实践的深度学习路径，填补了这一巨大空白，迅速获得大量关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发能理解、生成人类语言的智能聊天机器人。', '构建能识别图像、分析视频内容的AI视觉系统。', '设计能自主决策、执行复杂任务的AI智能体。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**极致的“从零开始”**：每个算法（如反向传播、注意力机制）都从原始数学推导，再用代码实现，让你彻底掌握AI底层逻辑，而非停留在调用库。', '**系统性与实践导向**：20个阶段，435节课程，全程动手。每节课都产出可复用的AI“零件”，真正做到“学以致用，亲手打造”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。全球对能深入理解并构建复杂AI系统的工程师需求巨大，该项目直击痛点，提供稀缺能力培养路径，未来前景无限。</div>
+  <div class="target">👥 最适合：那些不满足于简单使用AI工具，而是渴望从数学原理和代码层面彻底理解AI工作机制，并亲手构建复杂AI系统，成为真正AI工程师的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🔌</span>
+    <div class="repo-title">
+      <a href="https://github.com/anthropics/claude-plugins-official" target="_blank">anthropics/claude-plugins-official</a>
+      <span class="one-line">Claude代码助手的官方插件商店</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 27370</span>
+      <span class="stat">🍴 2912</span>
+      <span class="stat today">📈 1,173 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">claude-code</span><span class="topic">mcp</span><span class="topic">skills</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你的AI编程助手Claude Code也有自己的“应用商店”！这个项目就是Anthropic官方管理的商店，你可以在这里为Claude Code找到各种好用的“小工具”或“扩展功能”，让它变得更强大、更聪明，能做更多以前做不到的事。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是Anthropic官方出品，为热门的Claude Code AI助手提供无限扩展可能。随着AI深入编程，插件是其能力跃升的关键。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你让Claude Code帮你写网页，安装插件后，它能直接调用前端框架组件，省去你手动查找和复制的麻烦。', 'Claude Code需要处理特定文件格式或与你的私有数据库交互，插件能教它如何“读懂”和“连接”这些系统。', '你想让Claude Code在代码中自动检查并修复常见的安全漏洞，一个安全插件就能帮你实现。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['Anthropic官方与社区插件并存：既有官方保障的精品，也开放给第三方贡献，快速丰富功能。', '标准化插件结构：统一的开发规范让开发者更容易上手，确保插件的兼容性和稳定性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI助手的扩展生态是未来趋势，Claude官方出品确保了质量与核心竞争力，潜力巨大。</div>
+  <div class="target">👥 最适合：任何使用Anthropic Claude Code AI编程助手的人，无论是想让它更高效的程序员，还是好奇AI如何扩展能力的非专业人士。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python技术资源精选指南</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 299,449</span>
+      <span class="stat">🍴 27,969</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像是Python世界里的一本“米其林指南”或“精选好物榜单”。它帮你筛选出各种Python工具、库和框架中的“最佳实践”，省去你自己大海捞针的麻烦。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Python是全球最热门的编程语言之一，而这个项目汇集了其中最棒、最实用的资源，解决了开发者“选择困难症”，因此备受推崇。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['一个想学Python的初学者，不知道从何入手，它可以提供学习路径和工具推荐。', '一位想开发新项目但对某个领域不熟悉（比如AI），可以在这里找到顶级的相关库。', '一家公司想评估市面上最好的Python工具，它可以提供一份经过筛选的参考清单。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**包罗万象且精挑细选**：覆盖AI、Web、数据等几乎所有Python应用领域，但只推荐“最佳”实践，而非简单的罗列。', '**权威性与社区共识**：近30万星标证明其广泛认可度，是Python社区公认的优质资源集合。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。Python作为人工智能、数据科学和Web开发等领域的主流语言，将长期保持活力。作为Python生态的“导航塔”，其价值将持续增长。</div>
+  <div class="target">👥 最适合：Python初学者和爱好者；正在寻找特定Python工具或解决方案的开发者；想了解Python技术生态全貌的非技术管理者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月25日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
