@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月27日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月27日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/Lum1104/Understand-Anything" target="_blank">Lum1104/Understand-Anything</a>
+      <span class="one-line">智能代码地图，秒懂任何技术资料。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 36656</span>
+      <span class="stat">🍴 2938</span>
+      <span class="stat today">📈 4,697 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">antigravity-skills</span><span class="topic">business-knowledge</span><span class="topic">claude-code</span><span class="topic">claude-skills</span><span class="topic">codebase-analysis</span><span class="topic">codex</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一本厚厚的、晦涩难懂的技术书或代码库。这个工具就像一个“AI私人导师”，能帮你把书里的所有知识点串起来，画成一张可交互的“智慧地图”。你可以在地图上探索、搜索，甚至直接提问，瞬间搞懂复杂内容。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它巧妙结合AI大模型，将复杂代码和文档可视化为易懂的互动知识图谱。解决了“看不懂、学不会”的痛点，获得顶级AI工具支持，满足高效学习需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['**快速上手新项目**：接手新工作或新项目时，迅速理解陌生代码的结构和逻辑。', '**维护老旧系统**：帮助开发者分析和梳理多年积累的复杂遗留代码库。', '**高效学习与教学**：学生或老师用它来理解复杂的编程概念或制作教学材料。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**AI驱动的知识图谱**：能将代码和文档自动转化为可互动、可视化、能提问的“知识网络”。', '**广泛的AI集成**：支持如Claude Code、Copilot、Gemini CLI等多种主流AI模型，确保了强大的解析和理解能力。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI赋能的开发者工具是当前最热门的领域，它完美结合AI理解能力和可视化呈现，极大提升了学习和工作效率，市场需求巨大且持续增长。</div>
+  <div class="target">👥 最适合：那些对技术感兴趣，希望快速理解软件项目但又不是专业编程人员的；以及所有希望更高效学习、维护代码和文档的程序员、技术经理和学生。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/affaan-m/ECC" target="_blank">affaan-m/ECC</a>
+      <span class="one-line">AI智能体生产力优化平台</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 194756</span>
+      <span class="stat">🍴 30010</span>
+      <span class="stat today">📈 1,915 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">developer-tools</span><span class="topic">llm</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个AI助手团队，ECC就像他们的“超级领队”。它能帮AI助手提升技能、记住更多、更安全地工作，还能教它们持续学习新东西，让AI助手更高效地帮你完成各种复杂任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它让AI助手更智能、更高效，大大提升了AI辅助开发和工作效率。作为Anthropic黑客松冠军，备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发者利用AI助手快速生成、优化代码，处理复杂的编程任务，就像拥有一个永不疲倦的编程副手。', '研究人员使用AI智能体进行自动化资料检索、数据分析，高效提炼研究洞察。', '内容创作者让AI助手辅助创意构思、草稿生成和内容优化，提升创作效率。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['全方位AI智能体优化系统：不仅是简单的配置，而是涵盖技能、直觉、记忆、安全和持续学习的完整优化体系，让AI助手更像一个能自主成长的伙伴。', '广泛兼容性：支持Claude Code、Codex、Cursor、OpenCode、GitHub Copilot等主流AI代码生成和助手平台，通用性极强。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是未来趋势，ECC作为其性能优化的核心系统，市场需求巨大，发展潜力无限。</div>
+  <div class="target">👥 最适合：使用Claude Code、Codex、GitHub Copilot等AI开发工具的程序员和AI研究员，以及任何想提升AI助手工作效率的非技术用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank">rohitg00/ai-engineering-from-scratch</a>
+      <span class="one-line">AI工程：从零开始，亲手打造。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 21060</span>
+      <span class="stat">🍴 3492</span>
+      <span class="stat today">📈 2,155 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agents</span><span class="topic">ai</span><span class="topic">ai-agents</span><span class="topic">ai-engineering</span><span class="topic">computer-vision</span><span class="topic">course</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你不是简单地用AI工具，而是要亲手“盖”一栋AI大楼。这个项目就是一本超详细的“建造指南”，从砖瓦开始教你，一步步建起各种AI系统，让你不仅懂用，更懂原理。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了“会用AI但不懂原理”的痛点。项目提供了一套从底层数学到高级应用的完整学习路径，亲手构建，让你真正掌握AI核心技术，所以备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发自定义AI智能体（Agent），比如能帮你自动完成特定任务的机器人。', '深入理解并优化大语言模型（LLM）的工作原理，比如ChatGPT的底层逻辑。', '构建自己的机器学习模型和深度学习系统，解决图像识别、自然语言处理等问题。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**从零开始，亲手构建：** 不只是理论，而是从最基础的数学原理开始，一步步写代码实现AI算法，让你彻底搞懂AI如何运作，而不是只停留在使用层面。', '**全面系统，实践导向：** 包含20个阶段、435节课，覆盖AI的方方面面，每节课都产出一个可复用的“成果”（代码、智能体），学完就能用，真正从小白变专家。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。全球对能“造”AI的工程师需求井喷，这个项目直指核心能力，让你成为AI时代的稀缺人才，未来职业发展前景无限。</div>
+  <div class="target">👥 最适合：渴望深入理解AI、亲手实践构建AI系统、想转型或提升AI工程能力的非程序员和技术爱好者。他们不满足于表面使用，更想探究AI的“黑箱”。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">💎</span>
+    <div class="repo-title">
+      <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a>
+      <span class="one-line">一个收集免费公共API的宝藏清单</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 437,326</span>
+      <span class="stat">🍴 47,942</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">api</span><span class="topic">apis</span><span class="topic">dataset</span><span class="topic">development</span><span class="topic">free</span><span class="topic">list</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个百宝箱，里面装满了各种神奇的“小工具”，每个小工具都能帮你解决一个具体的问题（比如查天气、看股票、翻译）。这个项目就像是这些免费“小工具”的超大目录，帮你快速找到并使用它们。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了开发者寻找免费API的痛点，提供海量实用工具，大大节省开发成本与时间。社区维护确保了其高质量和持续更新。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['想做一个显示实时天气的手机应用，可以找到天气API获取数据。', '搭建一个新闻聚合网站，通过新闻API自动抓取不同来源的新闻。', '开发一个旅行助手，利用地点信息API查找附近景点或餐厅。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**海量的免费API资源**：涵盖各种领域，就像一个数字世界的“万能工具箱”，极大降低了开发门槛。', '**社区人工维护**：确保了清单的质量和时效性，不是简单的机器抓取，更可靠。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。API是现代应用开发的基石，对免费高质量API的需求只增不减。作为社区精选目录，其价值会持续累积和扩散。</div>
+  <div class="target">👥 最适合：对API感兴趣的开发者、学生、创业者，以及任何想快速集成特定功能到自己项目中的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月27日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
