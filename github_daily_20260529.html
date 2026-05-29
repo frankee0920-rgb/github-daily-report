@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月29日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月29日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💸</span>
+    <div class="repo-title">
+      <a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank">harry0703/MoneyPrinterTurbo</a>
+      <span class="one-line">AI智能短视频创作，一键生成高清内容。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 67072</span>
+      <span class="stat">🍴 9686</span>
+      <span class="stat today">📈 4,698 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">automation</span><span class="topic">chatgpt</span><span class="topic">moviepy</span><span class="topic">python</span><span class="topic">shortvideo</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你只需提供一个想法或关键词，这个工具就像一个“AI导演+制作团队”，能自动帮你写剧本、找画面、配音、加字幕和背景音乐，最终“打印”出一段专业又好看的短视频，省去了所有复杂操作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">短视频是流量密码，但制作费时费力。它让普通人也能轻松变身“视频创作者”，大大降低门槛，批量生产高质量内容，效率惊人。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['自媒体博主：快速制作科普、生活分享、产品评测类短视频，轻松保持内容更新频率。', '营销推广人员：为公司或产品快速生成创意宣传短片，抢占用户注意力。', '教育内容创作者：将知识点或文章一键转化为生动有趣的教学视频。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **AI全能助理**: 背后连接多种先进的AI大模型，能像“聪明大脑”一样理解你的意图，自动生成高质量文案、智能匹配素材。
+2. **“傻瓜式”操作**: 整个视频制作流程被高度自动化，从文字到视频，你只需点几下鼠标，剩下的它全包了，大大降低了技术门槛。</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道：短视频内容需求爆炸式增长，结合AI自动化是未来的大趋势。它解决了内容生产的痛点，潜力巨大，能抓住风口。</div>
+  <div class="target">👥 最适合：想做短视频但又不懂剪辑、缺乏素材或时间的人；自媒体运营者、内容创作者、市场营销人员，以及任何想用视频表达想法的个人和团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/affaan-m/ECC" target="_blank">affaan-m/ECC</a>
+      <span class="one-line">AI智能体效能优化管家</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 197512</span>
+      <span class="stat">🍴 30374</span>
+      <span class="stat today">📈 1,385 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">developer-tools</span><span class="topic">llm</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个超级聪明的“AI管家”。ECC就是这个管家的大脑和操作手册，它能让你的AI助手（比如写代码的AI）更高效、更安全地完成任务，就像给AI升级了操作系统。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI助手是未来趋势，ECC能让它们更强大、更好用。它支持多种主流AI工具，并且有大量贡献者不断完善，受众广。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['程序员利用AI助手写代码时，AI能更快理解意图，生成更准确、更安全的建议。', 'AI设计师或内容创作者用AI生成图像或文章时，AI能更好地学习和记住你的风格偏好。', '企业开发团队用AI构建自动化工具时，AI能持续优化性能，减少错误。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['跨平台支持：能同时优化包括Claude Code、Copilot等在内的多种主流AI编程助手。', '全方位能力提升：不仅是配置，它提供AI的“技能、本能、记忆、安全和持续学习”等完整体系。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是当前技术前沿，ECC作为其核心优化系统，市场需求巨大，增长潜力无限。</div>
+  <div class="target">👥 最适合：那些希望让自己的AI助手（尤其是编程类AI）变得更智能、更高效、更安全的科技爱好者、开发者和团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🎨</span>
+    <div class="repo-title">
+      <a href="https://github.com/Leonxlnx/taste-skill" target="_blank">Leonxlnx/taste-skill</a>
+      <span class="one-line">给AI赋能审美，让生成界面告别平庸。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 26814</span>
+      <span class="stat">🍴 2001</span>
+      <span class="stat today">📈 2,234 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">codex</span><span class="topic">coding</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一套给AI的“审美教程”和“设计秘籍”。当AI帮你生成网页或App界面时，它会指导AI不再做出平庸、呆板的界面，而是融入专业的布局、优雅的字体和动效，让AI生成的设计更有品味、更高级。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI生成界面常被诟病缺乏美感和创意，而它正好解决了这个痛点。在AI大爆发的浪潮中，人们对AI生成内容的品质要求越来越高，Taste-Skill顺应趋势，让AI不仅能“出活”，还能“出好活”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['设计师或产品经理希望AI能快速生成符合高品质审美标准的网站原型或App界面草图。', '开发者利用AI编码工具（如Codex, Claude Code）时，希望AI能直接生成带有良好设计感的代码，减少后期修改。', '需要快速创建品牌风格统一的网页、移动界面设计参考板（image boards）时，让AI辅助生成。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI审美升级：将抽象的设计原则（布局、排版、动效）转化为AI可理解的“技能”，让AI生成界面从功能性走向艺术性。', '多工具协作：不仅提供UI设计指南，还能辅助AI生成设计参考图，并与多种主流AI代码生成工具无缝对接，形成完整的设计-生成工作流。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。理由：AI生成内容质量提升是当前最迫切的需求之一，尤其是设计领域。该项目直击痛点，且与主流AI工具深度整合，市场潜力巨大。</div>
+  <div class="target">👥 最适合：对AI生成设计和代码有高品质要求的：设计师、前端开发者、产品经理。希望通过AI工具提升工作效率但又不牺牲审美标准的非技术或技术人员。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🎓</span>
+    <div class="repo-title">
+      <a href="https://github.com/jwasham/coding-interview-university" target="_blank">jwasham/coding-interview-university</a>
+      <span class="one-line">助你圆梦大厂的编程求职“武功秘籍”。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 347,612</span>
+      <span class="stat">🍴 82,974</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">algorithm</span><span class="topic">algorithms</span><span class="topic">coding-interview</span><span class="topic">coding-interviews</span><span class="topic">computer-science</span><span class="topic">data-structures</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你想考进顶尖大学，而它就是一本详尽的“高分秘籍”，手把手教你学习计算机科学的必备知识，帮你顺利通过技术面试，进入像亚马逊、谷歌那样的大公司工作。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是一份“成功秘籍”，作者亲身实践并成功进入亚马逊。它提供清晰的学习路径，为无数想进入顶尖科技公司的求职者指明方向，节省了宝贵的摸索时间。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['大学生或职场新人想系统学习计算机科学，并规划进入软件行业。', '现有程序员希望提升技能，准备跳槽到亚马逊、谷歌等一线科技公司。', '任何对编程和计算机原理好奇，想一窥软件工程师“内功”的人。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['权威且系统：它不仅是面试题集，更是涵盖计算机科学核心知识的“大学课程表”，从数据结构到算法，面面俱到。', '实战经验沉淀：作者亲身实践并成功进入亚马逊，还特意指出如何避免走弯路，让学习更高效。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。软件工程师是全球长期紧缺的职业，技术面试又是入行关键。这份指南提供了最核心、最普适的学习方法，其价值经久不衰。</div>
+  <div class="target">👥 最适合：有志于成为软件工程师，特别是希望进入全球顶尖科技公司（如亚马逊、谷歌）工作的学生或专业人士。需要系统学习路线图的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月29日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
