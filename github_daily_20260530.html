@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年05月30日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年05月30日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💸</span>
+    <div class="repo-title">
+      <a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank">harry0703/MoneyPrinterTurbo</a>
+      <span class="one-line">AI一键生成高清短视频利器</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 70116</span>
+      <span class="stat">🍴 10106</span>
+      <span class="stat today">📈 3,567 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">automation</span><span class="topic">chatgpt</span><span class="topic">moviepy</span><span class="topic">python</span><span class="topic">shortvideo</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个“视频魔法师”：你给它一个想法或关键词，它就能自动帮你写脚本、找画面、配音、加字幕和音乐，然后变出一个完整的高清短视频，省时省力，小白也能轻松上手。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它把复杂的视频制作过程自动化，结合最前沿的AI技术，让普通人也能高效、低成本地创作高质量短视频，轻松“印钱”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['短视频博主/UP主：快速批量生产各类垂直内容的短视频，如科普、情感、历史等。', '品牌营销/电商：为产品或服务快速制作吸引人的宣传短片，提升转化。', '个人兴趣：将脑海中的想法或学到的知识快速转化成视频，分享给朋友或学习社群。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI大模型驱动的全自动流程：用户只需一个主题，AI就能从文案到成片一站式搞定，极大简化了视频制作的复杂性。', '丰富的自定义选项与多模型支持：不仅能选择多种高清尺寸、语音和字幕风格，还兼容市面上多种主流AI大模型，兼顾自动化与个性化需求。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。短视频是内容消费主流，结合AI极大降低制作门槛，市场需求巨大，未来潜力无限。</div>
+  <div class="target">👥 最适合：内容创作者、自媒体运营者、营销人员、短视频爱好者，以及任何想快速制作视频但缺乏专业技能或时间的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📑➡️🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a>
+      <span class="one-line">智能文档翻译官，让AI秒懂万物</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 130252</span>
+      <span class="stat">🍴 8936</span>
+      <span class="stat today">📈 1,873 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">autogen</span><span class="topic">autogen-extension</span><span class="topic">langchain</span><span class="topic">markdown</span><span class="topic">microsoft-office</span><span class="topic">openai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个“通用翻译官”，能把各种复杂的文档（PDF、Word、PPT，甚至图片、音频和视频链接）统一翻译成AI最容易理解的“语言”——Markdown格式，让AI能快速吸收和处理信息。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">微软出品，与AutoGen、LangChain、OpenAI等AI热门技术紧密结合。它是AI高效处理海量信息的基础工具。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用AI快速总结多份PDF报告或Word文档的核心内容。', '搭建一个能理解各种文件内容的智能客服或问答机器人。', '将公司的历史文档库转换成AI可学习的格式，构建企业知识大脑。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**全能文件兼容性**：支持PDF、Office文档、图片（OCR）、音频（语音转录）、YouTube链接等多种格式，几乎“无所不能转”。', '**AI友好型输出**：专为大型语言模型（LLM）优化，能保留文档关键结构并高效转换为Markdown，让AI更好地理解和处理信息。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它是AI应用落地的关键一环，解决了AI理解真实世界信息的核心痛点，需求巨大且持续增长。</div>
+  <div class="target">👥 最适合：渴望利用AI处理和理解各种文档、音视频信息的人，比如需要AI总结报告的经理、希望AI能学习公司知识库的业务人员，或想搭建智能助手的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank">EveryInc/compound-engineering-plugin</a>
+      <span class="one-line">AI辅助工程师，让开发工作越做越轻松。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 18193</span>
+      <span class="stat">🍴 1383</span>
+      <span class="stat today">📈 353 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">compound</span><span class="topic">engineering</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一位超级聪明的工程“私人教练”，通过一系列AI小助手（插件），让程序员每次完成工作后，不仅解决了问题，还把经验沉淀下来，让下一次工作变得更简单高效，像滚雪球一样积累优势，而非传统地增加负担。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它抓住了AI时代开发者最痛的效率提升和技术债难题。项目提出“复合工程”理念，颠覆传统模式，让AI辅助工作越做越轻松，这种前瞻性和实用性备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['在开始一个新功能前，让AI帮你梳理思路，比如“我要做一个电商App的支付功能，需要考虑哪些步骤和风险？” AI会给你详细的规划。', '写完代码后，让AI像一个经验丰富的同事一样，帮你审查代码，指出潜在的问题和改进点，比如“这块代码的逻辑可以更清晰，或者这里有个性能隐患。”', '学习到新的解决办法或设计模式后，让AI帮你把这些经验知识整理成可复用的“笔记”，下次再遇到类似问题，AI可以直接调用这些笔记来帮你。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['独创的“复合工程”理念：利用AI不仅仅解决当前问题，更重要的是通过规划、评审和知识固化，让每次工作都为未来的工作打下基础，越做越轻松，有效对抗技术债务。', '作为AI编程助手的“官方插件”身份：它能无缝集成到开发者常用的Claude Code、Codex、Cursor等工具中，将复杂理念直接转化为日常工作流中的实用能力。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI辅助开发和提升效率是当前科技界最热门的领域之一。该项目提出的“复合工程”理念具有颠覆性，有望重塑软件开发流程，潜力巨大。</div>
+  <div class="target">👥 最适合：寻求用AI提升开发效率、减少重复劳动、渴望将经验知识系统化积累的软件工程师、产品经理及技术团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🦞</span>
+    <div class="repo-title">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+      <span class="one-line">你的专属AI助手，数据私有，全平台随你掌控。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 375,535</span>
+      <span class="stat">🍴 78,374</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">assistant</span><span class="topic">crustacean</span><span class="topic">molty</span><span class="topic">openclaw</span><span class="topic">own-your-data</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个非常聪明的“私人助理”，它不像其他AI那样住在遥远的云端，而是就住在你的电脑或手机里。它能通过你常用的微信、WhatsApp等聊天工具与你交流，帮你处理各种事情，所有数据都只属于你，非常安全可靠。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它强调数据隐私和个人掌控，让用户在自己的设备上拥有一个专属AI助手。它能无缝接入几乎所有主流聊天平台，方便又安全，自然受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['在微信里问它今天的头条新闻，它立即整理回复，无需切换应用。', '通过语音指令让它在手机上设定提醒或播放音乐，所有操作都在本地完成。', '让它管理你的私人备忘录和日程，确保数据只存在于你的设备上，保护隐私。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['数据主权与本地运行：你的AI助手和所有数据都运行在你自己的设备上，极大保障了个人隐私和数据安全。', '跨平台无缝集成：它能接入多达二十几种主流聊天应用，让AI能力在你最常用的通讯渠道中随叫随到。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI助手是未来趋势，而OpenClaw结合了AI的强大和个人隐私的需求，提供本地化、多平台体验，前景广阔。</div>
+  <div class="target">👥 最适合：追求数据隐私、希望拥有高度个性化AI助手的科技爱好者，以及需要将AI能力集成到日常多平台通讯中的用户。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年05月30日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
