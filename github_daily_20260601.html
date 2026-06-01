@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月01日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月01日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">💸</span>
+    <div class="repo-title">
+      <a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank">harry0703/MoneyPrinterTurbo</a>
+      <span class="one-line">AI一键生成高清短视频利器</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 75088</span>
+      <span class="stat">🍴 10678</span>
+      <span class="stat today">📈 1,937 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">automation</span><span class="topic">chatgpt</span><span class="topic">moviepy</span><span class="topic">python</span><span class="topic">shortvideo</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">就像你的专属AI视频制作团队，你只需说个主题或关键词，它就能自动生成文案、匹配素材、配音字幕、背景音乐，一键帮你做出高清短视频，省去所有繁琐步骤，让创意轻松变现。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI与短视频结合是当前风口。它将复杂的视频制作流程化繁为简，用户只需提供主题，即可一键生成高质量短视频，极大降低内容创作门槛，满足了高效产出视频的巨大需求，因此迅速爆火。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['内容创作者：轻松制作各类科普、教学、知识分享短视频，快速发布到抖音、B站等平台。', '个人/商家营销：批量生成产品宣传、品牌推广短片，高效触达潜在客户。', '自媒体运营：快速迭代视频内容，测试不同主题和风格，提升账号活跃度。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['深度AI整合与多模型支持：不仅能用AI自动生成文案，还能无缝对接OpenAI、通义千问等十多种大模型，让AI真正成为你的视频制作核心驱动力。', '一站式全自动化视频生产：从文案、高清无版权素材、多语种语音、精准字幕到背景音乐，所有环节都自动化完成，真正实现“一键生成”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI与短视频结合是内容创作的未来趋势，市场对高效、低成本、高质量视频内容的需求持续喷涌。该工具极大降低了创作门槛，用户基数广，成长空间巨大。</div>
+  <div class="target">👥 最适合：想要快速制作短视频但缺乏专业剪辑技能的自媒体人、内容创作者、小商家、营销团队，以及所有想高效产出视频内容的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">📄🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a>
+      <span class="one-line">文件转Markdown神器，为AI而生</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 135621</span>
+      <span class="stat">🍴 9260</span>
+      <span class="stat today">📈 2,798 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">autogen</span><span class="topic">autogen-extension</span><span class="topic">langchain</span><span class="topic">markdown</span><span class="topic">microsoft-office</span><span class="topic">openai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有个“翻译官”，能把各种复杂文件（Word、PDF、PPT、图片甚至YouTube视频链接）翻译成AI大模型最喜欢、最容易理解的“精简笔记”——Markdown格式。MarkItDown就是这个强大的“翻译官”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI大模型时代，让海量非结构化文件能被AI“读懂”和“消化”至关重要。MarkItDown完美解决了这个痛点，是连接复杂世界与AI智能的关键桥梁。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['把会议录音、Word纪要转成AI能理解的Markdown，快速生成会议总结和待办事项。', '将PDF论文、电子书、网页文章批量转为Markdown，构建AI专属的“知识库”，随时提问学习。', '从大量Excel表格、报告图片中提取关键数据，供AI分析，辅助商业决策。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“万能”格式转换：不仅支持常见的Office文档、PDF，还能处理图片、音频、甚至是YouTube视频链接，几乎无所不能转。', '专为AI优化：转换出的Markdown既保留了文档原有结构（标题、列表、表格），又高度精简，让AI能高效、准确地理解和利用信息。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。理由：它直接服务于AI大模型理解和处理真实世界数据的核心需求，是AI应用普及和智能化的基础设施，与AutoGen等前沿项目深度融合。</div>
+  <div class="target">👥 最适合：希望让AI大模型能更聪明地“阅读”和“理解”各种文件内容，构建AI应用、提升信息处理效率的技术爱好者、开发者和数据分析师。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🕷️</span>
+    <div class="repo-title">
+      <a href="https://github.com/D4Vinci/Scrapling" target="_blank">D4Vinci/Scrapling</a>
+      <span class="one-line">智能高效的网页数据抓取与爬行框架。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 56941</span>
+      <span class="stat">🍴 5531</span>
+      <span class="stat today">📈 606 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-scraping</span><span class="topic">automation</span><span class="topic">crawler</span><span class="topic">crawling</span><span class="topic">crawling-python</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个超级聪明的“网络数据侦探”。你告诉它想从哪个网站收集什么信息（比如商品价格、新闻标题），它就能像人类一样浏览网页，自动、精准地帮你找到并“打包”回来。而且，它还能像“隐形人”一样，轻松绕过网站的各种防护，高效完成任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它像一个“隐形”的智能机器人，能轻松攻克现代网站的反爬虫障碍，高效自动地收集数据。在大数据和AI时代，这种高效、智能的数据获取能力需求巨大，解决了很多传统工具的痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['市场调研：自动收集不同电商平台同款商品的价格、评价等数据，进行竞品分析。', '新闻与内容聚合：持续跟踪特定主题的新闻网站、博客或论坛，自动抓取并整合最新信息。', '学术研究：为论文或项目自动收集特定领域的公开数据，加速信息整理过程。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI加持的智能化与“隐身”能力：它利用AI技术，能像人一样理解网页，并具备强大的反侦察机制，让网站难以发现它在自动收集数据。', '适应现代复杂网页：针对现在大量使用动态内容的网站，它能像浏览器一样完整加载并互动，确保数据不遗漏，克服传统抓取工具的局限。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。它结合了AI、自动化和数据提取，能应对越来越复杂的网页环境，完美契合了当前对高质量、大规模数据获取的迫切需求。市场广阔且持续增长。</div>
+  <div class="target">👥 最适合：对数据有强烈需求、希望自动化收集信息的人，比如市场分析师、内容创作者、研究人员，以及希望构建智能数据系统的开发者。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">😎</span>
+    <div class="repo-title">
+      <a href="https://github.com/sindresorhus/awesome" target="_blank">sindresorhus/awesome</a>
+      <span class="one-line">互联网上的百科全书式资源导航</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 471,874</span>
+      <span class="stat">🍴 35,250</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">awesome-list</span><span class="topic">lists</span><span class="topic">resources</span><span class="topic">unicorns</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一本**互联网上的超级宝藏地图集**。不是某个软件或工具，而是一系列由全球技术爱好者共同维护的、关于各种主题的优质资源清单。你想找关于编程、设计、写作甚至咖啡冲泡的最佳资料？它都可能帮你找到，就像指引你到最佳藏宝点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了信息爆炸时代的痛点。集合全球技术达人智慧，帮你省去大海捞针的烦恼，高效发现和获取优质资源。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['初学者想进入某个技术领域，如“前端开发”，可以在这里找到该领域最推荐的学习路线、工具和社区。', '资深人士寻找特定主题（如“人工智能伦理”）的最新论文、开源项目或专业书籍，快速获取前沿信息。', '普通用户想了解某个兴趣爱好（例如“咖啡冲泡”或“旅行攻略”）有哪些权威博客、视频教程或推荐设备，拓展知识面。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">1. **社区驱动的知识聚合模式：** 数十万人的共同贡献和维护，保证了内容的广度和深度，总能发现新鲜好东西。2. **简单纯粹的链接收藏哲学：** 不追求花哨的功能，只专注于高效整理和分享最有价值的资源，让信息一目了然。</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。作为信息时代的“导航站”，人们对高质量资源的需求只会越来越大。它的社区驱动模式确保了内容的持续更新和活力。</div>
+  <div class="target">👥 最适合：任何对知识探索有热情、想高效获取优质信息的人，无论是学生、程序员、设计师，还是只是某个领域的好奇小白。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月01日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
