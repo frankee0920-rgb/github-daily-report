@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月02日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月02日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📄➡️🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a>
+      <span class="one-line">AI文档预处理工具：轻松转换各类文件至Markdown。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 139083</span>
+      <span class="stat">🍴 9467</span>
+      <span class="stat today">📈 3,034 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">autogen</span><span class="topic">autogen-extension</span><span class="topic">langchain</span><span class="topic">markdown</span><span class="topic">microsoft-office</span><span class="topic">openai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有很多不同格式的文件（Word、PDF、图片甚至音频），想让AI“读懂”并分析它们。MarkItDown就像一个“翻译官”，能把这些文件转换成AI最喜欢、最容易理解的“语言”——Markdown格式，同时保留原文的重要结构，方便AI快速抓住重点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它由微软AutoGen团队打造，完美解决了AI模型“读懂”各类文档的痛点。Markdown是AI最懂的语言，项目抓住了大模型时代数据预处理的核心需求，且支持格式广泛，因此迅速走红。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI助手文档分析：想让ChatGPT等AI帮你总结一份Word报告、分析PDF合同或提取Excel数据时，MarkItDown能先将它们转换成AI友好的Markdown格式，提高AI理解和处理的效率。', '知识库构建：企业或个人需要将散落在各处的文档（如旧PPT、邮件、图片笔记）统一整理成可供AI搜索和学习的知识库时，它能批量处理并结构化数据。', '智能客服系统：当用户上传PDF手册或产品说明书时，系统能用MarkItDown快速提取内容，让AI客服即时回答用户问题。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['全能的文件转换能力：支持PDF、Word、Excel、图片、音频甚至YouTube链接等多种格式，极大扩展了AI能处理的信息边界。', '深度适配大模型需求：不仅是简单转换，它更注重保留文档结构，生成“AI原生”的Markdown，让大模型能高效、准确地理解并分析内容，是连接AI与世界的重要桥梁。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，因为它直接服务于AI大模型的数据输入端，是AI应用落地的基石。随着AI技术普及和应用深入，文档处理和结构化需求将持续爆发，此工具不可或缺。</div>
+  <div class="target">👥 最适合：AI开发者和数据科学家；企业知识管理人员；对AI和大模型技术感兴趣，想探索如何高效利用AI分析各种信息的技术爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🌐</span>
+    <div class="repo-title">
+      <a href="https://github.com/nesquena/hermes-webui" target="_blank">nesquena/hermes-webui</a>
+      <span class="one-line">“Hermes智能助手”的网页版，让使用更方便。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 11591</span>
+      <span class="stat">🍴 1471</span>
+      <span class="stat today">📈 945 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai-agents</span><span class="topic">hermes</span><span class="topic">hermes-agent</span><span class="topic">nous-research</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的“AI管家”（Hermes Agent），它能学习、记忆，帮你处理各种事。以前你只能通过敲代码或指令与它交流，现在这个项目就像给你的AI管家配备了一个“漂亮的遥控器”——一个网页界面。你只需打开浏览器，就能轻松指挥它、查看它的工作，就像用手机App一样方便。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">强大的AI智能助手Hermes原本难上手，这个项目提供了直观友好的网页界面，让普通用户也能轻松使用和管理。它将复杂的AI操作变得像聊天一样简单，极大降低了AI应用的门槛，因此迅速受到追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['远程管理和监控你的AI助手：无论在家还是在外，通过手机或电脑浏览器，随时查看Hermes Agent的任务进度，或给它下达新指令。', '辅助决策与资料整理：让Hermes Agent帮你搜集、分析信息，整理文件，你通过WebUI直接查看成果并进行后续操作。', '个人学习与研究：利用Hermes Agent的记忆和学习能力，让它成为你的“知识库管理助手”，通过WebUI轻松管理学习会话和资料。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['功能与命令行一致性：实现了与Hermes Agent命令行界面几乎100%的功能同步，这意味着用户无需学习复杂指令，也能通过直观的网页界面掌控Agent的全部能力。', '轻量级纯技术栈：采用纯Python和原生JavaScript构建，无需复杂的编译或框架依赖，安装和部署极其简单，大大降低了上手门槛。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是当前AI领域最火爆的方向之一，而这个项目极大降低了AI Agent的使用门槛，让更多人能体验和驾驭智能体，前景光明。</div>
+  <div class="target">👥 最适合：对AI智能助手感兴趣但编程经验不足的普通用户；希望更直观、方便地管理和操作Hermes Agent的现有用户；以及追求高效、能利用AI提升工作效率的个人和团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/supermemoryai/supermemory" target="_blank">supermemoryai/supermemory</a>
+      <span class="one-line">AI专属“超强大脑”记忆引擎</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 24117</span>
+      <span class="stat">🍴 2156</span>
+      <span class="stat today">📈 647 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent-memory</span><span class="topic">ai-memory</span><span class="topic">cloudflare-kv</span><span class="topic">cloudflare-pages</span><span class="topic">cloudflare-workers</span><span class="topic">drizzle-orm</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，如果AI有个“私人秘书”和“活字典”，能记住每次对话的细节、你的喜好和所有重要信息，并且自动学习和更新。Supermemory就是AI的这个“大脑”，让AI不再“健忘”，提供精准的上下文。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI“健忘”的核心痛点，让AI能长时间记住并理解上下文。在多个AI记忆基准测试中表现顶尖，是构建更智能、更人性化AI的关键基础设施。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['智能客服：让AI客服记住每位客户的历史咨询和偏好，提供个性化服务。', '个人AI助手：你的AI助手能真正“懂你”，记住你的日程、习惯和兴趣，成为私人秘书。', '企业知识大脑：构建一个能持续学习、更新和提供精准信息的AI公司内部知识库。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI长期记忆顶尖表现：在多个权威AI记忆基准测试中排名第一，彻底解决AI“健忘”难题，显著提升上下文理解能力。', '一体化AI“大脑”功能：不仅记住信息，还能自动学习、更新知识、处理冲突、构建用户画像，并整合多种数据源，提供全方位的AI上下文管理。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，AI的记忆能力是大模型应用落地的核心瓶颈之一。Supermemory作为AI记忆领域的领跑者，市场需求巨大且前景光明。</div>
+  <div class="target">👥 最适合：致力于开发智能AI应用的企业和个人开发者、AI研究人员，以及任何希望AI能记住并理解用户上下文、提供个性化服务的用户或组织。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">💎</span>
+    <div class="repo-title">
+      <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a>
+      <span class="one-line">免费API的超全宝藏清单。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 438,543</span>
+      <span class="stat">🍴 48,060</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">api</span><span class="topic">apis</span><span class="topic">dataset</span><span class="topic">development</span><span class="topic">free</span><span class="topic">list</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一个巨大的“数据食材库”，里面分门别类整理了成千上万个免费、可以直接取用的“智能服务接口”（API）。你不需要自己开发，就能像点菜一样轻松获取实时天气、股票数据或IP位置等各种信息。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">海量免费API宝库，大大降低了技术开发门槛。由全球社区共同维护，数据资源持续更新，实用性极强，深受各类用户喜爱。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['开发一个天气预报App：调用“天气API”，你的App能实时显示全球任何地点天气。', '制作股票行情分析工具：利用“市场数据API”，获取股票实时数据。', '提升网站用户体验：通过“IP地址API”，识别用户地理位置，提供个性化内容。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['免费且海量：汇集了涵盖天气、金融、娱乐等各种领域的数千个免费API，种类繁多。', '社区精选维护：由全球技术爱好者共同手动整理和更新，保证了信息的高质量和实用性。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长。API是现代软件开发的基石，对数据和服务的需求永无止境。作为免费API的权威聚合平台，其价值会持续提升，稳步发展。</div>
+  <div class="target">👥 最适合：对技术和数据应用感兴趣的非程序员、想快速实现创意想法的独立开发者、寻找免费资源构建项目的创业者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月02日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
