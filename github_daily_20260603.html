@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月03日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月03日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">📦</span>
+    <div class="repo-title">
+      <a href="https://github.com/chopratejas/headroom" target="_blank">chopratejas/headroom</a>
+      <span class="one-line">大模型输入压缩利器，省钱提速</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 7121</span>
+      <span class="stat">🍴 489</span>
+      <span class="stat today">📈 1,265 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai</span><span class="topic">anthropic</span><span class="topic">claude-code</span><span class="topic">compression</span><span class="topic">context-engineering</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象给AI大模型写信，它按字数收费。Headroom就像你的“智能压缩包”，把冗长信息（如聊天记录、文档）提前精简提炼，只保留核心，让AI用更少“字”就能理解，省钱又提速。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">大模型使用费按“字数”（token）收费，且有“记忆力”限制。Headroom能大幅减少输入字数，省钱、延长AI记忆，还能保持AI理解力，完美解决核心痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI助手处理大量用户聊天历史时，Headroom能压缩历史，让AI记住更多对话，提高服务质量。', '用AI分析冗长文档（如PDF报告），Headroom先精简文档，让AI更快、更便宜地读懂，提升分析效率。', '企业AI代理执行复杂任务时，其产生的中间结果和日志会被Headroom压缩，显著减少AI处理成本和时间。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['效果惊人：能将输入数据量减少60-95%，却不影响AI理解，大幅节约成本和提高效率。', '灵活部署：提供多种使用方式（库、代理、服务器），并支持多种压缩算法，适应性极强。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。大模型应用日益普及，成本和“记忆力”瓶颈是行业痛点。Headroom直击要害，提供了通用且高效的解决方案，需求旺盛，前景广阔。</div>
+  <div class="target">👥 最适合：开发或部署AI大模型应用的人员（如AI产品经理、开发者、企业决策者），尤其是需要处理大量数据、追求效率和成本优化的用户。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🔄</span>
+    <div class="repo-title">
+      <a href="https://github.com/microsoft/markitdown" target="_blank">microsoft/markitdown</a>
+      <span class="one-line">微软出品，将各类文档智能转为AI友好的Markdown格式。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 141557</span>
+      <span class="stat">🍴 9650</span>
+      <span class="stat today">📈 3,618 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">autogen</span><span class="topic">autogen-extension</span><span class="topic">langchain</span><span class="topic">markdown</span><span class="topic">microsoft-office</span><span class="topic">openai</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，AI就像一个对信息“挑食”的专家，它最爱吃一种叫做Markdown的“营养餐”。MarkItDown就像一个超级厨师，能把各种格式的文档、图片甚至视频音频，都加工成AI最容易消化和理解的Markdown格式，方便AI快速学习和分析。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">微软出品，解决AI时代核心痛点，让AI能轻松“读懂”各种复杂文档。它支持格式广，且与当下热门的AI框架紧密结合，是AI数据预处理的“瑞士军刀”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['将公司内部的Word、PDF报告或PowerPoint演示文稿转换为Markdown，再用AI快速总结会议纪要或项目进展。', '把YouTube视频链接、录音文件转成文字版Markdown，让AI分析内容或生成摘要，轻松搞定学习或内容创作。', '把网页（HTML）内容或Excel表格数据转成AI能懂的Markdown，方便AI进行数据分析或生成文章，提升工作效率。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI的“通用翻译官”：能将PDF、Word、Excel、图片、音频甚至YouTube视频等多种复杂格式，统一翻译成AI最“懂”的Markdown，打破AI数据输入的壁垒。', '智能结构保留：它不只是简单转换，还能智能识别并保留文档的标题、列表、表格等关键结构，确保AI在阅读时能抓住重点，理解更精准。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，它是AI大模型与真实世界数据连接的“桥梁”，直接赋能各种AI应用。AI热潮持续，对高质量数据预处理的需求只会爆炸式增长。</div>
+  <div class="target">👥 最适合：AI应用开发者、数据分析师、研究人员，以及任何希望用AI处理海量非结构化文档，并构建智能知识库的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/affaan-m/ECC" target="_blank">affaan-m/ECC</a>
+      <span class="one-line">AI智能体管家，让你的AI助手更强大、更聪明。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 204347</span>
+      <span class="stat">🍴 31347</span>
+      <span class="stat today">📈 1,533 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">developer-tools</span><span class="topic">llm</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手像个聪明但有点迷糊的学徒。ECC就是它的专属“高级教练和超级工具箱”。它能让学徒快速掌握新技能、记忆力更好、更有安全意识，还能在不同工作环境中灵活切换，最终让AI变得更聪明、更高效，帮你更快地完成开发任务。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它顺应了AI智能体（Agent）的爆发趋势，解决了开发者在使用多AI助手时效率不高、能力分散的痛点。能显著提升AI开发工具的实用性和稳定性，受到广泛追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['用Claude Code写代码时，AI能更精准地理解你的意图，自动优化代码质量和安全性。', '同时使用GitHub Copilot和Cursor等多个AI工具时，ECC让它们协调工作，实现无缝切换和知识共享，提升整体开发效率。', '对于需要快速迭代、确保代码质量的研发团队，ECC能提供一套标准化的AI辅助开发流程，确保智能体输出的可靠性。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['跨平台、多AI助手兼容性：它不是绑定某个特定AI，而是能让各种主流AI编程助手（如Copilot、Claude Code）协同工作，极大提升了AI工具的通用性和实用性。', '深度优化AI智能体能力：它为AI助手提供了一整套“超级能力”——包括记忆、学习、安全防护和决策能力，让AI从简单的代码生成工具变为真正的“智能协作伙伴”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体正从概念走向落地，开发者对提升AI助手效率和可靠性的需求巨大。ECC紧抓核心痛点，且多语言、跨平台支持，前景光明。</div>
+  <div class="target">👥 最适合：希望通过AI工具提升编程效率和代码质量的软件开发者、技术爱好者，以及需要高效管理AI智能体团队的研发经理。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a>
+      <span class="one-line">免费编程学习平台，助力职业转型</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 445,927</span>
+      <span class="stat">🍴 44,807</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">careers</span><span class="topic">certification</span><span class="topic">community</span><span class="topic">curriculum</span><span class="topic">d3</span><span class="topic">education</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像一所完全免费、随时可学的“网络编程大学”，提供从零基础到进阶的编程课程和实践项目。无论你是想学习网页开发、Python还是数据科学，它都能帮你一步步掌握写代码的技能，甚至拿到行业认证，为转型科技行业铺路。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">免费高质量的互动式编程课程，帮助非专业人士成功转行，拥有庞大且活跃的全球学习社区，并提供实用的职业认证，解决了学习编程的高门槛和就业痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['零基础小白想学习编程，为进入科技行业做准备，获取第一份开发者工作。', '在职人员希望免费提升编程技能，如学习网页开发、Python等，实现职业发展或转型。', '学生或自学者寻找免费且系统的学习资源，通过实践项目和认证巩固知识，为未来就业打基础。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['开放源代码的课程体系与平台本身：学习者不仅能用它学编程，甚至可以贡献代码，亲身参与到一个大型开源项目中，这本身就是极佳的学习和实践。', '基于TypeScript、React和Node.js等现代技术栈构建：平台代码采用当前主流且热门的开发技术，保证了平台的高效稳定运行和技术的前沿性，也为学习者提供了真实的学习环境。']</div>
+    </div>
+  </div>
+  <div class="prospect good"><span class="ptitle">前景评估：</span>✅稳健增长，编程学习需求持续旺盛，免费且高质量的教育平台拥有巨大吸引力。其开源社区和慈善运营模式保证了内容的持续发展和更新，前景非常稳定。</div>
+  <div class="target">👥 最适合：渴望免费学习编程并希望进入IT行业、寻求职业转型的个人，尤其适合零基础、自律性强且乐于在社区中成长的学习者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月03日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
