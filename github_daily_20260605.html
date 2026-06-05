@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月05日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月05日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🗜️</span>
+    <div class="repo-title">
+      <a href="https://github.com/chopratejas/headroom" target="_blank">chopratejas/headroom</a>
+      <span class="one-line">AI智能信息压缩器，省钱又提速</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 12945</span>
+      <span class="stat">🍴 833</span>
+      <span class="stat today">📈 3,142 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai</span><span class="topic">anthropic</span><span class="topic">claude-code</span><span class="topic">compression</span><span class="topic">context-engineering</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，它就像AI的智能速记员。在AI阅读大量信息前，它能把无关紧要的文字大大压缩，只留下关键内容，让AI更快、更便宜地理解你真正想问的问题。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它能大幅减少AI处理信息时的“字数”成本和时间，让AI应用更经济、更高效。节省费用，提高AI响应速度，直击AI用户痛点。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['和AI聊天机器人沟通，把冗长的网页内容或文档摘要给它，让AI秒懂，节省等待时间。', '开发智能客服或AI助手时，减少每次API调用发送给AI的数据量，降低运营成本。', '用AI处理大量数据日志或代码报错信息时，先压缩再喂给AI，让AI更快定位并解决问题。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['能在不改变AI回答准确性的前提下，将发送给AI的信息量减少60%到95%，显著降低成本并加速AI响应。', '提供了多种集成方式（库、代理、服务器），并支持6种先进的压缩算法，灵活适应不同的AI应用场景。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI和LLM应用普及，所有跟AI“沟通”的场景都面临成本和效率问题，这种能大幅优化“沟通效率”的工具需求会持续爆发。</div>
+  <div class="target">👥 最适合：所有使用或开发AI大模型应用的人，尤其是那些希望节省AI运算成本、提高响应速度的个人开发者和企业。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch/hermes-agent</a>
+      <span class="one-line">自我进化、越用越聪明的AI助理</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 181313</span>
+      <span class="stat">🍴 31112</span>
+      <span class="stat today">📈 1,913 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agent</span><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一个拥有超强记忆力和学习能力的全能私人助理。它不只帮你完成任务，还会从每次交流中学习，越来越懂你，就像一个不断成长的“数字管家”，能在各种平台和你无缝沟通。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">颠覆性的自我学习AI代理，越用越聪明，能记住你的偏好并自主成长。还支持多平台、多模型，提供了极大的灵活性和实用性，满足用户对个性化AI的需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人知识管理：将你的日常对话、学习资料和思考片段都交给它，它能记住并帮你整理，当需要时快速检索，成为你的专属“第二大脑”。', '跨平台办公助理：无论你在Telegram、Discord还是公司Slack，它都能无缝接收指令，处理任务，比如帮你查找邮件、安排日程，甚至根据你的使用习惯自动优化工作流程。', '学习与技能提升伴侣：在你学习新技能或探索新领域时，它能根据你的提问和反馈，不断调整学习策略，生成定制化的学习路径和资料，真正做到“因材施教”。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['自适应学习循环（Closed Learning Loop）：它能从每次交互中自主学习、创建新技能、优化旧技能，并主动记忆，形成一个“越用越聪明”的闭环，而不是每次都从零开始。', '模型与平台无关性：你可以随意选择各种大语言模型作为它的“大脑”，并且能在Telegram、Discord等多个社交平台无缝使用，实现真正的“一次部署，多处享受”，避免被特定服务商绑定。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道：作为“越用越聪明”的AI代理，Hermes完美契合了AI个性化、自主学习的未来趋势，解决用户痛点，市场潜力巨大。</div>
+  <div class="target">👥 最适合：对AI感兴趣的普通用户、追求高效的个人工作者、希望AI能更懂自己的尝鲜者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/affaan-m/ECC" target="_blank">affaan-m/ECC</a>
+      <span class="one-line">AI编程助手的大脑和加速器</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 207484</span>
+      <span class="stat">🍴 31842</span>
+      <span class="stat today">📈 1,750 stars today 今日</span>
+      <span class="stat lang">JavaScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">developer-tools</span><span class="topic">llm</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的AI编程助手像个学徒，这个项目就是给它配备的“最强大脑”和“超级工具箱”。它能让学徒更聪明、学得更快、记得更牢、更安全，还能在各种工作台上（如不同的编程软件）都得心应手地帮你写代码、解决问题，效率大大提升。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI助手正飞速发展，大家都想让它们更聪明、更高效。这个项目完美抓住了这个痛点，为AI助手提供了“智力提升包”，自然大受欢迎，每天新增星标数惊人。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['当你用AI助手写代码时，它能学得更快，理解你的意图更准，从而帮你更快地完成开发任务。', '如果你的AI助手总是“健忘”，这个系统能帮它更好地记住上下文和之前的工作，避免重复提问。', '不管你用的是哪款AI编程软件（比如GitHub Copilot、Claude Code等），它都能让你的AI助手在不同平台上保持高性能和一致性。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['AI助手的“全套升级包”：它不只是简单的设置，更像给AI助手装上了“技能”、“本能”、“记忆优化”和“安全扫描”模块，让AI助手变得更全面、更强大。', '“多平台通行证”：无论你使用哪种主流AI编程工具（如GitHub Copilot、Claude等），这个系统都能让你的AI助手在不同工具间无缝高效工作，打破了平台限制。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI和开发者工具的结合是未来趋势，这个项目直接解决了AI助手应用的关键瓶颈，前景广阔，将持续受到追捧。</div>
+  <div class="target">👥 最适合：任何希望AI编程助手更智能、更高效、更安全的程序员和技术团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🏗️</span>
+    <div class="repo-title">
+      <a href="https://github.com/donnemartin/system-design-primer" target="_blank">donnemartin/system-design-primer</a>
+      <span class="one-line">大型系统设计圣经，面试求职必备。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 351,795</span>
+      <span class="stat">🍴 56,586</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">design</span><span class="topic">design-patterns</span><span class="topic">design-system</span><span class="topic">development</span><span class="topic">interview</span><span class="topic">interview-practice</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你在设计一座能容纳数亿人的超级城市。这座GitHub项目就是一本详细的“城市规划手册”，教你如何思考、设计并构建像微信、淘宝这样的大型互联网系统，确保它们稳定、高效、能应对海量用户。它把复杂的知识点分门别类，让你一步步掌握。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它完美解决了科技公司面试中“系统设计”这一核心难题，提供结构化学习路径和实战案例。海量学习资源集中化、社区持续更新，是工程师晋升的必备宝典，也是全球技术面试者的灯塔。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['软件工程师面试：准备进入或晋升到大型科技公司（如Google、Meta）时，用它来学习和练习系统设计面试题。', '提升技术能力：现有开发者想系统学习如何构建高并发、高可用的大型互联网服务，从小白到专家。', '好奇者学习：非技术背景但对大型互联网产品底层架构感兴趣的人，可作为了解科技巨头如何运作的入门读物。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['系统化学习路径：将散落在各处的系统设计知识精心组织，形成一套从理论到实践的完整学习体系，避免信息碎片化。', '实战面试准备：提供大量真实的系统设计面试题、讨论、代码示例和架构图，直接对标大厂面试要求，极具指导意义。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。随着互联网业务的不断扩张和复杂化，对能够设计和构建大型系统的高级工程师需求巨大，这项技能永远是核心竞争力，是技术人职场发展的刚需。</div>
+  <div class="target">👥 最适合：软件工程师、技术面试准备者（尤其是大厂目标用户）、对大型系统架构感兴趣的开发者和技术爱好者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月05日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
