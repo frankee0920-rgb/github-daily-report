@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月06日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月06日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch/hermes-agent</a>
+      <span class="one-line">能自我学习、不断进化的AI智能助理</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 183433</span>
+      <span class="stat">🍴 31464</span>
+      <span class="stat today">📈 1,845 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">ai-agent</span><span class="topic">ai-agents</span><span class="topic">anthropic</span><span class="topic">chatgpt</span><span class="topic">claude</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级聪明的私人助理，它不仅能和你聊天、帮你做事，还能从每次对话中学习、积累经验。它就像一个不会忘记你喜好、能力越来越强的“数字大脑”，而且它能在你的手机、电脑或云端运行，随时待命。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它解决了AI“健忘”的痛点，能持续学习并记住用户的习惯和偏好。同时，它支持几乎所有主流AI模型和聊天平台，高度灵活且不被绑定。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['私人助理/效率工具：帮你安排日程、查询信息、撰写草稿，随着使用更懂你的需求。', '智能客服/社区管理：部署在Telegram、Discord等平台，自动回答常见问题，处理用户请求。', '学习伴侣：记录你的学习进度和兴趣点，推荐相关资料，成为你的专属导师。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['独一无二的“闭环学习”能力：AI能从每次互动中学习、生成新技能，不断优化自己，并记住你的专属信息，实现真正的“越用越懂你”。', '极致的灵活性与通用性：支持市面上200+主流AI模型，可部署在多种设备，并通过Telegram、Discord等多平台与你交互，真正做到“随处可用，自由选择”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体是未来人机交互的核心，自我学习能力和跨平台集成是其成功的关键，Hermes Agent完美契合这些趋势。</div>
+  <div class="target">👥 最适合：对AI有探索精神的用户、开发者及追求高效的个人或团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">💰</span>
+    <div class="repo-title">
+      <a href="https://github.com/chopratejas/headroom" target="_blank">chopratejas/headroom</a>
+      <span class="one-line">LLM输入的“压缩器”，大幅节省成本和时间。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 14673</span>
+      <span class="stat">🍴 931</span>
+      <span class="stat today">📈 2,473 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai</span><span class="topic">anthropic</span><span class="topic">claude-code</span><span class="topic">compression</span><span class="topic">context-engineering</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你给一位非常忙碌的聪明朋友（LLM）发信息。Headroom就像你的智能助手，能把你要说的长篇大论（数据）高效地提炼成重点，再发给朋友。这样朋友能更快理解，你也省下了很多“发送费用”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">AI大模型高成本和上下文限制是两大痛点。Headroom能将LLM输入压缩60-95%，大幅节省费用，加速响应，并提升模型理解长文本能力。其显著的效率与经济效益，使其迅速爆火。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['AI助手（Agent）在执行复杂任务时，需要处理大量的工具运行结果或背景信息（RAG），Headroom能压缩这些信息，让助手更快、更省钱地完成任务。', '分析企业海量文档或用户日志时，通过Headroom压缩后，再交给大模型进行总结或洞察，能大幅降低API调用成本和分析时间。', '开发者在构建AI应用时，利用Headroom优化与大模型的交互，确保发送的数据量最小化，同时不损失关键信息，提升整体性能。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['惊人的压缩效率：能在保持AI答案质量不变的前提下，将输入给大模型的数据量减少60-95%，这是它最核心的卖点，直接转化为显著的成本节省和性能提升。', '灵活多样的集成方式：它不只提供Python库，还能作为独立代理服务器（Proxy）或MCP服务器运行，适配各种AI应用场景，让集成和部署变得非常方便。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI大模型普及带来高成本和上下文限制。Headroom作为解决这些核心痛点的基础设施级优化工具，市场需求巨大，将伴随AI应用发展而高速成长，前景无限。</div>
+  <div class="target">👥 最适合：任何开发或运营AI应用（特别是涉及大模型和AI Agent）的个人或企业，以及对AI成本和效率敏感的技术开发者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/CopilotKit/CopilotKit" target="_blank">CopilotKit/CopilotKit</a>
+      <span class="one-line">打造AI智能体前端，实现跨平台智能界面。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 32771</span>
+      <span class="stat">🍴 4201</span>
+      <span class="stat today">📈 366 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">agent-native</span><span class="topic">agentic-ai</span><span class="topic">agents</span><span class="topic">ai</span><span class="topic">ai-agent</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超智能的AI小助手，它不光能理解你说的话，还能自动生成帮你完成任务的界面，无论你在电脑、手机还是其他地方。CopilotKit就是帮助程序员轻松搭建这种“能思考、能生成界面”的AI智能体应用的工具箱。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它紧跟AI智能体和生成式UI的前沿浪潮，解决了如何将强大的AI大脑与用户界面无缝结合的难题。加上跨平台通用性，让开发者能高效构建未来感的智能应用，自然备受关注。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['电商AI导购：用户说“帮我找500元以下的红色裙子”，AI立刻生成筛选好的商品列表页面，而非纯文本回复。', '智能客服助手：AI根据用户问题，自动弹出填写信息的表单或操作按钮，引导用户完成服务，提升效率。', '企业内部应用：一个AI能在公司系统里，根据指令自动生成报表、创建会议或更新资料的界面，实现办公自动化。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['生成式UI (Generative UI) 能力：AI不再只是聊天，还能根据理解智能生成用户界面，让AI有“手”有“眼”，交互更直观。', '跨平台智能体框架：同一个AI智能体大脑，能轻松驱动你的网页、手机APP乃至Slack工作区，实现无处不在的智能体验。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能体和生成式UI是当前技术领域最受瞩目的方向。CopilotKit作为连接AI大脑与用户体验的关键桥梁，解决了实际开发难题，市场需求巨大，未来发展潜力无限。</div>
+  <div class="target">👥 最适合：希望将AI智能体、LLM能力融入自家应用并创建智能交互界面的前端或全栈开发者，以及追求打造未来级用户体验的技术团队。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🗺️</span>
+    <div class="repo-title">
+      <a href="https://github.com/nilbuild/developer-roadmap" target="_blank">nilbuild/developer-roadmap</a>
+      <span class="one-line">程序员职业成长路线图与学习指南。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 356,366</span>
+      <span class="stat">🍴 44,177</span>
+      
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">angular-roadmap</span><span class="topic">backend-roadmap</span><span class="topic">blockchain-roadmap</span><span class="topic">computer-science</span><span class="topic">dba-roadmap</span><span class="topic">developer-roadmap</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你要去一个陌生城市旅行，手握一份详细的“地铁线路图”或“GPS导航”。这个项目就是程序员的职业发展“导航系统”，它为各种技术方向（如前端、后端）规划好学习路径，告诉你该学什么、按什么顺序学，帮你少走弯路。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">程序员职业发展常迷茫，它提供清晰的学习路径和方向感，避免盲目。互动式设计让学习更直观，且社区共同维护，内容与时俱进，实用性极强。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['技术小白入门：想成为程序员但不知从何开始？它可以为你规划一条清晰的学习路线，比如从前端入门，告诉你先学HTML、CSS、JavaScript。', '职业发展转型：已有一定经验，想从前端转后端，或者学习最新的技术栈？它能帮你看到新领域的全貌和关键技能点。', '系统性知识查漏补缺：已在某个领域工作，但不确定自己的知识体系是否完整，可以对照路线图进行查漏补缺。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['互动式学习路径：路线图不再是静态图片，每个知识点都可点击，深入了解详情，学习体验更佳。', '社区共建，内容常新：汇集全球开发者智慧，确保路线图紧跟技术前沿，内容权威且实用。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，软件行业飞速发展，新技术层出不穷，程序员永远需要指引来学习新技能和规划职业生涯。该项目解决了这一痛点，且强大的社区支持使其能持续更新。</div>
+  <div class="target">👥 最适合：渴望进入技术行业的新手、初中级程序员、寻求职业转型或技能升级的开发者，以及希望系统性学习某个技术领域的任何人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月06日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
