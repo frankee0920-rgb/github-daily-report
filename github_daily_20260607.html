@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月07日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月07日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🔎</span>
+    <div class="repo-title">
+      <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+      <span class="one-line">AI聚合社交热点，洞察民间真实趋势</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 29024</span>
+      <span class="stat">🍴 2457</span>
+      <span class="stat today">📈 439 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-prompts</span><span class="topic">ai-skill</span><span class="topic">bluesky</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">clawhub</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个**超级AI侦探助理**，他不看新闻编辑写什么，而是专门潜入Reddit、X（推特）、YouTube、抖音这些社交平台，追踪大家点赞、转发、评论、甚至用真金白银投票的热门话题。它会把这些来自“民间”的真实热度信息收集起来，然后用AI智慧提炼成一份**精炼的报告**，让你一眼看清大家都在关注什么，什么才是真正热门的。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它能整合来自多个热门社交平台（Reddit、X、YouTube等）的真实用户反馈和热度（点赞、转发），帮你快速找到“民间”真正热门和有价值的信息，这是传统搜索引擎或单一AI做不到的。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['市场趋势分析：创业者或产品经理想了解某个新产品或技术在社交媒体上的真实反响和用户讨论热点。', '内容创作灵感：博主、记者或内容创作者需要快速捕捉当下最受关注的话题，以创作更吸引人的内容。', '投资决策参考：投资者想了解特定公司、事件在社交媒体上的真实热度与情绪，作为辅助决策。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['突破信息孤岛：它能像一个“万能钥匙”，整合访问Reddit、X、YouTube等多个独立且信息封闭的平台（俗称“数据围墙花园”），打破了传统搜索引擎和单一AI在信息获取上的局限。', '用户参与度智能评分：不依赖传统编辑或算法推荐，而是通过分析用户的点赞、转发、评论、甚至真金白银的投注（如Polymarket）来判断信息的真实热度和重要性，更贴近“民意”。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，它结合了AI代理、多源信息整合和基于用户真实反馈的趋势分析，解决了信息茧房问题，是当前AI应用的热点方向，市场潜力巨大。</div>
+  <div class="target">👥 最适合：市场营销人员、内容创作者、投资者、研究人员，以及任何想快速了解某个话题在社交媒体上真实热度与讨论趋势的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">🤖</span>
+    <div class="repo-title">
+      <a href="https://github.com/CopilotKit/CopilotKit" target="_blank">CopilotKit/CopilotKit</a>
+      <span class="one-line">AI智能助手前端框架，多平台覆盖。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 33316</span>
+      <span class="stat">🍴 4251</span>
+      <span class="stat today">📈 631 stars today 今日</span>
+      <span class="stat lang">TypeScript</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">agent-native</span><span class="topic">agentic-ai</span><span class="topic">agents</span><span class="topic">ai</span><span class="topic">ai-agent</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的网站或App需要一个超聪明的AI助手，不仅能聊天，还能根据对话内容帮你直接操作界面，甚至生成新的界面元素。CopilotKit就是给开发者提供的“万能工具箱”，让他们能轻松把这种智能AI助手嵌入到各种应用里，无论是网页、手机App还是Slack等聊天工具，让AI变得无处不在、更加实用。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它站在AI最前沿，特别是“智能代理”（Agent）和“生成式UI”这两个热门方向。它大大简化了开发者将强大AI助手（就像ChatGPT这样的智能大脑）集成到各种应用界面中的过程，让AI不再只停留在聊天框，而是能真正与用户界面交互，提供更智能、更动态的体验，满足了市场对AI应用普及的巨大需求。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['电商网站的智能客服：不仅能回答问题，还能根据对话直接为你生成推荐商品列表，甚至帮你完成订单填写。', '项目管理工具的AI助手：通过语音或文字指令，AI能在界面上自动创建任务、调整日程，甚至自动生成会议纪要。', '企业内部的Slack机器人：AI能理解团队需求，自动在其他业务系统中查询信息，并以交互式界面展示结果，无需跳转。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“智能代理”前端化与生成式UI：它让开发者能轻松构建能理解用户意图、并直接在前端动态生成或改变界面的AI助手，超越了传统聊天机器人。', '跨平台统一开发：一套AI逻辑能同时应用于网页、手机App和Slack等多种平台，极大提升开发效率，让AI无处不在。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI智能代理和生成式UI是未来应用交互的大趋势，CopilotKit作为前端集成AI的领跑者，跨平台能力强，大大降低了开发门槛，市场需求巨大且持续增长，潜力无限。</div>
+  <div class="target">👥 最适合：希望在网站、App或企业协作平台中集成智能AI助手和动态UI的开发者、产品经理以及AI创新团队。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">🧠</span>
+    <div class="repo-title">
+      <a href="https://github.com/MemPalace/mempalace" target="_blank">MemPalace/mempalace</a>
+      <span class="one-line">AI记忆系统，像图书馆一样帮你管理对话记录。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 54368</span>
+      <span class="stat">🍴 7116</span>
+      <span class="stat today">📈 446 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai</span><span class="topic">chromadb</span><span class="topic">llm</span><span class="topic">mcp</span><span class="topic">memory</span><span class="topic">python</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你的大脑有一个专属的、超级整洁的“记忆宫殿”。MemPalace就是这样一个AI工具，它能一字不差地记住你和AI或其他人（比如通过Claude Code）的所有对话，并像分类整理书架一样，把记忆分门别类地储存起来。当你需要时，它能通过智能搜索，精准地找到任何一段历史对话。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Stars高、活跃度高，主要在于它提供了一个高性能、本地运行、保护隐私的AI记忆方案，让AI拥有更长久的“记忆”，解决大模型记忆短板。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['个人知识库: 存储与AI讨论的各种想法、代码片段或学习笔记，随时检索。', '项目管理: 记录与团队成员（AI助理）关于项目进展、决策的对话，确保信息不丢失。', '内容创作: 作为写作或研究的“记忆银行”，保存灵感和资料，避免重复劳动。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['本地优先与高隐私保护: 所有数据在本地处理和存储，除非用户选择，否则不会离开设备，极大保障了数据安全和隐私。', '结构化记忆宫殿与语义搜索: 创新性地将记忆组织成“宫殿”、“房间”、“抽屉”等结构，结合语义搜索，使得查找信息既精准又高效。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI的“记忆”是其进化和实用的核心瓶颈。MemPalace解决了AI记忆的持久化、检索效率和隐私问题，在个人AI助理、企业知识库等领域有巨大潜力。</div>
+  <div class="target">👥 最适合：任何希望AI能记住自己说过的话、并能高效管理这些对话记录的技术爱好者、AI开发者，以及需要构建个人或团队知识库的用户。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">📚</span>
+    <div class="repo-title">
+      <a href="https://github.com/vinta/awesome-python" target="_blank">vinta/awesome-python</a>
+      <span class="one-line">Python生态宝典，精选海量工具与库</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 301,680</span>
+      <span class="stat">🍴 28,054</span>
+      
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">awesome</span><span class="topic">collections</span><span class="topic">python</span><span class="topic">python-frameworks</span><span class="topic">python-libraries</span><span class="topic">python-tools</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">它就像Python世界的《米其林指南》或《淘宝精选榜单》。它自己不制造美食或商品，而是由专家精挑细选出Python领域最棒的框架、库和工具，并分门别类地呈现，让你轻松找到好用的“宝藏”。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">Python语言应用广泛，而这个项目精选了数万个最佳工具，解决了“选择困难症”，大大提高开发效率，成为Python学习和开发的必查手册。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['你想学习人工智能或数据分析，不知道该用哪个Python工具入门时，可以来这里查找推荐。', '程序员需要开发一个网站或自动化脚本，想快速找到经过社区验证的高质量Python框架或库。', '技术爱好者想了解Python在不同领域（如Web开发、游戏、图形处理）有哪些热门应用和工具。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['权威精选，覆盖全面：项目由资深人士“精挑细选”，确保推荐的质量，并涵盖从AI到Web开发等Python应用的几乎所有重要领域。', '用户体验友好：除了GitHub页面，还专门搭建了网站，提供强大的搜索和过滤功能，让用户能更高效地找到所需资源。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。Python作为AI、数据科学、Web等领域的“主力军”，其生态系统持续壮大。这个项目作为权威指南，将长期保持其核心价值与影响力。</div>
+  <div class="target">👥 最适合：Python初学者、经验丰富的开发者、产品经理、技术爱好者，任何想了解或利用Python生态系统的人。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月07日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
