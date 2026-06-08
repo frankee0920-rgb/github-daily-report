@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub 每日精选 · 2026年06月08日</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --blue:#58a6ff;--green:#3fb950;--orange:#d29922;--red:#f85149;--purple:#bc8cff;--gold:#ffd700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,
+  'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#0d1117,#161b22,#1a1f2e);
+  border-bottom:1px solid var(--border);padding:44px 24px 36px;text-align:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,166,255,.08),transparent 65%);pointer-events:none}
+.hero-date{color:var(--blue);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px}
+.hero h1{font-size:34px;font-weight:800;
+  background:linear-gradient(90deg,#58a6ff,#bc8cff,#3fb950);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+.hero-sub{color:var(--muted);font-size:14px;display:flex;align-items:center;
+  justify-content:center;gap:10px;flex-wrap:wrap}
+.ai-badge{background:rgba(188,140,255,.15);color:var(--purple);
+  font-size:12px;padding:2px 10px;border-radius:20px;border:1px solid rgba(188,140,255,.3)}
+.container{max-width:880px;margin:0 auto;padding:28px 16px 60px}
+.sec-header{display:flex;align-items:center;gap:12px;margin:36px 0 16px;
+  font-size:17px;font-weight:700}
+.sec-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:22px;margin-bottom:20px;transition:.2s}
+.card:hover{border-color:var(--blue);transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(88,166,255,.1)}
+.rec-card{border-color:rgba(255,215,0,.3);
+  background:linear-gradient(135deg,#161b22,#1b1e2d)}
+.rec-card:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(255,215,0,.12)}
+.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.rank-badge{background:linear-gradient(135deg,#58a6ff,#bc8cff);color:#fff;
+  font-size:12px;font-weight:800;padding:2px 10px;border-radius:20px;align-self:center}
+.rec-label{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#1a1200;
+  font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;align-self:center}
+.emoji-big{font-size:34px;line-height:1;flex-shrink:0}
+.repo-title{flex:1;min-width:0}
+.repo-title a{font-size:17px;font-weight:700;color:var(--blue);text-decoration:none;
+  display:block;word-break:break-all}
+.repo-title a:hover{text-decoration:underline}
+.one-line{font-size:13px;color:var(--muted);display:block;margin-top:3px}
+.stats{display:flex;flex-wrap:wrap;gap:7px;align-self:center}
+.stat{background:rgba(255,255,255,.05);padding:3px 10px;border-radius:20px;
+  font-size:12px;color:var(--muted)}
+.stat.today{background:rgba(63,185,80,.15);color:var(--green);font-weight:600}
+.stat.lang{background:rgba(188,140,255,.15);color:var(--purple)}
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{background:rgba(88,166,255,.1);color:var(--blue);font-size:11px;
+  padding:2px 8px;border-radius:12px;border:1px solid rgba(88,166,255,.2)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+@media(max-width:580px){.grid2{grid-template-columns:1fr}}
+.section{background:rgba(255,255,255,.025);border-radius:8px;padding:12px}
+.stitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:5px}
+.sbody{font-size:14px;line-height:1.7}
+.prospect{margin-top:14px;padding:12px 16px;border-radius:8px;font-size:14px;line-height:1.65}
+.prospect.hot{background:rgba(248,81,73,.1);border-left:3px solid var(--red)}
+.prospect.good{background:rgba(63,185,80,.1);border-left:3px solid var(--green)}
+.prospect.warn{background:rgba(210,153,34,.1);border-left:3px solid var(--orange)}
+.ptitle{font-weight:700}
+.target{margin-top:10px;font-size:13px;color:var(--muted)}
+.footer{text-align:center;padding:24px;color:var(--muted);font-size:13px;
+  border-top:1px solid var(--border)}
+.footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-date">📅 2026年06月08日 · GitHub Daily Picks</div>
+  <h1>每日 GitHub 精选</h1>
+  <div class="hero-sub">
+    今日 Trending 深度解读
+    <span class="ai-badge">🤖 GEMINI 分析</span>
+  </div>
+</div>
+<div class="container">
+  <div class="sec-header">🔥 今日 Trending Top 3</div>
+  
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#1</span>
+    <span class="emoji-big">🗣️</span>
+    <div class="repo-title">
+      <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+      <span class="one-line">AI搜罗社交热点，汇总用户真实关注趋势。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 31764</span>
+      <span class="stat">🍴 2647</span>
+      <span class="stat today">📈 1,111 stars today 今日</span>
+      <span class="stat lang">Python</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">ai-prompts</span><span class="topic">ai-skill</span><span class="topic">bluesky</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">clawhub</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象你有一个超级懂行的私人侦探，他不看新闻社论，而是潜入Reddit、X、YouTube等热门社交平台，看大家都在点赞、评论、甚至用真金白银投票。它能迅速帮你找出并总结出“真”热点，让你知道最近30天大家最关心什么。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它能聚合传统搜索无法触及的社交平台热点，直击用户真实关注。AI Agent的加持，让信息更具洞察力，轻松获取一手趋势，所以备受追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['市场分析师快速洞察行业趋势：想知道某个产品在社交媒体上被如何讨论、获得多少点赞？它能快速汇总。', '内容创作者寻找灵感：看看YouTube或TikTok上哪类视频互动率高、什么话题最火，激发创作思路。', '普通用户高效掌握热点：对某个新闻事件感兴趣，它能帮你快速了解Reddit、X等平台的用户真实看法和讨论焦点。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['打破信息孤岛的AI Agent：突破主流AI模型和传统搜索引擎无法触及的社交平台“围墙”，通过用户授权，让AI Agent能同时在Reddit、X、YouTube等多个平台深度搜集信息。', '基于“真实热度”的评分机制：不靠编辑推荐，而是直接利用Reddit点赞、X喜爱、Polymarket投注等用户真实互动数据来衡量信息重要性，确保结果更贴近大众关注焦点。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI Agent是未来趋势，结合多源信息聚合及用户真实热度打分，解决了信息茧房和搜索偏见问题，市场需求旺盛，潜力巨大。</div>
+  <div class="target">👥 最适合：市场分析师、内容创作者、趋势研究员、投资者，以及任何希望快速掌握社交网络上真实热点和用户情绪，并已在使用AI Agent工具的科技爱好者。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#2</span>
+    <span class="emoji-big">👁️</span>
+    <div class="repo-title">
+      <a href="https://github.com/opencv/opencv" target="_blank">opencv/opencv</a>
+      <span class="one-line">计算机视觉瑞士军刀，让机器拥有“眼睛”和“大脑”</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 88181</span>
+      <span class="stat">🍴 56602</span>
+      <span class="stat today">📈 65 stars today 今日</span>
+      <span class="stat lang">C++</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">c-plus-plus</span><span class="topic">computer-vision</span><span class="topic">deep-learning</span><span class="topic">image-processing</span><span class="topic">opencv</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一套超级工具箱，能教电脑“看”东西。OpenCV就是这样一套强大的工具，它里面装满了各种“眼睛”和“大脑”，能帮电脑识别图片、理解视频，就像我们人类看到世界一样。有了它，电脑就能分析图像里的内容了。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它是计算机视觉领域的“标准答案”，开源免费，功能强大且易用。全球无数开发者用它来实现各种酷炫的视觉应用，社区活跃，持续更新，几乎成了行业标配。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['手机上的“人脸识别”解锁功能，或者美颜相机自动识别你的脸。', '自动驾驶汽车，它能“看懂”红绿灯、行人、车辆和车道线。', '智能安防监控，自动识别异常行为，比如有人闯入禁区。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['功能强大且开源免费：它是全球最知名的计算机视觉工具库，包含图片识别、视频分析、深度学习等海量功能，全部免费开源，让机器视觉开发不再是高门槛。', '生态系统极其活跃：不仅有官方课程、YouTube直播、Q&A论坛等海量学习和交流资源，更有庞大的开发者社区持续贡献和优化，保证了项目的生命力和先进性。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道，理由：AI和智能硬件的爆发，让机器“看懂世界”的需求越来越大，OpenCV作为基石，前景一片光明，应用场景仍在高速拓展。</div>
+  <div class="target">👥 最适合：想让机器拥有“眼睛”和“大脑”的技术爱好者、产品经理、创业者，以及任何对AI和计算机视觉应用充满好奇的人。</div>
+</div>
+<div class="card ">
+  <div class="card-header">
+    <span class="rank-badge">#3</span>
+    <span class="emoji-big">✨</span>
+    <div class="repo-title">
+      <a href="https://github.com/Leonxlnx/taste-skill" target="_blank">Leonxlnx/taste-skill</a>
+      <span class="one-line">给AI注入品味，让它设计出高级不平庸的作品。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 37180</span>
+      <span class="stat">🍴 2664</span>
+      <span class="stat today">📈 1,103 stars today 今日</span>
+      <span class="stat lang">Shell</span>
+    </div>
+  </div>
+  <div class="topics"><span class="topic">agent</span><span class="topic">ai</span><span class="topic">claude</span><span class="topic">claude-code</span><span class="topic">codex</span><span class="topic">coding</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象一下，你有一个很聪明的机器人助手，但它只会按部就班地做设计，作品平淡无奇。Taste-Skill就像是给这个机器人请了一位顶尖的设计美学顾问，教它如何排版更美观、字体更协调、动画更流畅，让它的设计瞬间变得有品味、有格调。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">在AI大爆发时代，大家发现AI虽然能快速生成，但往往缺乏个性与美感。这个项目正好解决了“AI作品太呆板”的痛点，能让AI产出更高级、更受欢迎的内容，自然受到追捧。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['让AI设计出更具专业感的网站、App界面，而不是千篇一律的模板。', '利用AI生成有艺术感、有独特风格的图片参考素材（如品牌调性图、网页布局草图）。', '帮助非设计师也能利用AI快速打造出有设计感的内容。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['“品味”注入式AI技能包：它不是简单的模板，而是一套可移植的“设计美学原则”，能像插件一样安装到各种AI助手（如Claude、ChatGPT）中，直接提升AI的审美能力。', '聚焦视觉细节与协作：它深入到布局、字体、动效、间距等设计细节，并能与主流AI工具（如图像生成AI、代码生成AI）协作，从设计概念到实际实现都能提供高品质指导。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。AI正在改变各行各业，而“提升AI生成内容的质量和美感”是所有AI应用都追求的核心价值，市场需求巨大。</div>
+  <div class="target">👥 最适合：使用AI进行设计、内容创作的个人或团队（如设计师、产品经理、市场营销人员、自媒体创作者），以及任何希望AI作品更具专业性和艺术感的人。</div>
+</div>
+  <div class="sec-header">💎 今日重点推荐</div>
+  
+<div class="card rec-card">
+  <div class="card-header">
+    <span class="rec-label">⭐ 今日推荐</span>
+    <span class="emoji-big">🚀</span>
+    <div class="repo-title">
+      <a href="https://github.com/jwasham/coding-interview-university" target="_blank">jwasham/coding-interview-university</a>
+      <span class="one-line">程序员面试宝典，助你叩开大厂之门。</span>
+    </div>
+    <div class="stats">
+      <span class="stat">⭐ 350,803</span>
+      <span class="stat">🍴 83,350</span>
+      
+      
+    </div>
+  </div>
+  <div class="topics"><span class="topic">algorithm</span><span class="topic">algorithms</span><span class="topic">coding-interview</span><span class="topic">coding-interviews</span><span class="topic">computer-science</span><span class="topic">data-structures</span></div>
+  <div class="grid2">
+    <div class="section">
+      <div class="stitle">💡 是什么？</div>
+      <div class="sbody">想象它是一本通往顶级科技公司软件工程师岗位的“武功秘籍”或“高考冲刺指南”。它详细列出了你需要学习的所有计算机知识点和学习资源，手把手教你如何准备技术面试，就像为你定制的求职攻略。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🔥 为什么火？</div>
+      <div class="sbody">它由成功入职亚马逊的工程师亲手打造，承诺帮助你少走弯路，直击谷歌、亚马逊等大厂面试要点。近35万星说明它确实帮助了大量求职者，实战性极强。</div>
+    </div>
+    <div class="section">
+      <div class="stitle">🎯 使用场景</div>
+      <div class="sbody">['应届毕业生想进入头部科技公司，不知从何学起。', '在职程序员想跳槽到谷歌、亚马逊等大厂，需要系统复习。', '自学编程者，希望通过系统学习，找到一份软件工程师工作。']</div>
+    </div>
+    <div class="section">
+      <div class="stitle">✨ 技术亮点</div>
+      <div class="sbody">['**知识体系完整：** 它覆盖了计算机科学的方方面面，像一张详细的藏宝图，指明了成为软件工程师所需的全部知识点。', '**实战经验指导：** 项目作者亲身实践成功入职亚马逊，并承诺帮你“少走弯路”，直接针对大厂面试痛点，极具参考价值。', '**多语言支持：** 提供多达十几种语言的翻译，方便全球各地的学习者使用。']</div>
+    </div>
+  </div>
+  <div class="prospect hot"><span class="ptitle">前景评估：</span>🔥超热赛道。软件工程师需求持续旺盛，大厂技术面试标准严格且稳定，这类系统学习资源永远是刚需。</div>
+  <div class="target">👥 最适合：有志于成为软件工程师，特别是想进入谷歌、亚马逊等顶尖科技公司，但缺乏系统学习计划的编程爱好者或求职者。</div>
+</div>
+</div>
+<div class="footer">
+  自动生成 · 2026年06月08日 ·
+  <a href="https://github.com/trending" target="_blank">查看完整 Trending →</a>
+</div>
+</body>
+</html>
